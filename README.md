@@ -5,6 +5,8 @@ Deploy: Between 3 and 3: gitignore file
 <hr>
 <hr>
 
+# Challanges
+
 ## SEO Challange:
 
 <details><summary><b>SEO Challange</b></summary>
@@ -202,12 +204,175 @@ Long-tail:
 
 </details><br/>
 
+<hr>
+<hr>
+
+
+## Marketing Types Challenge
+
+<details><summary><b>Marketing Types Challenge</b></summary>
+<br>
+
+<hr>
+
+1. Who are your users?
+<br>
+
+- Avid readers of fiction, fantasy, and science fiction
+- Book collectors interested in illustrated editions
+- Fans of bestselling books
+- Readers interested in German literature (in original or translation)
+- Adults and young adults who prefer online shopping for books
+
+<hr>
+
+2. Which online platforms would you find lots of your users?
+<br>
+
+- Goodreads
+- Reddit (especially subreddits like r/books)
+- TikTok
+- Instagram
+- Facebook
+
+<hr>
+
+3. Would your users use social media? If yes, which platforms do you think you would find them on?
+<br>
+
+- Instagram (bookstagram community)
+- TikTok (BookTok)
+- Reddit (especially subreddits like r/books)
+- Twitter 
+- Facebook (book groups)
+- Pinterest (for visual content related to books and reading)
+
+<hr>
+
+4. What do your users need? Could you meet that need with useful content? If yes, how could you best deliver that content to them?
+<br>
+
+- Book recommendations
+- Reviews and ratings
+- Information about new releases
+- Author insights
+
+Content ideas: 
+<br>
+
+- Blog posts featuring book reviews and genre discussions
+- Author interviews
+- Reading lists and themed book collections
+- Behind-the-scenes looks at illustrated books
+
+Delivery methods:
+<br>
+
+- Email newsletters
+- Social media posts (especially visual content for Instagram and TikTok)
+- YouTube videos for in-depth book discussions or author interviews
+- Regular blog posts on the website (if blog is implemented/not planned for PP5)
+
+<hr>
+
+5. Would your business run sales or offer discounts? How do you think your users would most like to hear about these offers?
+<br>
+
+- Email newsletters
+- Push notifications (if we have a mobile app)
+- Social media posts, especially time-limited offers on Instagram Stories or other social media platforms
+
+<hr>
+
+6. What are the goals of your business? Which marketing strategies would offer the best ways to meet those goals?
+<br>
+
+- Increase sales and customer base
+- Establish the store as a go-to source for fiction, fantasy, and sci-fi books
+- Build a community of engaged readers
+- Marketing strategies:
+- Content marketing (blog posts, videos, podcasts)
+- Social media marketing, especially on Instagram and TikTok
+- Influencer partnerships with BookTubers or Bookstagrammers
+- Email marketing for personalized recommendations and offers
+- SEO optimization to improve visibility in search results
+- Retargeting ads to re-engage visitors who didn't make a purchase
+
+<hr>
+
+7. Would your business have a budget to spend on advertising? Or would it need to work with free or low cost options to market itself?
+<br>
+
+Paid (small budget):
+<br>
+
+- Targeted social media ads on Facebook and Instagram
+- Sponsored posts with mid-tier book influencers
+
+Free:
+<br>
+
+- Organic social media growth
+- Content marketing through our blog and social channels
+- Email marketing to our subscriber list
+
+Long-term:
+<br>
+
+- Partnerships with authors for virtual events or Q&As
+- Participation in online book communities and forums
+
+</details><br/>
+
+
 
 <hr>
 <hr>
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<details><summary><b>Original readme</b></summary>
 
 
 1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
@@ -313,3 +478,5 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+</details><br/>
