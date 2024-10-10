@@ -27,8 +27,8 @@ SECRET_KEY = 'django-insecure-(l*!+$l4lbd1tccph^kq1i=n6jv5*kg=dsp97kzr^=u^vs0j@)
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    '8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net',
-    '.herokuapp.com,'
+    '8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net/*',
+    'https://books-and-giggles-dcc63078a535.herokuapp.com/*'
     ]
 
 
