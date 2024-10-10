@@ -2,7 +2,8 @@ Deploy: Between 3 and 3: gitignore file
 
 09.10.2024, Rest in peace Oma
 
-
+<hr>
+<hr>
 
 ## SEO Challange:
 
@@ -88,18 +89,75 @@ Illustraed books for everyone
 German Authors
 
 
+</details><br/>
+
+<hr>
+<hr>
+
+
+## Content Challenge
+
+<details><summary><b>Content Challenge</b></summary>
+
+1. What do your users need?
+
+Easy navigation through specific genres, categories and/or authors
+General overview of inventory/options/authors
+Detailed book information (and maybe reviews) on detail page
+Easy checkout
+Contact option for questions, ideas and problem solving
+
+2. What information and features can you provide to meet those needs?
+
+Implement an advanced search function with filters for genres, authors, and publication dates
+Create a homepage with featured books, new releases, and bestsellers
+On the detail page, provide comprehensive book descriptions, including plot summaries, author bios (and maybe reader reviews)
+Implement a streamlined, user-friendly checkout process with easy payment option(s)
+Include a prominent "Contact Us" page with various contact methods (email, phone, chat) and a FAQ section
+
+3. How can you make the information easy to understand?
+
+Use clear, concise language in book descriptions and website copy
+Implement a user-friendly interface with intuitive category organization
+Include visual elements like book covers to enhance comprehension
+Offer sorting options (e.g., by popularity, rating, or release date) to help users find relevant titles quickly
+Include a search bar
+
+4. How can you demonstrate expertise, authoritativeness and trustworthiness in your content?
+
+Highlight your store's specialization in specific genres (e.g., historical fiction, fantasy, sci-fi)
+Provide in-depth, well-researched book descriptions (and author biographies)
+Display customer ratings and reviews prominently (optional)
+Include an "About Us" page detailing your company's history and expertise in the book industry
+
+5. Would there be other pages within your own site you could link to from your chosen page? (optional)
+
+Link to related books within the same genre or by the same author
+Create "You might also like" sections on book detail pages
+Link to thematic reading lists or curated collections
+Connect author pages to their respective books
+
+6. Are there opportunities to link back to external websites that already rank highly on Google?
+
+Link to official author websites or social media profiles
+Include links to reputable book review sites or literary awards
+Connect to relevant Wikipedia pages for historical context in historical fiction
+Link to publisher websites for additional book information
+Partner with genre-specific blogs or forums for cross-promotion
+
+7. How can you help users discover other relevant parts of your web application?
+
+Create a "Featured Books" carousel on the homepage and category pages
+Use tags to connect books with similar themes, styles, or time periods
+Develop a newsletter to keep users informed about new releases and promotions
+Create genre-specific landing pages with curated content and featured authors
+
 
 </details><br/>
 
 
-
-
-
-
-
-
-
-
+<hr>
+<hr>
 
 
 
