@@ -24,11 +24,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(l*!+$l4lbd1tccph^kq1i=n6jv5*kg=dsp97kzr^=u^vs0j@)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net/*',
-    'https://books-and-giggles-dcc63078a535.herokuapp.com/*'
+    '8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net',
+    'books-and-giggles-dcc63078a535.herokuapp.com',
     ]
 
 
