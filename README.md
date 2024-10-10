@@ -1,11 +1,95 @@
 Deploy: Between 3 and 3: gitignore file
 
-Rest in peace Oma
+09.10.2024, Rest in peace Oma
 
 
 
+## SEO Challange:
+
+<details><summary><b>SEO Challange</b></summary>
 
 
+1. Brainstorm your general topics
+
+Historic fiction
+Fantasy
+Science Fiction
+Bestsellers
+German Authors
+Illustrated books
+
+2. Brain dump possible keywords for each of the general topics
+
+Historic fiction:
+Classic novels
+Fiction bestsellers
+War novels
+Angélique series
+
+Fantasy:
+Epic fantasy books
+Fantasy series
+Magic and wizards
+Fary tales
+
+Science Fiction:
+Space books
+Dystopian sci-fi
+Time travel stories
+Alien invasion
+
+Bestsellers:
+Top-rated books
+New releases
+Award-winning novels
+Popular authors
+
+German Authors:
+Wolfgang Hohlbein
+Gebrüder Grimm (Brothers Grimm)
+Sebastian Fitzek
+Michael Ende
+
+Illustrated books:
+Animals
+Geograpics
+History
+
+4. Ensure you have a selection of short and long-tail keywords
+
+Short-tail:
+Fiction books
+Fantasy novels
+Sci-fi stories
+Bestsellers
+
+Long-tail:
+Best epic fantasy series
+Top-rated science fiction books
+Popular contemporary fiction authors
+Award-winning historic fiction
+Best illustarated books of all time
+
+5. Final Keyword Selection
+
+Online fiction bookstore
+Fantasy and sci-fi novels
+Bestselling fiction books
+Epic fantasy series
+Space science fiction
+Contemporary fiction bestsellers
+Dystopian sci-fi novels
+Award-winning fantasy authors
+New sci-fi releases
+Top-rated fantasy books
+Popular fiction writers
+Award-winning historical fiction
+Illustraed books for everyone
+German Authors
+
+
+
+</details><br/>
 
 
 
