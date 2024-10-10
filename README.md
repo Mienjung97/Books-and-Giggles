@@ -8,9 +8,11 @@ Deploy: Between 3 and 3: gitignore file
 ## SEO Challange:
 
 <details><summary><b>SEO Challange</b></summary>
-
+<br>
+<hr>
 
 1. Brainstorm your general topics
+<br>
 
 - Historic fiction
 - Fantasy
@@ -19,7 +21,10 @@ Deploy: Between 3 and 3: gitignore file
 - German Authors
 - Illustrated books
 
+<hr>
+
 2. Brain dump possible keywords for each of the general topics
+<br>
 
 Historic fiction:
 
@@ -62,7 +67,10 @@ Illustrated books:
 - Geograpics
 - History
 
+<hr>
+
 4. Ensure you have a selection of short and long-tail keywords
+<br>
 
 Short-tail:
 
@@ -85,7 +93,10 @@ Long-tail:
 - Popular german books
 - Books about the horrors of war 
 
+<hr>
+
 5. Final Keyword Selection
+<br>
 
 - Online fiction bookstore
 - Fantasy and sci-fi novels
@@ -112,8 +123,12 @@ Long-tail:
 ## Content Challenge
 
 <details><summary><b>Content Challenge</b></summary>
+<br>
+
+<hr>
 
 1. What do your users need?
+<br>
 
 - Easy navigation through specific genres, categories and/or authors
 - General overview of inventory/options/authors
@@ -121,7 +136,10 @@ Long-tail:
 - Easy checkout
 - Contact option for questions, ideas and problem solving
 
+<hr>
+
 2. What information and features can you provide to meet those needs?
+<br>
 
 - Implement an advanced search function with filters for genres, authors, and publication dates
 - Create a homepage with featured books, new releases, and bestsellers
@@ -129,7 +147,10 @@ Long-tail:
 - Implement a streamlined, user-friendly checkout process with easy payment option(s)
 - Include a prominent "Contact Us" page with various contact methods (email, phone, chat) and a FAQ section
 
+<hr>
+
 3. How can you make the information easy to understand?
+<br>
 
 - Use clear, concise language in book descriptions and website copy
 - Implement a user-friendly interface with intuitive category organization
@@ -137,21 +158,30 @@ Long-tail:
 - Offer sorting options (e.g., by popularity, rating, or release date) to help users find relevant titles quickly
 - Include a search bar
 
+<hr>
+
 4. How can you demonstrate expertise, authoritativeness and trustworthiness in your content?
+<br>
 
 - Highlight your store's specialization in specific genres (e.g., historical fiction, fantasy, sci-fi)
 - Provide in-depth, well-researched book descriptions (and author biographies)
 - Display customer ratings and reviews prominently (optional)
 - Include an "About Us" page detailing your company's history and expertise in the book industry
 
+<hr>
+
 5. Would there be other pages within your own site you could link to from your chosen page? (optional)
+<br>
 
 - Link to related books within the same genre or by the same author
 - Create "You might also like" sections on book detail pages
 - Link to thematic reading lists or curated collections
 - Connect author pages to their respective books
 
+<hr>
+
 6. Are there opportunities to link back to external websites that already rank highly on Google?
+<br>
 
 - Link to official author websites or social media profiles
 - Include links to reputable book review sites or literary awards
@@ -159,7 +189,10 @@ Long-tail:
 - Link to publisher websites for additional book information
 - Partner with genre-specific blogs or forums for cross-promotion
 
+<hr>
+
 7. How can you help users discover other relevant parts of your web application?
+<br>
 
 - Create a "Featured Books" carousel on the homepage and category pages
 - Use tags to connect books with similar themes, styles, or time periods
