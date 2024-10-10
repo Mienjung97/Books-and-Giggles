@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/4.2/ref/settings/
 """
 
+import os
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -23,9 +24,12 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-(l*!+$l4lbd1tccph^kq1i=n6jv5*kg=dsp97kzr^=u^vs0j@)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net']
+ALLOWED_HOSTS = [
+    '8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net',
+    '.herokuapp.com,'
+    ]
 
 
 # Application definition
