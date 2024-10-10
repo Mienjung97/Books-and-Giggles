@@ -1,6 +1,57 @@
-Deploy: Between 3 and 3: gitignore file
+# Table of Content
 
-09.10.2024, Rest in peace Oma
+* [**Project**](<#project>)
+    * [Objective](<#objective>)
+    * [Site Users Goal](<#site-users-goal>)
+    * [Site Owners Goal](<#site-owners-goal>)
+    * [Project Management](<#project-management>)
+    * [Repository Issues](<#repository-issues>)
+    * [Database Schema](<#database-schema>)
+
+* [**User Experience (UX)**](<#user-experience-ux>)
+    * [Wireframes](<#wireframes>)
+    * [User Stories](<#user-stories>)
+    * [Site Structure](<#site-structure>)
+    * [Design Choices](<#design-choices>)
+
+* [**Existing Features**](<#existing-features>)
+    * [Navigation](<#navigation>)
+    * [About](<#about>)
+    * [Home](<#home>)
+    * [Post Detail View](<#post-detail-view>)
+    * [Update / Delete Comment](<#update-and-delete-comment>)
+    * [Add Post](<#add-post>)
+    * [Update Post](<#update-post>)
+    * [Profile](<#profile>)
+    * [Profile Page](<#profile-page>)
+    * [Show Posts](<#show-posts>)
+    * [Logout](<#logout>)
+    * [Admin](<#admin>)
+    * [Admin Panel](<#admin-panel>)
+    * [Pin and Unpin Posts](<#pin-and-unpin-posts>)
+    * [Register](<#register>)
+    * [Log In](<#log-in>)
+    * [Footer](<#footer>)
+    * [Confirmation Messages](<#confirmation-messages>)
+
+* [**Future Features**](<#future-features>)
+
+* [**Technologies Used**](<#technologies-used>)
+    * [Languages](<#languages>)
+    * [Frameworks & Software](<#frameworks--software>)
+    * [Libraries](<#libraries>)
+
+* [**Testing**](<#testing>)
+    * [Testing User Stories](<#testing-user-stories>)
+    * [Code Validation](<#code-validation>)
+    * [Additional Testing](<#additional-testing>)
+    * [Known Bugs](<#known-bugs>)
+* [Deployment](<#deployment>)
+* [Credits](<#credits>)
+* [Acknowledgements](<#acknowledgements>)
+
+
+
 
 <hr>
 <hr>
@@ -368,7 +419,7 @@ Long-term:
 
 
 
-
+09.10.2024, Rest in peace Oma
 
 
 
