@@ -1,3 +1,12 @@
+# **Books and Giggles**
+
+Books and Giggles is a fictional online book store that sells a small amount of books from the categories "Historic fiction", "Fantasy", "Science Fiction", "Illustrated books" as well as German originals translated and current bestsellers. 
+
+[Access live website here](https://books-and-giggles-dcc63078a535.herokuapp.com/)
+
+This fictional site was created for Portfolio Project #5 (Full-Stack Toolkit) - Diploma in Full Stack Software Development Diploma at the [Code Institute](https://www.codeinstitute.net).
+
+
 # Table of Content
 
 * [**Project**](<#project>)
