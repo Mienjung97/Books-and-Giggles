@@ -12,81 +12,95 @@ Deploy: Between 3 and 3: gitignore file
 
 1. Brainstorm your general topics
 
-Historic fiction
-Fantasy
-Science Fiction
-Bestsellers
-German Authors
-Illustrated books
+- Historic fiction
+- Fantasy
+- Science Fiction
+- Bestsellers
+- German Authors
+- Illustrated books
 
 2. Brain dump possible keywords for each of the general topics
 
 Historic fiction:
-Classic novels
-Fiction bestsellers
-War novels
-Angélique series
+
+- Classic novels
+- Fiction bestsellers
+- War novels
+- Angélique series
 
 Fantasy:
-Epic fantasy books
-Fantasy series
-Magic and wizards
-Fary tales
+
+- Epic fantasy books
+- Fantasy series
+- Magic and wizards
+- Fary tales
 
 Science Fiction:
-Space books
-Dystopian sci-fi
-Time travel stories
-Alien invasion
+
+- Space books
+- Dystopian sci-fi
+- Time travel stories
+- Alien invasion
 
 Bestsellers:
-Top-rated books
-New releases
-Award-winning novels
-Popular authors
+
+- Top-rated books
+- New releases
+- Award-winning novels
+- Popular authors
 
 German Authors:
-Wolfgang Hohlbein
-Gebrüder Grimm (Brothers Grimm)
-Sebastian Fitzek
-Michael Ende
+
+- Wolfgang Hohlbein
+- Gebrüder Grimm (Brothers Grimm)
+- Sebastian Fitzek
+- Michael Ende
 
 Illustrated books:
-Animals
-Geograpics
-History
+
+- Animals
+- Geograpics
+- History
 
 4. Ensure you have a selection of short and long-tail keywords
 
 Short-tail:
-Fiction books
-Fantasy novels
-Sci-fi stories
-Bestsellers
+
+- Fiction books
+- Fantasy novels
+- Sci-fi stories
+- Bestsellers
+- German books
+- Warhammer 40K
+- Historical fiction
 
 Long-tail:
-Best epic fantasy series
-Top-rated science fiction books
-Popular contemporary fiction authors
-Award-winning historic fiction
-Best illustarated books of all time
+
+- Best epic fantasy series
+- Top-rated science fiction books
+- Popular contemporary fiction authors
+- Award-winning historic fiction
+- Best illustarated books of all time
+- Best releases of this year
+- Popular german books
+- Books about the horrors of war 
 
 5. Final Keyword Selection
 
-Online fiction bookstore
-Fantasy and sci-fi novels
-Bestselling fiction books
-Epic fantasy series
-Space science fiction
-Contemporary fiction bestsellers
-Dystopian sci-fi novels
-Award-winning fantasy authors
-New sci-fi releases
-Top-rated fantasy books
-Popular fiction writers
-Award-winning historical fiction
-Illustraed books for everyone
-German Authors
+- Online fiction bookstore
+- Fantasy and sci-fi novels
+- Bestselling fiction books
+- Epic fantasy series
+- Space science fiction
+- Contemporary fiction bestsellers
+- Dystopian sci-fi novels
+- Award-winning fantasy authors
+- New sci-fi releases
+- Top-rated fantasy books
+- Popular fiction writers
+- Award-winning historical fiction
+- Illustraed books for everyone
+- German Authors
 
 
 </details><br/>
@@ -101,56 +115,56 @@ German Authors
 
 1. What do your users need?
 
-Easy navigation through specific genres, categories and/or authors
-General overview of inventory/options/authors
-Detailed book information (and maybe reviews) on detail page
-Easy checkout
-Contact option for questions, ideas and problem solving
+- Easy navigation through specific genres, categories and/or authors
+- General overview of inventory/options/authors
+- Detailed book information (and maybe reviews) on detail page
+- Easy checkout
+- Contact option for questions, ideas and problem solving
 
 2. What information and features can you provide to meet those needs?
 
-Implement an advanced search function with filters for genres, authors, and publication dates
-Create a homepage with featured books, new releases, and bestsellers
-On the detail page, provide comprehensive book descriptions, including plot summaries, author bios (and maybe reader reviews)
-Implement a streamlined, user-friendly checkout process with easy payment option(s)
-Include a prominent "Contact Us" page with various contact methods (email, phone, chat) and a FAQ section
+- Implement an advanced search function with filters for genres, authors, and publication dates
+- Create a homepage with featured books, new releases, and bestsellers
+- On the detail page, provide comprehensive book descriptions, including plot summaries, author bios (and maybe reader reviews)
+- Implement a streamlined, user-friendly checkout process with easy payment option(s)
+- Include a prominent "Contact Us" page with various contact methods (email, phone, chat) and a FAQ section
 
 3. How can you make the information easy to understand?
 
-Use clear, concise language in book descriptions and website copy
-Implement a user-friendly interface with intuitive category organization
-Include visual elements like book covers to enhance comprehension
-Offer sorting options (e.g., by popularity, rating, or release date) to help users find relevant titles quickly
-Include a search bar
+- Use clear, concise language in book descriptions and website copy
+- Implement a user-friendly interface with intuitive category organization
+- Include visual elements like book covers to enhance comprehension
+- Offer sorting options (e.g., by popularity, rating, or release date) to help users find relevant titles quickly
+- Include a search bar
 
 4. How can you demonstrate expertise, authoritativeness and trustworthiness in your content?
 
-Highlight your store's specialization in specific genres (e.g., historical fiction, fantasy, sci-fi)
-Provide in-depth, well-researched book descriptions (and author biographies)
-Display customer ratings and reviews prominently (optional)
-Include an "About Us" page detailing your company's history and expertise in the book industry
+- Highlight your store's specialization in specific genres (e.g., historical fiction, fantasy, sci-fi)
+- Provide in-depth, well-researched book descriptions (and author biographies)
+- Display customer ratings and reviews prominently (optional)
+- Include an "About Us" page detailing your company's history and expertise in the book industry
 
 5. Would there be other pages within your own site you could link to from your chosen page? (optional)
 
-Link to related books within the same genre or by the same author
-Create "You might also like" sections on book detail pages
-Link to thematic reading lists or curated collections
-Connect author pages to their respective books
+- Link to related books within the same genre or by the same author
+- Create "You might also like" sections on book detail pages
+- Link to thematic reading lists or curated collections
+- Connect author pages to their respective books
 
 6. Are there opportunities to link back to external websites that already rank highly on Google?
 
-Link to official author websites or social media profiles
-Include links to reputable book review sites or literary awards
-Connect to relevant Wikipedia pages for historical context in historical fiction
-Link to publisher websites for additional book information
-Partner with genre-specific blogs or forums for cross-promotion
+- Link to official author websites or social media profiles
+- Include links to reputable book review sites or literary awards
+- Connect to relevant Wikipedia pages for historical context in historical fiction
+- Link to publisher websites for additional book information
+- Partner with genre-specific blogs or forums for cross-promotion
 
 7. How can you help users discover other relevant parts of your web application?
 
-Create a "Featured Books" carousel on the homepage and category pages
-Use tags to connect books with similar themes, styles, or time periods
-Develop a newsletter to keep users informed about new releases and promotions
-Create genre-specific landing pages with curated content and featured authors
+- Create a "Featured Books" carousel on the homepage and category pages
+- Use tags to connect books with similar themes, styles, or time periods
+- Develop a newsletter to keep users informed about new releases and promotions
+- Create genre-specific landing pages with curated content and featured authors
 
 
 </details><br/>
