@@ -26,6 +26,8 @@ SECRET_KEY = 'django-insecure-(l*!+$l4lbd1tccph^kq1i=n6jv5*kg=dsp97kzr^=u^vs0j@)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CSRF_TRUSTED_ORIGINS = ['https://8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net']
+
 ALLOWED_HOSTS = [
     '8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net',
     'books-and-giggles-dcc63078a535.herokuapp.com',
@@ -41,6 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
+    'allauth',
+    'allauth.account',
+    'allauth.socialaccount',
     'home',
 ]
 
@@ -71,6 +77,26 @@ TEMPLATES = [
         },
     },
 ]
+
+AUTHENTICATION_BACKENDS = (
+    # Needed to log in by username in Django admin, regardless of ''allauth'
+    'django.contrib.auth.backends.ModelBackend',
+
+    # `allauth` specific authentication methods, such as log in via email
+    'allauth.account.auth_backends.AuthenticationBackend',
+)
+
+SITE_ID = 1
+
+EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+
+ACCOUNT_AUTHENTICATION_METHOD = 'username_email'
+ACCOUNT_EMAIL_REQUIRED = True
+ACCOUNT_EMAIL_VERIFICATION = 'mandatory'
+ACCOUNT_SIGNUP_EMAIL_ENTER_TWICE = True
+ACCOUNT_USERNAME_MIN_LENGTH = 4
+LOGIN_URL = '/accounts/login/'
+LOGIN_REDIRECT_URL = '/'
 
 WSGI_APPLICATION = 'books_and_giggles.wsgi.application'
 
