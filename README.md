@@ -396,7 +396,12 @@ Long-term:
 
 
 
+# Credits
 
+## Media
+
+Main page picture: Foto von <a href="https://unsplash.com/de/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay Banks</a> auf <a href="https://unsplash.com/de/fotos/interieur-der-bibliothek-z_DkoUqgx6M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
 
 
