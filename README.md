@@ -408,6 +408,9 @@ Picture for Favicon: Foto von <a href="https://unsplash.com/de/@chrislawton?utm_
 
 "Bookstore" JSON for product fixtures was taken from: https://www.kaggle.com/datasets/bishop36/bookstore, but heavily modified and just used as a base for my products.
 
+Picture for "default" image: Foto von <a href="https://unsplash.com/de/@blazphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Blaz Photo</a> auf <a href="https://unsplash.com/de/fotos/person-mit-buch-die-auf-brauner-oberflache-sitzt-zMRLZh40kms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
+
 
 
 

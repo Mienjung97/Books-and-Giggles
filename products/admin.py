@@ -5,13 +5,13 @@ from .models import Product, Category, Author, Cover
 # Register your models here.
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
-        'sku',
         'name',
         'get_categories',
         'author',
         'cover',
         'price',
         'image',
+        'sku',
     )
 
     # since one book can have more than one category, this is the helper function:
