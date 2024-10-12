@@ -406,7 +406,7 @@ Main page picture: Foto von <a href="https://unsplash.com/de/@claybanks?utm_cont
 Picture for Favicon: Foto von <a href="https://unsplash.com/de/@chrislawton?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Lawton</a> auf <a href="https://unsplash.com/de/fotos/stapel-von-sechs-braunen-gebundenen-buchern-9T346Ij4kGk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
 
-
+"Bookstore" JSON for product fixtures was taken from: https://www.kaggle.com/datasets/bishop36/bookstore, but heavily modified and just used as a base for my products.
 
 
 
