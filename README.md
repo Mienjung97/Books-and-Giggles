@@ -403,7 +403,8 @@ Long-term:
 Main page picture: Foto von <a href="https://unsplash.com/de/@claybanks?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Clay Banks</a> auf <a href="https://unsplash.com/de/fotos/interieur-der-bibliothek-z_DkoUqgx6M?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
 
-
+Picture for Favicon: Foto von <a href="https://unsplash.com/de/@chrislawton?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Lawton</a> auf <a href="https://unsplash.com/de/fotos/stapel-von-sechs-braunen-gebundenen-buchern-9T346Ij4kGk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+  
 
 
 
