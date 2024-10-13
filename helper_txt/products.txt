@@ -1,0 +1,507 @@
+Authors:
+1 GRRM
+2 J. K. Rowling
+3 Anne Golon
+4 Tim Hall
+5 Erich Maria Remarque
+6 Aaron Dembski-Bowden
+7 Jorge Cham & Daniel Whiteson
+
+
+Categories:
+1 Bestseller
+2 New Releases
+3 Our Recommendations
+4 Box Set
+5 Fantasy
+6 Historic fiction
+7 Science Fiction
+8 Illustrated Books
+9 Casual Science / Fun Science 
+
+Cover:
+1 Haedcover
+2 Paperback
+3 E-Book?
+
+
+Other models:
+
+Year published
+Year printed
+Second description
+Publisher
+make author an array for multiple authors?
+Already owned - connected to profile?
+
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111200",
+      "name": "The Rise of the Dragon",
+      "description": "NEW YORK TIMES BESTSELLER This lavish visual history—featuring over 180 all-new illustrations—is a stunning introduction to House Targaryen, the iconic family at the heart of HBO’s Game of Thrones prequel series, House of the Dragon. For hundreds of years, the Targaryens sat the Iron Throne of Westeros while their dragons ruled the skies. The story of the only family of dragonlords to survive Valyria’s Doom is a tale of twisty politics, alliances and betrayals, and acts both noble and craven. The Rise of the Dragon chronicles the creation and rise of Targaryen power in Westeros, covering the history first told in George R. R. Martin’s epic Fire & Blood, from Aegon Targaryen’s conquest of Westeros through to the infamous Dance of the Dragons—the bloody civil war that nearly undid Targaryen rule for good. Packed with all-new artwork, the Targaryens—and their dragons—come vividly to life in this deluxe reference book. Perfect for fans steeped in the lore of Westeros, as well as those who first meet the Targaryens in the HBO series House of the Dragon, The Rise of the Dragon provides a must-have overview for anyone looking to learn more about the most powerful family in Westeros.",
+      "cover": 1,
+      "price": 59.99,
+      "author": 1,
+      "category": [
+        1,
+        5,
+	      8
+      ],
+      "ISBN": 9781984859259,
+      "book_url": "https://www.penguinrandomhouse.com/books/654305/the-rise-of-the-dragon-by-george-r-r-martin-elio-m-garcia-jr-and-linda-antonsson/",
+      "image": "the_rise_of_the_dragon.png"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111201",
+      "name": "Harry Potter The Complete Collection: 7 Book Box Set",
+      "description": "Welcome to Hogwarts! Harry Potter The Complete Collection is a beautifully boxed set containing all seven Harry Potter children’s books in paperback. These kids’ books are a great introduction to the wizarding world of Hogwarts. The world of Harry Potter is sure to enchant young readers with its unforgettable characters and magical adventures. These new editions of J.K. Rowling’s internationally bestselling series feature new jackets with huge child appeal, created by Jonny Duddle. Designed to bring Harry Potter to the next generation of readers, this set of children’s books makes a beautiful addition to any bookcase. It’s time to pass the magic on! Start at the Beginning! This Harry Potter The Complete Collection book set includes every Harry Potter book in the series, making it the ideal collection of kids’ books. The box includes Harry Potter and the Sorcerer's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire, Harry Potter and the Order of the Phoenix, Harry Potter and the Half-Blood Prince and Harry Potter and the Deathly Hallows.",
+      "cover": 4,
+      "price": 39.99,
+      "author": 2,
+      "category": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "ISBN": ,
+      "book_url": "https://www.smythstoys.com/uk/en-gb/brand/harry-potter-brand/harry-potter-the-complete-collection-7-book-box-set/p/191077",
+      "image": "harry_potter_set.png"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111202",
+      "name": "Angelique - Marquise of The Angels",
+      "description": "Mid-17th century France, in the Fronde war: The young Louis XIV is struggling for his throne, beggars and thieves haunt Paris and brigands roam the countryside. Angelique de Sancé, third child of an impoverished country nobleman, grows up in the Poitou marshlands, a region known as the "Green Venice", halfway between the ocean and the forests. She is a free child, as one with the forest and the marshes, discovering nature's healing secrets with the help of her friend, the witch Melusine. Her logical destiny would be to marry a poor country nobleman, have children and spend her life fighting for a meagre subsistence. Destiny has other plans in store for her. At 17, on returning from her education in a convent, she finds herself betrothed to the rich count of Toulouse, Joffrey de Peyrac, 12 years her senior, lame, scarred and reputed to be a wizard.",
+      "cover": 1,
+      "price": 249,99,
+      "author": 3,
+      "category": [
+        3,
+        6
+      ],
+      "ISBN": 0783813929,
+      "book_url": "https://www.secondsale.com/p/angelique-the-marquise-of-angels/132637",
+      "image": "angelique_the_marquise_of_angels.png"
+    }
+  },
+{
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111203",
+      "name": "Mountains: Beyond the Clouds",
+      "description": "",
+      "cover": 1,
+      "price": 27.99,
+      "author": 4,
+      "category": [
+        3,
+        8
+      ],
+      "ISBN": 9783832733919,
+      "book_url": "https://www.nhbs.com/en/mountains-beyond-the-clouds-book",
+      "image": "all_quiet_on_the_western_front.png"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111204",
+      "name": "All Quiet on the Western Front",
+      "description": "A hardcover edition of the classic tale of a young soldier’s harrowing experiences in the trenches, widely acclaimed as the greatest war novel of all time—featuring an Introduction by historian Norman Stone. When twenty-year-old Paul Bäumer and his classmates enlist in the German army during World War I, they are full of youthful enthusiam. But the world of duty, culture, and progress they had been taught to believe in shatters under the first brutal bombardment in the trenches. Through the ensuing years of horror, Paul holds fast to a single vow: to fight against the principle of hate that meaninglessly pits young men of the same generation but different uniforms against one another.",
+      "cover": 1,
+      "price": 27.99,
+      "author": 5,
+      "category": [
+        3,
+        6
+      ],
+      "ISBN": 9781101908082,
+      "book_url": "https://www.penguinrandomhouse.com/books/586537/all-quiet-on-the-western-front-by-erich-maria-remarque-introduction-by-norman-stone-translated-by-brian-murdoch/",
+      "image": "all_quiet_on_the_western_front.png"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111205",
+      "name": "Game of Thrones",
+      "description": "",
+      "cover": 4,
+      "price": ,
+      "author": 1,
+      "category": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111206",
+      "name": "Night Lords: The Omnibus",
+      "description": "Driven by their hatred of the False Emperor, the Night Lords stalk the shadows of the galaxy, eternally seeking revenge for the death of their primarch. Guided by the visions of the prophet Talos, a warband from this sinister Legion struggles to survive in a constant war against the forces of the Imperium. But when they come into conflict with fellow renegades and are hunted by the eldar of Craftworld Ulthwé, the Night Lords find themselves returning to the scene of their greatest defeat and drawn into a battle they cannot possibly win.",
+      "cover": 2,
+      "price": 19.99,
+      "author": 6,
+      "category": [
+        7
+      ],
+      "ISBN": 9781849706124,
+      "book_url": "https://www.amazon.de/-/en/Aaron-Dembski-Bowden/dp/1849706123",
+      "image": "night_lords.png"
+    }
+  },
+  {
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111207",
+      "name": "We Have No Idea: A Guide to the Unknown Universe",
+      "description": "In our small corner of the universe, we know how some matter behaves most of the time and what even less of it looks like, and we have some good guesses about where it all came from. But we really have no clue what''s going on. In fact, we don''t know what about 95% of the universe is made of.
+
+So what happens when a cartoonist and a physicist walk into this strange, mostly unknown universe? Jorge Cham and Daniel Whiteson gleefully explore the biggest unknowns, why these things are still mysteries, and what a lot of smart people are doing to figure out the answers (or at least ask the right questions).
+
+While they''re at it, they helpfully demystify many complicated things we do know about, from quarks and neutrinos to gravitational waves and exploding black holes. With equal doses of humour and delight, they invite us to see the universe as a vast expanse of mostly uncharted territory that''s still ours to explore.
+
+This is a book for fans of Brian Cox and What If. This highly entertaining highly illustrated book is perfect for anyone who''s curious about all the great mysteries physicists are going to solve next.",
+      "cover": 2,
+      "price": 14.99,
+      "author": 7,
+      "category": [
+        3,
+        8,
+        9
+      ],
+      "ISBN": 9781473660205,
+      "book_url": "https://www.amazon.com/-/de/dp/1473660203/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=",
+      "image": "we_have_no_idea.png"
+    }
+  },
+  {
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111208",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111209",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111210",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111211",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111212",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111213",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111214",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111215",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111216",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111217",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111218",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 20,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111219",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 21,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111220",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 22,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111221",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 23,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111222",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 24,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111223",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+  {
+    "pk": 25,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111224",
+      "name": "",
+      "description": "",
+      "cover": ,
+      "price": ,
+      "author": ,
+      "category": [
+        ,
+      ],
+      "ISBN": ,
+      "book_url": "",
+      "image": ".png"
+    }
+  },
+]
