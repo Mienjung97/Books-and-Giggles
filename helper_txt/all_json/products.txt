@@ -206,15 +206,17 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "fields": {
       "sku": "pp2408111208",
       "name": "The Da Vinci Code",
-      "description": "",
-      "cover": ,
-      "price": ,
+      "description": "As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to discover a trail of clues hidden in the works of Leonardo da Vinci—clues visible for all to see and yet ingeniously disguised by the painter. Even more startling, the late curator was involved in the Priory of Sion—a secret society whose members included Sir Isaac Newton, Victor Hugo, and Da Vinci—and he guarded a breathtaking historical secret. Unless Langdon and Neveu can decipher the labyrinthine puzzle—while avoiding the faceless adversary who shadows their every move—the explosive, ancient truth will be lost forever.",
+      "cover": 2,
+      "price": 17.99,
       "author": 8,
       "category": [
-        ,
+        1,
+        3,
+        10
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9780307277671,
+      "image": "the_da_vinci_code.png"
     }
   },
   {
