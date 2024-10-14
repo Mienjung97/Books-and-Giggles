@@ -1,0 +1,130 @@
+[
+  {
+    "pk": 1,
+    "model": "products.author",
+    "fields": {
+      "name": "grrm",
+      "friendly_name": "George R. R. Martin"
+    }
+  },
+    {
+    "pk": 2,
+    "model": "products.author",
+    "fields": {
+      "name": "jkrowling",
+      "friendly_name": "J. K. Rowling"
+    }
+  },
+    {
+    "pk": 3,
+    "model": "products.author",
+    "fields": {
+      "name": "annegolon",
+      "friendly_name": "Anne Golon"
+    }
+  },
+    {
+    "pk": 4,
+    "model": "products.author",
+    "fields": {
+      "name": "tim_hall",
+      "friendly_name": "Tim Hall"
+    }
+  },
+    {
+    "pk": 5,
+    "model": "products.author",
+    "fields": {
+      "name": "erichmariaremarque",
+      "friendly_name": "Erich Maria Remarque"
+    }
+  },
+    {
+    "pk": 6,
+    "model": "products.author",
+    "fields": {
+      "name": "aarondembskibowden",
+      "friendly_name": "Aaron Dembski-Bowden"
+    }
+  },
+    {
+    "pk": 7,
+    "model": "products.author",
+    "fields": {
+      "name": "Jorge Cham & Danielwhiteson",
+      "friendly_name": "Jorge Cham & Daniel Whiteson"
+    }
+  },
+    {
+    "pk": 8,
+    "model": "products.author",
+    "fields": {
+      "name": "danbrown",
+      "friendly_name": "Dan Brown"
+    }
+  },
+    {
+    "pk": 9,
+    "model": "products.author",
+    "fields": {
+      "name": "brandonsanderson",
+      "friendly_name": "Brandon Sanderson"
+    }
+  },
+  {
+    "pk": 10,
+    "model": "products.author",
+    "fields": {
+      "name": "sebastianfitzek",
+      "friendly_name": "Sebastian Fitzek"
+    }
+  },
+  {
+    "pk": 11,
+    "model": "products.author",
+    "fields": {
+      "name": "jrrtolkien",
+      "friendly_name": "J. R. R. Tolkien"
+    }
+  },
+  {
+    "pk": 12,
+    "model": "products.author",
+    "fields": {
+      "name": "roberleckie",
+      "friendly_name": "Rober Leckie"
+    }
+  },
+  {
+    "pk": 13,
+    "model": "products.author",
+    "fields": {
+      "name": "pierspaul",
+      "friendly_name": "Piers Paul"
+    }
+  },
+  {
+    "pk": 14,
+    "model": "products.author",
+    "fields": {
+      "name": "bencounter",
+      "friendly_name": "Ben Counter"
+    }
+  },
+  {
+    "pk": 15,
+    "model": "products.author",
+    "fields": {
+      "name": "csgoto",
+      "friendly_name": "C.S. Goto"
+    }
+  },
+  {
+    "pk": ,
+    "model": "products.author",
+    "fields": {
+      "name": "",
+      "friendly_name": ""
+    }
+  }
+]

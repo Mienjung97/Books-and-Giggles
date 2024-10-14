@@ -1,6 +1,66 @@
 General ideas
 
 
-Home page carrusell with user story points
 
-"We would reccomend" - section on detail page
+Mentor questions:
+
+- What is the MVP? -> customized the poducts model, does that count as one of the three?
+
+- Plan: Work along Walkthrough -> change general looks later when project is "finished" (how much difference in header and colors is recommended)
+
+- Check out project board with Moscow and Epics - do I need sprints, do the Moscow principles be changed?
+
+- "ISBN" model - is it wrong since I wrote it in all capital letters? It seems to work at the moment tho
+
+- For deployment: Just basic or including all the steps until stripe, gmail and mail sending?
+
+- JSONs okay? -> Plan: When creating real datbase, I would like to have all fixtures done to include all books, Authors, Categories, cover types
+              -> name and friendly_name: "erichmariaremarque" or "erich_maria_remarque"? or just name?
+
+- authors.json -> make Category?/Authors page: like product page, but just shows all authors -> or would that be double since you can sort all products with authors
+               -> "About the author"
+               
+- products.json -> how many products? I thought 25 - 30 
+                -> have links to the actual page in the JSON without using or put in documentation (directly in a readme section or as a txt file in readme folder for media)
+
+- idea: fork project to create models and see if they work, so I do not mess up the actual project -> good idea?
+
+- on product detail page, have a link to goodreads? Maybe even one additional model to include a goodreads comment?
+
+- 2 or 3 "Description" areas on detail page -> e.g. "Good to know", "Additional infos", "Reading advice", "We would reccomend also" or "For whom is the book meant"?
+
+
+
+
+
+
+
+
+
+
+
+
+
+3 custom models:
+- FaQ
+- Contact form on about page (like PP4 walkthrough)
+- Discount -> Buy 5 books, get the cheapest for free
+
+
+
+
+Home page:
+- Home page carrusell with user story points
+
+Detail page:
+- 2 or 3 "Description" areas on detail page -> e.g. "Good to know", "Additional infos", "Reading advice", "We would reccomend also", "You could watch after reading" or "For whom is the book meant"? 
+                                            -> make it like categories so the admin can decide which one it should be when adding products -> or just as text in the decription/side box?
+- Goodreads area?
+- Page count?
+
+All pages:
+- Footer with newsletter subscription
+
+Profile page:
+- like walkthrough
+- unsubscribe from newsletter

@@ -6,6 +6,14 @@ Authors:
 5 Erich Maria Remarque
 6 Aaron Dembski-Bowden
 7 Jorge Cham & Daniel Whiteson
+8 Dan Brown
+9 Brandon Sanderson
+10 Sebastian Fitzek
+11 J. R. R. Tolkien
+12 Rober Leckie
+13 Piers Paul
+14 Ben Counter
+15 C.S. Goto
 
 
 Categories:
@@ -18,6 +26,8 @@ Categories:
 7 Science Fiction
 8 Illustrated Books
 9 Casual Science / Fun Science 
+10 Thriller
+11 True Stories
 
 Cover:
 1 Haedcover
@@ -203,11 +213,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111208",
-      "name": "",
+      "name": "The Da Vinci Code",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 8,
       "category": [
         ,
       ],
@@ -221,11 +231,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111209",
-      "name": "",
+      "name": "Angles and Deamons",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 8,
       "category": [
         ,
       ],
@@ -239,11 +249,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111210",
-      "name": "",
+      "name": "Inferno",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 8,
       "category": [
         ,
       ],
@@ -258,10 +268,10 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "fields": {
       "sku": "pp2408111211",
       "name": "",
-      "description": "",
+      "description": "Noah",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 10,
       "category": [
         ,
       ],
@@ -275,11 +285,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111212",
-      "name": "",
+      "name": "The Package",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 10,
       "category": [
         ,
       ],
@@ -294,10 +304,10 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "fields": {
       "sku": "pp2408111213",
       "name": "",
-      "description": "",
+      "description": "The Inmate",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 10,
       "category": [
         ,
       ],
@@ -311,11 +321,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111214",
-      "name": "",
+      "name": "The Lord of the Rings Trilogy",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 11,
       "category": [
         ,
       ],
@@ -330,10 +340,10 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "fields": {
       "sku": "pp2408111215",
       "name": "",
-      "description": "",
+      "description": "The Hobbit",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 11,
       "category": [
         ,
       ],
@@ -347,11 +357,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111216",
-      "name": "",
+      "name": "Helmet for My Pillow",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 12,
       "category": [
         ,
       ],
@@ -365,11 +375,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111217",
-      "name": "",
+      "name": "Alive: The Story of the Andes Survivors",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 13,
       "category": [
         ,
       ],
@@ -383,11 +393,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111218",
-      "name": "",
+      "name": "Grey Knights",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 14,
       "category": [
         ,
       ],
@@ -401,11 +411,11 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111219",
-      "name": "",
+      "name": "Blood Ravens: The Dawn of War Omnibus",
       "description": "",
       "cover": ,
       "price": ,
-      "author": ,
+      "author": 15,
       "category": [
         ,
       ],
