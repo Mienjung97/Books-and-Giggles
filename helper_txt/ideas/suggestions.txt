@@ -29,6 +29,7 @@ Mentor questions:
 
 - 2 or 3 "Description" areas on detail page -> e.g. "Good to know", "Additional infos", "Reading advice", "We would reccomend also" or "For whom is the book meant"?
 
+- product detail page: does not show categories but "products.Category.None"
 
 
 
