@@ -30,9 +30,8 @@ Categories:
 11 True Stories
 
 Cover:
-1 Haedcover
+1 Hardcover
 2 Paperback
-3 E-Book?
 
 
 Other models:
@@ -52,6 +51,7 @@ Already owned - connected to profile?
       "sku": "pp2408111200",
       "name": "The Rise of the Dragon",
       "description": "NEW YORK TIMES BESTSELLER This lavish visual history—featuring over 180 all-new illustrations—is a stunning introduction to House Targaryen, the iconic family at the heart of HBO’s Game of Thrones prequel series, House of the Dragon. For hundreds of years, the Targaryens sat the Iron Throne of Westeros while their dragons ruled the skies. The story of the only family of dragonlords to survive Valyria’s Doom is a tale of twisty politics, alliances and betrayals, and acts both noble and craven. The Rise of the Dragon chronicles the creation and rise of Targaryen power in Westeros, covering the history first told in George R. R. Martin’s epic Fire & Blood, from Aegon Targaryen’s conquest of Westeros through to the infamous Dance of the Dragons—the bloody civil war that nearly undid Targaryen rule for good. Packed with all-new artwork, the Targaryens—and their dragons—come vividly to life in this deluxe reference book. Perfect for fans steeped in the lore of Westeros, as well as those who first meet the Targaryens in the HBO series House of the Dragon, The Rise of the Dragon provides a must-have overview for anyone looking to learn more about the most powerful family in Westeros.",
+      "description2": "",
       "cover": 1,
       "price": 59.99,
       "author": 1,
@@ -108,7 +108,7 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111203",
       "name": "Mountains: Beyond the Clouds",
-      "description": "",
+      "description": "Mountains, one of nature's greatest masterpieces, in their rugged beauty, breathtaking views from the top, clear air, green pastures, mountain lakes and glaciers, have captivated mankind all along. Climbing mountains or just gazing at their majestic splendor causes us to slow down and contemplate, maybe even giving us a little serenity. Photographer Tim Hall beautifully captures the powerful solace of mountains in his images. He often chooses to shoot in dramatic weather, making his work and the photographed mountains look even more stunning and transcendent. The intention to strike an emotional or spiritual chord is evident in much of his landscape work, which is inspired by Rothko and Turner. The influence of painting in his work stems from his studies of art history at Manchester University. Mountains: Beyond the Clouds presents the extensive Alpine mountain range, including famous landmarks such as the Mont Blanc, the Matterhorn, and the Dolomites.",
       "cover": 1,
       "price": 27.99,
       "author": 4,
@@ -181,13 +181,7 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111207",
       "name": "We Have No Idea: A Guide to the Unknown Universe",
-      "description": "In our small corner of the universe, we know how some matter behaves most of the time and what even less of it looks like, and we have some good guesses about where it all came from. But we really have no clue what''s going on. In fact, we don''t know what about 95% of the universe is made of.
-
-So what happens when a cartoonist and a physicist walk into this strange, mostly unknown universe? Jorge Cham and Daniel Whiteson gleefully explore the biggest unknowns, why these things are still mysteries, and what a lot of smart people are doing to figure out the answers (or at least ask the right questions).
-
-While they''re at it, they helpfully demystify many complicated things we do know about, from quarks and neutrinos to gravitational waves and exploding black holes. With equal doses of humour and delight, they invite us to see the universe as a vast expanse of mostly uncharted territory that''s still ours to explore.
-
-This is a book for fans of Brian Cox and What If. This highly entertaining highly illustrated book is perfect for anyone who''s curious about all the great mysteries physicists are going to solve next.",
+      "description": "In our small corner of the universe, we know how some matter behaves most of the time and what even less of it looks like, and we have some good guesses about where it all came from. But we really have no clue what's going on. In fact, we don't know what about 95% of the universe is made of. So what happens when a cartoonist and a physicist walk into this strange, mostly unknown universe? Jorge Cham and Daniel Whiteson gleefully explore the biggest unknowns, why these things are still mysteries, and what a lot of smart people are doing to figure out the answers (or at least ask the right questions). While they're at it, they helpfully demystify many complicated things we do know about, from quarks and neutrinos to gravitational waves and exploding black holes. With equal doses of humour and delight, they invite us to see the universe as a vast expanse of mostly uncharted territory that's still ours to explore. This is a book for fans of Brian Cox and What If. This highly entertaining highly illustrated book is perfect for anyone who's curious about all the great mysteries physicists are going to solve next.",
       "cover": 2,
       "price": 14.99,
       "author": 7,
