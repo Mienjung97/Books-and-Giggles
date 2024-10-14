@@ -60,8 +60,7 @@ Already owned - connected to profile?
         5,
 	      8
       ],
-      "ISBN": 9781984859259,
-      "book_url": "https://www.penguinrandomhouse.com/books/654305/the-rise-of-the-dragon-by-george-r-r-martin-elio-m-garcia-jr-and-linda-antonsson/",
+      "isbn": 9781984859259,
       "image": "the_rise_of_the_dragon.png"
     }
   },
@@ -81,8 +80,7 @@ Already owned - connected to profile?
         4,
         5
       ],
-      "ISBN": ,
-      "book_url": "https://www.smythstoys.com/uk/en-gb/brand/harry-potter-brand/harry-potter-the-complete-collection-7-book-box-set/p/191077",
+      "isbn": ,
       "image": "harry_potter_set.png"
     }
   },
@@ -100,8 +98,7 @@ Already owned - connected to profile?
         3,
         6
       ],
-      "ISBN": 0783813929,
-      "book_url": "https://www.secondsale.com/p/angelique-the-marquise-of-angels/132637",
+      "isbn": 0783813929,
       "image": "angelique_the_marquise_of_angels.png"
     }
   },
@@ -119,8 +116,7 @@ Already owned - connected to profile?
         3,
         8
       ],
-      "ISBN": 9783832733919,
-      "book_url": "https://www.nhbs.com/en/mountains-beyond-the-clouds-book",
+      "isbn": 9783832733919,
       "image": "all_quiet_on_the_western_front.png"
     }
   },
@@ -138,8 +134,7 @@ Already owned - connected to profile?
         3,
         6
       ],
-      "ISBN": 9781101908082,
-      "book_url": "https://www.penguinrandomhouse.com/books/586537/all-quiet-on-the-western-front-by-erich-maria-remarque-introduction-by-norman-stone-translated-by-brian-murdoch/",
+      "isbn": 9781101908082,
       "image": "all_quiet_on_the_western_front.png"
     }
   },
@@ -159,8 +154,7 @@ Already owned - connected to profile?
         4,
         5
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -177,8 +171,7 @@ Already owned - connected to profile?
       "category": [
         7
       ],
-      "ISBN": 9781849706124,
-      "book_url": "https://www.amazon.de/-/en/Aaron-Dembski-Bowden/dp/1849706123",
+      "isbn": 9781849706124,
       "image": "night_lords.png"
     }
   },
@@ -203,8 +196,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
         8,
         9
       ],
-      "ISBN": 9781473660205,
-      "book_url": "https://www.amazon.com/-/de/dp/1473660203/ref=tmm_pap_swatch_0?_encoding=UTF8&qid=&sr=",
+      "isbn": 9781473660205,
       "image": "we_have_no_idea.png"
     }
   },
@@ -221,8 +213,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -239,8 +230,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -257,8 +247,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -267,16 +256,15 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111211",
-      "name": "",
-      "description": "Noah",
+      "name": "Noah",
+      "description": "",
       "cover": ,
       "price": ,
       "author": 10,
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -293,8 +281,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -303,16 +290,15 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111213",
-      "name": "",
-      "description": "The Inmate",
+      "name": "The Inmate",
+      "description": "",
       "cover": ,
       "price": ,
       "author": 10,
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -329,8 +315,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -339,16 +324,15 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
     "model": "products.product",
     "fields": {
       "sku": "pp2408111215",
-      "name": "",
-      "description": "The Hobbit",
+      "name": "The Hobbit",
+      "description": "",
       "cover": ,
       "price": ,
       "author": 11,
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -365,8 +349,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -383,8 +366,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -401,8 +383,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -419,8 +400,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -437,8 +417,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -455,8 +434,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -473,8 +451,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -491,8 +468,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },
@@ -509,8 +485,7 @@ This is a book for fans of Brian Cox and What If. This highly entertaining highl
       "category": [
         ,
       ],
-      "ISBN": ,
-      "book_url": "",
+      "isbn": ,
       "image": ".png"
     }
   },

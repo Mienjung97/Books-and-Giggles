@@ -1,61 +1,51 @@
 General ideas
 
+Menstor session 1:
 
+- What is the MVP? -> customized the poducts model, does that count as one of the three?                                                                                                                    Three individual models
 
-Mentor questions:
+- Plan: Work along Walkthrough -> change general looks later when project is "finished" (how much difference in header and colors is recommended)                                                           Selfexplanetory
 
-- What is the MVP? -> customized the poducts model, does that count as one of the three?
+- Check out project board with Moscow and Epics - do I need sprints, do the Moscow principles be changed?                                                                                                   Can stay for now, further questioning in meetings
 
-- Plan: Work along Walkthrough -> change general looks later when project is "finished" (how much difference in header and colors is recommended)
+- "ISBN" model - is it wrong since I wrote it in all capital letters? It seems to work at the moment tho ''' small                                                                                          Change model to small - implement with other models
 
-- Check out project board with Moscow and Epics - do I need sprints, do the Moscow principles be changed?
+- For deployment: Just basic or including all the steps until stripe, gmail and mail sending -                                                                                                              Include all
 
-- "ISBN" model - is it wrong since I wrote it in all capital letters? It seems to work at the moment tho
+- JSONs okay? -> Plan: When creating real datbase, I would like to have all fixtures done to include all books, Authors, Categories, cover types                                                            Good
+              -> name and friendly_name: "erichmariaremarque" or "erich_maria_remarque"? or just name?                                                                                                      Just name in JSONs, friendly name not too important
 
-- For deployment: Just basic or including all the steps until stripe, gmail and mail sending?
-
-- JSONs okay? -> Plan: When creating real datbase, I would like to have all fixtures done to include all books, Authors, Categories, cover types
-              -> name and friendly_name: "erichmariaremarque" or "erich_maria_remarque"? or just name?
-
-- authors.json -> make Category?/Authors page: like product page, but just shows all authors -> or would that be double since you can sort all products with authors
-               -> "About the author"
+- authors.json -> make Category?/Authors page: like product page, but just shows all authors -> or would that be double since you can sort all products with authors                                        Not now because it is a view (Category page with pictures more appleasing (my idea, not mentor))
+               -> "About the author"                                                                                                                                                                        nope for now
                
-- products.json -> how many products? I thought 25 - 30 
-                -> have links to the actual page in the JSON without using or put in documentation (directly in a readme section or as a txt file in readme folder for media)
+- products.json -> how many products? I thought 25 - 30                                                                                                                                                     Is plenty, will do 25
+                -> have links to the actual page in the JSON without using or put in documentation (directly in a readme section or as a txt file in readme folder for media)                               In readme
 
-- idea: fork project to create models and see if they work, so I do not mess up the actual project -> good idea?
+- idea: fork project to create models and see if they work, so I do not mess up the actual project -> good idea?                                                                                            yes, if time is there
 
-- on product detail page, have a link to goodreads? Maybe even one additional model to include a goodreads comment?
+- on product detail page, have a link to goodreads? Maybe even one additional model to include a goodreads comment?                                                                                         Out for now
 
-- 2 or 3 "Description" areas on detail page -> e.g. "Good to know", "Additional infos", "Reading advice", "We would reccomend also" or "For whom is the book meant"?
+- 2 or 3 "Description" areas on detail page -> e.g. "Good to know", "Additional infos", "Reading advice", "We would reccomend also" or "For whom is the book meant"?                                        Will implemnt with isbn change
 
-- product detail page: does not show categories but "products.Category.None"
-
-
+- product detail page: does not show categories but "products.Category.None"                                                                                                                                For loop in template and view though the categories
 
 
 
 
-
-
-
-
-
-
-3 custom models:
+3 custom models:                                                                                                                                                                                            Good models
 - FaQ
 - Contact form on about page (like PP4 walkthrough)
-- Discount -> Buy 5 books, get the cheapest for free
+- Discount -> Buy 5 books, get the cheapest for free                                                                                                                                                        make sure has like a countdown like with free order
 
 
 
 
 Home page:
-- Home page carrusell with user story points
+- Home page carrusell with user story points                                                                                                                                                                Good
 
 Detail page:
-- 2 or 3 "Description" areas on detail page -> e.g. "Good to know", "Additional infos", "Reading advice", "We would reccomend also", "You could watch after reading" or "For whom is the book meant"? 
-                                            -> make it like categories so the admin can decide which one it should be when adding products -> or just as text in the decription/side box?
+- 2 or 3 "Description" areas on detail page -> e.g. "Good to know", "Additional infos", "Reading advice", "We would reccomend also", "You could watch after reading" or "For whom is the book meant"?       Yes, like above with models
+                                            -> make it like categories so the admin can decide which one it should be when adding products -> or just as text in the decription/side box?                   Dajum good question, didn't ask
 - Goodreads area?
 - Page count?
 
