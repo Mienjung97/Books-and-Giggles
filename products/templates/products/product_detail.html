@@ -31,10 +31,15 @@
                 <div class="product-details-container mb-5 mt-md-5">
                     <p class="mb-0"><strong>{{ product.name }}</strong></p>
                     <p class="mt-3">Author: {{ product.author.friendly_name }}</p>
-                    <p class="mt-3">Edition:: {{ product.cover.friendly_name }}</p>
-                    <p class="mt-3">Genres: {{ product.category }}</p>
+                    <p class="mt-3">Edition: {{ product.cover }}</p>
+                    <p class="mt-3">Pages: {{ product.page_count }}</p>
                     <p class="lead mb-0 text-left font-weight-bold">Price: {{ product.price }}€</p>
+                    <p class="mt-3">Publisher: {{ product.publisher }}</p>
+                    <p class="mt-3">Year Published: {{ product.year_published }}</p>
+                    <p class="mt-3">ISBN: {{ product.isbn }}</p>
                     <p class="mt-3">Description: <br> <br> {{ product.description }}</p>
+                    <p class="mt-3">Other information: <br> <br> {{ product.description2 }}</p>
+                    <!-- <p class="mt-3">Genres: {{ product.category }}</p> -->
                 </div>
             </div>
         </div>
