@@ -43,6 +43,9 @@ Publisher
 make author an array for multiple authors?
 Already owned - connected to profile?
 
+
+
+
 [
   {
     "pk": 1,
@@ -50,8 +53,11 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111200",
       "name": "The Rise of the Dragon",
-      "description": "NEW YORK TIMES BESTSELLER This lavish visual history—featuring over 180 all-new illustrations—is a stunning introduction to House Targaryen, the iconic family at the heart of HBO’s Game of Thrones prequel series, House of the Dragon. For hundreds of years, the Targaryens sat the Iron Throne of Westeros while their dragons ruled the skies. The story of the only family of dragonlords to survive Valyria’s Doom is a tale of twisty politics, alliances and betrayals, and acts both noble and craven. The Rise of the Dragon chronicles the creation and rise of Targaryen power in Westeros, covering the history first told in George R. R. Martin’s epic Fire & Blood, from Aegon Targaryen’s conquest of Westeros through to the infamous Dance of the Dragons—the bloody civil war that nearly undid Targaryen rule for good. Packed with all-new artwork, the Targaryens—and their dragons—come vividly to life in this deluxe reference book. Perfect for fans steeped in the lore of Westeros, as well as those who first meet the Targaryens in the HBO series House of the Dragon, The Rise of the Dragon provides a must-have overview for anyone looking to learn more about the most powerful family in Westeros.",
-      "description2": "",
+      "description": "For hundreds of years, the Targaryens sat the Iron Throne of Westeros while their dragons ruled the skies. The story of the only family of dragonlords to survive Valyria’s Doom is a tale of twisty politics, alliances and betrayals, and acts both noble and craven. The Rise of the Dragon chronicles the creation and rise of Targaryen power in Westeros, covering the history first told in George R. R. Martin’s epic Fire & Blood, from Aegon Targaryen’s conquest of Westeros through to the infamous Dance of the Dragons—the bloody civil war that nearly undid Targaryen rule for good. Packed with all-new artwork, the Targaryens—and their dragons—come vividly to life in this deluxe reference book. Perfect for fans steeped in the lore of Westeros, as well as those who first meet the Targaryens in the HBO series House of the Dragon, The Rise of the Dragon provides a must-have overview for anyone looking to learn more about the most powerful family in Westeros.",
+      "description2": "NEW YORK TIMES BESTSELLER This lavish visual history—featuring over 180 all-new illustrations—is a stunning introduction to House Targaryen, the iconic family at the heart of HBO’s Game of Thrones prequel series, House of the Dragon. ",
+      "publisher": "Ten Speed Press",
+      "year_published": 2022,
+      "page_count": 352,
       "cover": 1,
       "price": 59.99,
       "author": 1,
@@ -70,8 +76,12 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111201",
       "name": "Harry Potter The Complete Collection: 7 Book Box Set",
-      "description": "Welcome to Hogwarts! Harry Potter The Complete Collection is a beautifully boxed set containing all seven Harry Potter children’s books in paperback. These kids’ books are a great introduction to the wizarding world of Hogwarts. The world of Harry Potter is sure to enchant young readers with its unforgettable characters and magical adventures. These new editions of J.K. Rowling’s internationally bestselling series feature new jackets with huge child appeal, created by Jonny Duddle. Designed to bring Harry Potter to the next generation of readers, this set of children’s books makes a beautiful addition to any bookcase. It’s time to pass the magic on! Start at the Beginning! This Harry Potter The Complete Collection book set includes every Harry Potter book in the series, making it the ideal collection of kids’ books. The box includes Harry Potter and the Sorcerer's Stone, Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire, Harry Potter and the Order of the Phoenix, Harry Potter and the Half-Blood Prince and Harry Potter and the Deathly Hallows.",
-      "cover": 4,
+      "description": "Welcome to Hogwarts! Harry Potter The Complete Collection is a beautifully boxed set containing all seven Harry Potter children’s books in paperback. These kids’ books are a great introduction to the wizarding world of Hogwarts. The world of Harry Potter is sure to enchant young readers with its unforgettable characters and magical adventures. These new editions of J.K. Rowling’s internationally bestselling series feature new jackets with huge child appeal, created by Jonny Duddle. Designed to bring Harry Potter to the next generation of readers, this set of children’s books makes a beautiful addition to any bookcase. It’s time to pass the magic on!",
+      "description2": "Start at the Beginning! This Harry Potter The Complete Collection book set includes every Harry Potter book in the series, making it the ideal collection of kids’ books. The box includes Harry Potter and the Sorcerer's Stone (1997), Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire, Harry Potter and the Order of the Phoenix, Harry Potter and the Half-Blood Prince and Harry Potter and the Deathly Hallows(2007).",
+      "publisher": "Bloomsbury Children's Books",
+      "year_published": 2014,
+      "page_count": 3872,
+      "cover": 2,
       "price": 39.99,
       "author": 2,
       "category": [
@@ -80,7 +90,6 @@ Already owned - connected to profile?
         4,
         5
       ],
-      "isbn": ,
       "image": "harry_potter_set.png"
     }
   },
@@ -90,15 +99,19 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111202",
       "name": "Angelique - Marquise of The Angels",
-      "description": "Mid-17th century France, in the Fronde war: The young Louis XIV is struggling for his throne, beggars and thieves haunt Paris and brigands roam the countryside. Angelique de Sancé, third child of an impoverished country nobleman, grows up in the Poitou marshlands, a region known as the "Green Venice", halfway between the ocean and the forests. She is a free child, as one with the forest and the marshes, discovering nature's healing secrets with the help of her friend, the witch Melusine. Her logical destiny would be to marry a poor country nobleman, have children and spend her life fighting for a meagre subsistence. Destiny has other plans in store for her. At 17, on returning from her education in a convent, she finds herself betrothed to the rich count of Toulouse, Joffrey de Peyrac, 12 years her senior, lame, scarred and reputed to be a wizard.",
+      "description": "Mid-17th century France, in the Fronde war: The young Louis XIV is struggling for his throne, beggars and thieves haunt Paris and brigands roam the countryside. Angelique de Sancé, third child of an impoverished country nobleman, grows up in the Poitou marshlands, a region known as the 'Green Venice', halfway between the ocean and the forests. She is a free child, as one with the forest and the marshes, discovering nature's healing secrets with the help of her friend, the witch Melusine. Her logical destiny would be to marry a poor country nobleman, have children and spend her life fighting for a meagre subsistence. Destiny has other plans in store for her. At 17, on returning from her education in a convent, she finds herself betrothed to the rich count of Toulouse, Joffrey de Peyrac, 12 years her senior, lame, scarred and reputed to be a wizard.",
+      "description2": "1956 novel by Anne Golon & Serge Golon, the first novel in Angélique series. Inspired by the life of Suzanne de Rougé du Plessis-Bellière, known as the Marquise du Plessis-Bellière. Angélique's marriage to Jeoffrey de Peyrac is thought to be parallel to that of the daughter of Madame de Sévigné, Françoise-Marguerite de Sévigné to the Comte de Grignan. In 1964, it was adapted into a film by the same title.",
+      "publisher": "G K Hall And Co",
+      "year_published": 1956,
+      "page_count": 820,
       "cover": 1,
-      "price": 249,99,
+      "price": 249.99,
       "author": 3,
       "category": [
         3,
         6
       ],
-      "isbn": 0783813929,
+      "isbn": 9780783813929,
       "image": "angelique_the_marquise_of_angels.png"
     }
   },
@@ -108,7 +121,11 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111203",
       "name": "Mountains: Beyond the Clouds",
-      "description": "Mountains, one of nature's greatest masterpieces, in their rugged beauty, breathtaking views from the top, clear air, green pastures, mountain lakes and glaciers, have captivated mankind all along. Climbing mountains or just gazing at their majestic splendor causes us to slow down and contemplate, maybe even giving us a little serenity. Photographer Tim Hall beautifully captures the powerful solace of mountains in his images. He often chooses to shoot in dramatic weather, making his work and the photographed mountains look even more stunning and transcendent. The intention to strike an emotional or spiritual chord is evident in much of his landscape work, which is inspired by Rothko and Turner. The influence of painting in his work stems from his studies of art history at Manchester University. Mountains: Beyond the Clouds presents the extensive Alpine mountain range, including famous landmarks such as the Mont Blanc, the Matterhorn, and the Dolomites.",
+      "description": "Mountains, one of nature's greatest masterpieces, in their rugged beauty, breathtaking views from the top, clear air, green pastures, mountain lakes and glaciers, have captivated mankind all along. Climbing mountains or just gazing at their majestic splendor causes us to slow down and contemplate, maybe even giving us a little serenity.",
+      "description2": "Photographer Tim Hall beautifully captures the powerful solace of mountains in his images. He often chooses to shoot in dramatic weather, making his work and the photographed mountains look even more stunning and transcendent. The intention to strike an emotional or spiritual chord is evident in much of his landscape work, which is inspired by Rothko and Turner. The influence of painting in his work stems from his studies of art history at Manchester University. Mountains: Beyond the Clouds presents the extensive Alpine mountain range, including famous landmarks such as the Mont Blanc, the Matterhorn, and the Dolomites.",
+      "publisher": "TeNeues Publishing UK Ltd",
+      "year_published": 2016,
+      "page_count": 208,
       "cover": 1,
       "price": 27.99,
       "author": 4,
@@ -117,7 +134,7 @@ Already owned - connected to profile?
         8
       ],
       "isbn": 9783832733919,
-      "image": "all_quiet_on_the_western_front.png"
+      "image": "mountains_beyond_the_clouds.png"
     }
   },
   {
@@ -126,7 +143,11 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111204",
       "name": "All Quiet on the Western Front",
-      "description": "A hardcover edition of the classic tale of a young soldier’s harrowing experiences in the trenches, widely acclaimed as the greatest war novel of all time—featuring an Introduction by historian Norman Stone. When twenty-year-old Paul Bäumer and his classmates enlist in the German army during World War I, they are full of youthful enthusiam. But the world of duty, culture, and progress they had been taught to believe in shatters under the first brutal bombardment in the trenches. Through the ensuing years of horror, Paul holds fast to a single vow: to fight against the principle of hate that meaninglessly pits young men of the same generation but different uniforms against one another.",
+      "description": "When twenty-year-old Paul Bäumer and his classmates enlist in the German army during World War I, they are full of youthful enthusiam. But the world of duty, culture, and progress they had been taught to believe in shatters under the first brutal bombardment in the trenches. Through the ensuing years of horror, Paul holds fast to a single vow: to fight against the principle of hate that meaninglessly pits young men of the same generation but different uniforms against one another.",
+      "description2": "A hardcover edition of the classic tale of a young soldier’s harrowing experiences in the trenches, widely acclaimed as the greatest war novel of all time—featuring an Introduction by historian Norman Stone. This edition was printed 2018, 100 years after the end of WW 1. \n \n Erich Maria Remarque’s classic novel not only portrays in vivid detail the combatants’ physical and mental trauma, but dramatizes as well the tragic detachment from civilian life felt by many upon returning home. Remarque’s stated intention—“to tell of a generation of men who, even though they may have escaped shells, were destroyed by the war”—remains as powerful and relevant as ever, a century after that conflict’s end.”",
+      "publisher": "Everyman's Library",
+      "year_published": 1929,
+      "page_count": 296,
       "cover": 1,
       "price": 27.99,
       "author": 5,
@@ -144,9 +165,13 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111205",
       "name": "Game of Thrones",
-      "description": "",
-      "cover": 4,
-      "price": ,
+      "description": "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King's Landing. There Eddard Stark of Winterfell rules in Robert's name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse-unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season. \n \n Yet a more immediate threat lurks to the south, where Jon Arryn, the Hand of the King, has died under mysterious circumstances. Now Robert is riding north to Winterfell, bringing his queen, the lovely but cold Cersei, his son, the cruel, vainglorious Prince Joffrey, and the queen's brothers Jaime and Tyrion of the powerful and wealthy House Lannister-the first a swordsman without equal, the second a dwarf whose stunted stature belies a brilliant mind. All are heading for Winterfell and a fateful encounter that will change the course of kingdoms. \n \n Meanwhile, across the Narrow Sea, Prince Viserys, heir of the fallen House Targaryen, which once ruled all of Westeros, schemes to reclaim the throne with an army of barbarian Dothraki-whose loyalty he will purchase in the only coin left to him: his beautiful yet innocent sister, Daenerys.",
+      "description2": "For the first time, all five novels in the epic fantasy series that inspired HBO's Game of Thrones are together in one eBook bundle. An immersive entertainment experience unlike any other, A Song of Ice and Fire has earned George R. R. Martin-dubbed 'the American Tolkien' by Time magazine-international acclaim and millions of loyal readers. Now this bundle collects the entire monumental cycle in the most convenient format available: \n \n - A GAME OF THRONES (1996) \n - A CLASH OF KINGS \n - A STORM OF SWORDS \n - A FEAST FOR CROWS \n - A DANCE WITH DRAGONS (2011)",
+      "publisher": "Random House LLC US",
+      "year_published": 2013,
+      "page_count": 5216,
+      "cover": 2,
+      "price": 46.99,
       "author": 1,
       "category": [
         1,
@@ -154,8 +179,8 @@ Already owned - connected to profile?
         4,
         5
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9780345535528,
+      "image": "a_game_of_thrones.png"
     }
   },
   {
@@ -165,6 +190,10 @@ Already owned - connected to profile?
       "sku": "pp2408111206",
       "name": "Night Lords: The Omnibus",
       "description": "Driven by their hatred of the False Emperor, the Night Lords stalk the shadows of the galaxy, eternally seeking revenge for the death of their primarch. Guided by the visions of the prophet Talos, a warband from this sinister Legion struggles to survive in a constant war against the forces of the Imperium. But when they come into conflict with fellow renegades and are hunted by the eldar of Craftworld Ulthwé, the Night Lords find themselves returning to the scene of their greatest defeat and drawn into a battle they cannot possibly win.",
+      "description2": "READ IT BECAUSE: \n \n Fan favourite characters – who also happen to be amongst the most monstrous killers in the galaxy – in a fight to the death against the eldar, with the fate of the future on the line? Yes please.",
+      "publisher": "Games Workshop",
+      "year_published": 2014,
+      "page_count": 944,
       "cover": 2,
       "price": 19.99,
       "author": 6,
@@ -181,7 +210,11 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111207",
       "name": "We Have No Idea: A Guide to the Unknown Universe",
-      "description": "In our small corner of the universe, we know how some matter behaves most of the time and what even less of it looks like, and we have some good guesses about where it all came from. But we really have no clue what's going on. In fact, we don't know what about 95% of the universe is made of. So what happens when a cartoonist and a physicist walk into this strange, mostly unknown universe? Jorge Cham and Daniel Whiteson gleefully explore the biggest unknowns, why these things are still mysteries, and what a lot of smart people are doing to figure out the answers (or at least ask the right questions). While they're at it, they helpfully demystify many complicated things we do know about, from quarks and neutrinos to gravitational waves and exploding black holes. With equal doses of humour and delight, they invite us to see the universe as a vast expanse of mostly uncharted territory that's still ours to explore. This is a book for fans of Brian Cox and What If. This highly entertaining highly illustrated book is perfect for anyone who's curious about all the great mysteries physicists are going to solve next.",
+      "description": "In our small corner of the universe, we know how some matter behaves most of the time and what even less of it looks like, and we have some good guesses about where it all came from. But we really have no clue what's going on. In fact, we don't know what about 95% of the universe is made of. \n So what happens when a cartoonist and a physicist walk into this strange, mostly unknown universe? Jorge Cham and Daniel Whiteson gleefully explore the biggest unknowns, why these things are still mysteries, and what a lot of smart people are doing to figure out the answers (or at least ask the right questions). \n While they're at it, they helpfully demystify many complicated things we do know about, from quarks and neutrinos to gravitational waves and exploding black holes. With equal doses of humour and delight, they invite us to see the universe as a vast expanse of mostly uncharted territory that's still ours to explore.",
+      "description2": "This is a book for fans of Brian Cox and What If. This highly entertaining highly illustrated book is perfect for anyone who's curious about all the great mysteries physicists are going to solve next.",
+      "publisher": "John Murray",
+      "year_published": 2018,
+      "page_count": 368,
       "cover": 2,
       "price": 14.99,
       "author": 7,
@@ -200,7 +233,11 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111208",
       "name": "The Da Vinci Code",
-      "description": "As Langdon and gifted French cryptologist Sophie Neveu sort through the bizarre riddles, they are stunned to discover a trail of clues hidden in the works of Leonardo da Vinci—clues visible for all to see and yet ingeniously disguised by the painter. Even more startling, the late curator was involved in the Priory of Sion—a secret society whose members included Sir Isaac Newton, Victor Hugo, and Da Vinci—and he guarded a breathtaking historical secret. Unless Langdon and Neveu can decipher the labyrinthine puzzle—while avoiding the faceless adversary who shadows their every move—the explosive, ancient truth will be lost forever.",
+      "description": "While in Paris on business, Harvard symbologist Robert Langdon receives an urgent late-night phone call: the elderly curator of the Louvre has been murdered inside the museum. Near the body, police have found a baffling cipher. Solving the enigmatic riddle, Langdon is stunned to discover it leads to a trail of clues hidden in the works of da Vinci…clues visible for all to see…and yet ingeniously disguised by the painter. \n \n Langdon joins forces with a gifted French cryptologist, Sophie Neveu, and learns the late curator was involved in the Priory of Sion—an actual secret society whose members included Sir Isaac Newton, Botticelli, Victor Hugo, and da Vinci, among others. The Louvre curator has sacrificed his life to protect the Priory’s most sacred trust: the location of a vastly important religious relic, hidden for centuries. \n \n In a breathless race through Paris, London, and beyond, Langdon and Neveu match wits with a faceless powerbroker who appears to work for Opus Dei—a clandestine, Vatican-sanctioned Catholic sect believed to have long plotted to seize the Priory’s secret. Unless Langdon and Neveu can decipher the labyrinthine puzzle in time, the Priory’s secret—and a stunning historical truth—will be lost forever. \n \n In an exhilarating blend of relentless adventure, scholarly intrigue, and cutting wit, symbologist Robert Langdon (first introduced in Dan Brown’s bestselling Angels & Demons) is the most original character to appear in years. The Da Vinci Code heralds the arrival of a new breed of lightning-paced, intelligent thriller…surprising at every twist, absorbing at every turn, and in the end, utterly unpredictable…right up to its astonishing conclusion.",
+      "description2": "The Da Vinci Code was a major success in 2003, outsold only by J. K. Rowling's Harry Potter and the Order of the Phoenix. As of 2016, it had sold 80 million copies worldwide.",
+      "publisher": "Knopf Doubleday Publishing Group",
+      "year_published": 2003,
+      "page_count": 480,
       "cover": 2,
       "price": 17.99,
       "author": 8,

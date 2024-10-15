@@ -1,4 +1,4 @@
-The Rise of the Dragon: "book_url": "https://www.penguinrandomhouse.com/books/654305/the-rise-of-the-dragon-by-george-r-r-martin-elio-m-garcia-jr-and-linda-antonsson/",
+The Rise of the Dragon: "book_url": https://www.penguinrandomhouse.com/books/654305/the-rise-of-the-dragon-by-george-r-r-martin-elio-m-garcia-jr-and-linda-antonsson/
 Harry Potter The Complete Collection: 7 Book Box Set: https://www.smythstoys.com/uk/en-gb/brand/harry-potter-brand/harry-potter-the-complete-collection-7-book-box-set/p/191077
 Angelique - Marquise of The Angels: https://www.secondsale.com/p/angelique-the-marquise-of-angels/132637
 Mountains: Beyond the Clouds: https://www.nhbs.com/en/mountains-beyond-the-clouds-book
@@ -17,4 +17,4 @@ The Hobbit:
 Helmet for My Pillow:
 Alive: The Story of the Andes Survivors:
 Grey Knights:
-Blood Ravens: The Dawn of War Omnibus:
+Blood Ravens: The Dawn of War Omnibus: https://www.blacklibrary.com/warhammer-40000/novels/blood-ravens-the-omnibus.html
