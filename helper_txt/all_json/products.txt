@@ -67,7 +67,7 @@ Already owned - connected to profile?
 	      8
       ],
       "isbn": 9781984859259,
-      "image": "the_rise_of_the_dragon.png"
+      "image": "the_rise_of_the_dragon.PNG"
     }
   },
   {
@@ -90,7 +90,7 @@ Already owned - connected to profile?
         4,
         5
       ],
-      "image": "harry_potter_set.png"
+      "image": "harry_potter_set.PNG"
     }
   },
   {
@@ -112,7 +112,7 @@ Already owned - connected to profile?
         6
       ],
       "isbn": 9780783813929,
-      "image": "angelique_the_marquise_of_angels.png"
+      "image": "angelique_the_marquise_of_angels.PNG"
     }
   },
 {
@@ -134,7 +134,7 @@ Already owned - connected to profile?
         8
       ],
       "isbn": 9783832733919,
-      "image": "mountains_beyond_the_clouds.png"
+      "image": "mountains_beyond_the_clouds.PNG"
     }
   },
   {
@@ -156,7 +156,7 @@ Already owned - connected to profile?
         6
       ],
       "isbn": 9781101908082,
-      "image": "all_quiet_on_the_western_front.png"
+      "image": "all_quiet_on_the_western_front.PNG"
     }
   },
   {
@@ -180,7 +180,7 @@ Already owned - connected to profile?
         5
       ],
       "isbn": 9780345535528,
-      "image": "a_game_of_thrones.png"
+      "image": "a_game_of_thrones.PNG"
     }
   },
   {
@@ -201,7 +201,7 @@ Already owned - connected to profile?
         7
       ],
       "isbn": 9781849706124,
-      "image": "night_lords.png"
+      "image": "night_lords.PNG"
     }
   },
   {
@@ -224,7 +224,7 @@ Already owned - connected to profile?
         9
       ],
       "isbn": 9781473660205,
-      "image": "we_have_no_idea.png"
+      "image": "we_have_no_idea.PNG"
     }
   },
   {
@@ -247,7 +247,7 @@ Already owned - connected to profile?
         10
       ],
       "isbn": 9780307277671,
-      "image": "the_da_vinci_code.png"
+      "image": "the_da_vinci_code.PNG"
     }
   },
   {
@@ -256,15 +256,19 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111209",
       "name": "Angles and Deamons",
-      "description": "",
-      "cover": ,
-      "price": ,
+      "description": "CERN Institute, Switzerland: a world-renowned scientist is found brutally murdered with a mysterious symbol seared onto his chest. The Vatican, Rome: the College of Cardinals assembles to elect a new pope. Somewhere beneath them, an unstoppable bomb of terrifying power relentlessly counts down to oblivion. In a breathtaking race against time, Harvard professor Robert Langdon must decipher a labyrinthine trail of ancient symbols if he is to defeat those responsible - the Illuminati, a secret brotherhood presumed extinct for nearly four hundred years, reborn to continue their deadly vendetta against their most hated enemy, the Catholic Church.",
+      "publisher": "Transworld Publ. Ltd UK",
+      "year_published": 2009,
+      "page_count": 624,
+      "cover": 2,
+      "price": 11.99,
       "author": 8,
       "category": [
-        ,
+        1,
+        10
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9780552161268,
+      "image": "angles_and_demons.PNG"
     }
   },
   {
@@ -273,15 +277,20 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111210",
       "name": "Inferno",
-      "description": "",
-      "cover": ,
-      "price": ,
+      "description": "Harvard professor of symbology Robert Langdon awakens in an Italian hospital, disoriented and with no recollection of the past thirty-six hours, including the origin of the macabre object hidden in his belongings. With a relentless female assassin trailing them through Florence, he and his resourceful doctor, Sienna Brooks, are forced to flee. Embarking on a harrowing journey, they must unravel a series of codes, which are the work of a brilliant scientist whose obsession with the end of the world is matched only by his passion for one of the most influential masterpieces ever written, Dante Alighieri's The Inferno.",
+      "description2": "Dan Brown has raised the bar yet again, combining classical Italian art, history, and literature with cutting-edge science in this captivating thriller. — “One hell of a good read.... As close as a book can come to a summertime cinematic blockbuster.” — USA Today; “A diverting thriller.” — Entertainment Weekly",
+      "publisher": "Knopf Doubleday Publishing Group",
+      "year_published": 2014,
+      "page_count": 576,
+      "cover": 2,
+      "price": 17.99,
       "author": 8,
       "category": [
-        ,
+        1,
+        10
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9780804172264,
+      "image": "inferno.PNG"
     }
   },
   {
@@ -289,16 +298,20 @@ Already owned - connected to profile?
     "model": "products.product",
     "fields": {
       "sku": "pp2408111211",
-      "name": "Noah",
-      "description": "",
-      "cover": ,
-      "price": ,
+      "name": "Walk Me Home",
+      "description": "The Walk Me Home telephone helpline service has proved indispensable. Staffed by volunteers, it provides a reassuring voice at the end of the phone, helping to protect lone women as they walk home at night. Jules has only been working for Walk Me Home for a short time and has never had to deal with a truly life-threatening situation. But that all changes one Saturday night when Klara calls. The young woman is terrified. She thinks she is being followed by a man. A man from her past. A man who drew a date in blood on her bedroom wall. And that day dawns in less than two hours... For Klara – and Jules – the stakes have never been higher. Will either of them ever make it home again?",
+      "description2": "The terrifying new psychological thriller by internationally bestselling phenomenon Sebastian Fitzek. Walk Me Home is Fitzek's most enthralling work to date.";
+      "publisher": "Bloomsbury Publishing",
+      "year_published": 2023,
+      "page_count": 384,
+      "cover": 2,
+      "price": 8.99,
       "author": 10,
       "category": [
-        ,
+        10
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9781804542309,
+      "image": "walk_me_home.PNG"
     }
   },
   {
@@ -307,15 +320,19 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111212",
       "name": "The Package",
-      "description": "",
-      "cover": ,
-      "price": ,
+      "description": "Emma's the one that got away. The only survivor of a killer known in the tabloids as 'the hairdresser' – because of the trophies he takes from his victims. Or she thinks she was. The police aren't convinced. Nor is her husband. She never even saw her tormentor properly, but now she recognises him in every man. Questioning her sanity, she gives up her job as a doctor in the local hospital and retreats from the world. It is better to stay at home. Quiet. Anonymous. Safe. No one can hurt her here. And all she did was take a parcel for a neighbour. She has no idea what she's let into her home.",
+      "description2": "'Sebastian Fitzek is without question one of the crime world's most evocative storytellers. He always serves up an intense, impossible to put down thriller and The Package is no exception. A gripping read with a surprising twist, this one is not to be missed' - KARIN SLAUGHTER | 'Sebastian Fitzek is simply amazing. I truly hope that one day I will be able to create suspense and plot twists in the way only Sebastian can. A true Master of his craft' - CHRIS CARTER";
+      "publisher": "Bloomsbury Publishing",
+      "year_published": 2021,
+      "page_count": 384,
+      "cover": 2,
+      "price": 8.99,
       "author": 10,
       "category": [
-        ,
+        10
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9781838934491,
+      "image": "the_package.PNG"
     }
   },
   {
@@ -324,15 +341,21 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111213",
       "name": "The Inmate",
-      "description": "",
-      "cover": ,
-      "price": ,
+      "description": "A missing child. A desperate father. A terrible secret. - Guido T has already confessed to two horrific child murders and led Berlin police to the bodies. The police are sure he is also the murderer of six-year-old Max, who disappeared without a trace a year ago. But now the killer is staying silent. The investigators have no reliable evidence, so Max's parents have no certainty and are unable to say goodbye to their son. Everything changes when one investigator makes an unbelievable offer: he can place Max's father, as a fake patient, inside the maximum security psychiatric hospital where Guido T is imprisoned. Max's father agrees. He plans to force the child killer into a confession. Because nothing is worse than uncertainty. Or so he thinks...",
+      "description2": "Bestselling author Sebastian Fitzek sends you on an ingeniously disturbing journey with his brand new psychological thriller.";
+      "publisher": "Bloomsbury Publishing",
+      "year_published": 2024,
+      "page_count": 384,
+      "cover": 2,
+      "price": 8.99,
       "author": 10,
       "category": [
-        ,
+        2,
+        3,
+        10
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9781804542347,
+      "image": "the_inmate.PNG"
     }
   },
   {
@@ -340,16 +363,23 @@ Already owned - connected to profile?
     "model": "products.product",
     "fields": {
       "sku": "pp2408111214",
-      "name": "The Lord of the Rings Trilogy",
-      "description": "",
-      "cover": ,
-      "price": ,
+      "name": "The Lord of the Rings Boxed Set - 60th Anniversary edition",
+      "description": "At 33, the age of adulthood among Hobbits, Frodo Baggins receives a magic Ring of Invisibility from his “uncle,” Bilbo. (Frodo is actually Bilbo’s first and second cousin, once removed, but Bilbo affectionately considers him a nephew.) Frodo, a Christlike figure, learns that the ring has the power to control the entire world and, he discovers, to corrupt its owner. A fellowship of Hobbits, Elves, Dwarves, and Men is formed to destroy the ring by casting it into the volcanic fires of the Crack of Doom, where it was forged. They are opposed on their harrowing mission by the evil Sauron and his Black Riders.",
+      "description2": "Four-volume boxed-set edition of The Lord of the Rings in hardback, featuring Tolkien's original unused dust-jacket designs, together with fourth hardback volume, The Lord of the Rings: A Reader's Companion. Includes special features and the definitive edition of the text. Since it was first published in 1954, The Lord of the Rings has been a book people have treasured. Steeped in unrivalled magic and otherworldliness, its sweeping fantasy has touched the hearts of young and old alike, with one hundred and fifty million copies of its many editions sold around the world. In 2005 Tolkien's text was fully restored - with the full co-operation of Christopher Tolkien - with almost 400 corrections, the original red and black maps as fold-out sheets, a fully revised and enlarged index, and for the first time a special plate section containing the pages from the Book of Mazarbul, making this set as close as possible to the version that J.R.R. Tolkien intended. This Diamond Anniversary reissue of the prized boxed set marks 60 years since the first publication of The Fellowship of the Ring. These hardback editions feature Tolkien's original unused dust-jacket designs from the 1950s, reworked for this edition, and some additional text corrections. The four-volume boxed set includes The Lord of the Rings: A Reader's Companion, a unique annotated guide to the text, fully updated since its first publication in 2005, and is a book which will enhance the reader's enjoyment and understanding of one of the most influential books of the 20th century.";
+      "publisher": "HarperCollins",
+      "year_published": 2014,
+      "page_count": 1472,
+      "cover": 1,
+      "price": 129.99,
       "author": 11,
       "category": [
-        ,
+        1,
+        3,
+        4,
+        5
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9780007581146,
+      "image": "the_lord_of_the_rings.PNG"
     }
   },
   {
@@ -358,15 +388,20 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111215",
       "name": "The Hobbit",
-      "description": "",
-      "cover": ,
-      "price": ,
+      "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely travelling further than the pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard, Gandalf, and a company of thirteen dwarves arrive on his doorstep one day to whisk him away on an unexpected journey 'there and back again'. They have a plot to raid the treasure hoard of Smaug the Magnificent, a large and very dangerous dragon...",
+      "description2": "Special collector's film tie-in hardback of the best-selling classic, featuring the complete story with a sumptuous cover design inspired by THE HOBBIT: AN UNEXPECTED JOURNEY and brand new reproductions of all the drawings and maps by J.R.R.. The prelude to The Lord of the Rings, The Hobbit has sold many millions of copies since its publication in 1937, establishing itself as one of the most beloved and influential books of the twentieth century.";
+      "publisher": "HarperCollins",
+      "year_published": 2012,
+      "page_count": 300,
+      "cover": 1,
+      "price": 21.99,
       "author": 11,
       "category": [
-        ,
+        5,
+        8
       ],
-      "isbn": ,
-      "image": ".png"
+      "isbn": 9780007487301,
+      "image": "the_hobbit.PNG"
     }
   },
   {
@@ -376,6 +411,10 @@ Already owned - connected to profile?
       "sku": "pp2408111216",
       "name": "Helmet for My Pillow",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": 12,
@@ -383,7 +422,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
   {
@@ -393,6 +432,10 @@ Already owned - connected to profile?
       "sku": "pp2408111217",
       "name": "Alive: The Story of the Andes Survivors",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": 13,
@@ -400,7 +443,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
   {
@@ -410,6 +453,10 @@ Already owned - connected to profile?
       "sku": "pp2408111218",
       "name": "Grey Knights",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": 14,
@@ -417,7 +464,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
   {
@@ -427,6 +474,10 @@ Already owned - connected to profile?
       "sku": "pp2408111219",
       "name": "Blood Ravens: The Dawn of War Omnibus",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": 15,
@@ -434,7 +485,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
   {
@@ -444,6 +495,10 @@ Already owned - connected to profile?
       "sku": "pp2408111220",
       "name": "",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": ,
@@ -451,7 +506,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
   {
@@ -461,6 +516,10 @@ Already owned - connected to profile?
       "sku": "pp2408111221",
       "name": "",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": ,
@@ -468,7 +527,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
   {
@@ -478,6 +537,10 @@ Already owned - connected to profile?
       "sku": "pp2408111222",
       "name": "",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": ,
@@ -485,7 +548,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
   {
@@ -495,6 +558,10 @@ Already owned - connected to profile?
       "sku": "pp2408111223",
       "name": "",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": ,
@@ -502,7 +569,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
   {
@@ -512,6 +579,10 @@ Already owned - connected to profile?
       "sku": "pp2408111224",
       "name": "",
       "description": "",
+      "description2": "";
+      "publisher": "",
+      "year_published": ,
+      "page_count": ,
       "cover": ,
       "price": ,
       "author": ,
@@ -519,7 +590,7 @@ Already owned - connected to profile?
         ,
       ],
       "isbn": ,
-      "image": ".png"
+      "image": ".PNG"
     }
   },
 ]
