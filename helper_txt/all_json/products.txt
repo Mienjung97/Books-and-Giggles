@@ -20,12 +20,12 @@ Categories:
 1 Bestseller
 2 New Releases
 3 Our Recommendations
-4 Box Set
+4 Box Sets
 5 Fantasy
 6 Historic fiction
 7 Science Fiction
 8 Illustrated Books
-9 Casual Science / Fun Science 
+9 Casual Science
 10 Thriller
 11 True Stories
 
@@ -36,12 +36,9 @@ Cover:
 
 Other models:
 
-Year published
-Year printed
-Second description
-Publisher
-make author an array for multiple authors?
-Already owned - connected to profile?
+
+Already owned - connected to profile? -> profile model
+additional_info
 
 
 
@@ -77,7 +74,7 @@ Already owned - connected to profile?
       "sku": "pp2408111201",
       "name": "Harry Potter The Complete Collection: 7 Book Box Set",
       "description": "Welcome to Hogwarts! Harry Potter The Complete Collection is a beautifully boxed set containing all seven Harry Potter children’s books in paperback. These kids’ books are a great introduction to the wizarding world of Hogwarts. The world of Harry Potter is sure to enchant young readers with its unforgettable characters and magical adventures. These new editions of J.K. Rowling’s internationally bestselling series feature new jackets with huge child appeal, created by Jonny Duddle. Designed to bring Harry Potter to the next generation of readers, this set of children’s books makes a beautiful addition to any bookcase. It’s time to pass the magic on!",
-      "description2": "Start at the Beginning! This Harry Potter The Complete Collection book set includes every Harry Potter book in the series, making it the ideal collection of kids’ books. The box includes Harry Potter and the Sorcerer's Stone (1997), Harry Potter and the Chamber of Secrets, Harry Potter and the Prisoner of Azkaban, Harry Potter and the Goblet of Fire, Harry Potter and the Order of the Phoenix, Harry Potter and the Half-Blood Prince and Harry Potter and the Deathly Hallows(2007).",
+      "description2": "Start at the Beginning! This Harry Potter The Complete Collection book set includes every Harry Potter book in the series, making it the ideal collection of kids’ books. The box includes Harry Potter and the Sorcerer's Stone (1997), Harry Potter and the Chamber of Secrets (1998), Harry Potter and the Prisoner of Azkaban (1999), Harry Potter and the Goblet of Fire (2000), Harry Potter and the Order of the Phoenix (2003), Harry Potter and the Half-Blood Prince (2005) and Harry Potter and the Deathly Hallows(2007).",
       "publisher": "Bloomsbury Children's Books",
       "year_published": 2014,
       "page_count": 3872,
@@ -144,9 +141,10 @@ Already owned - connected to profile?
       "sku": "pp2408111204",
       "name": "All Quiet on the Western Front",
       "description": "When twenty-year-old Paul Bäumer and his classmates enlist in the German army during World War I, they are full of youthful enthusiam. But the world of duty, culture, and progress they had been taught to believe in shatters under the first brutal bombardment in the trenches. Through the ensuing years of horror, Paul holds fast to a single vow: to fight against the principle of hate that meaninglessly pits young men of the same generation but different uniforms against one another.",
-      "description2": "A hardcover edition of the classic tale of a young soldier’s harrowing experiences in the trenches, widely acclaimed as the greatest war novel of all time—featuring an Introduction by historian Norman Stone. This edition was printed 2018, 100 years after the end of WW 1. \n \n Erich Maria Remarque’s classic novel not only portrays in vivid detail the combatants’ physical and mental trauma, but dramatizes as well the tragic detachment from civilian life felt by many upon returning home. Remarque’s stated intention—“to tell of a generation of men who, even though they may have escaped shells, were destroyed by the war”—remains as powerful and relevant as ever, a century after that conflict’s end.”",
+      "description2": "A hardcover edition of the classic tale of a young soldier’s harrowing experiences in the trenches, widely acclaimed as the greatest war novel of all time—featuring an Introduction by historian Norman Stone. Erich Maria Remarque’s classic novel not only portrays in vivid detail the combatants’ physical and mental trauma, but dramatizes as well the tragic detachment from civilian life felt by many upon returning home. Remarque’s stated intention—“to tell of a generation of men who, even though they may have escaped shells, were destroyed by the war”—remains as powerful and relevant as ever, a century after that conflict’s end.”",
+      "extra_info": "This edition was printed 2018, 100 years after the end of World War 1.",
       "publisher": "Everyman's Library",
-      "year_published": 1929,
+      "year_published": 2018,
       "page_count": 296,
       "cover": 1,
       "price": 27.99,
@@ -164,9 +162,9 @@ Already owned - connected to profile?
     "model": "products.product",
     "fields": {
       "sku": "pp2408111205",
-      "name": "Game of Thrones",
+      "name": "A Game of Thrones 1-5 Boxed Set",
       "description": "Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King's Landing. There Eddard Stark of Winterfell rules in Robert's name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse-unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season. \n \n Yet a more immediate threat lurks to the south, where Jon Arryn, the Hand of the King, has died under mysterious circumstances. Now Robert is riding north to Winterfell, bringing his queen, the lovely but cold Cersei, his son, the cruel, vainglorious Prince Joffrey, and the queen's brothers Jaime and Tyrion of the powerful and wealthy House Lannister-the first a swordsman without equal, the second a dwarf whose stunted stature belies a brilliant mind. All are heading for Winterfell and a fateful encounter that will change the course of kingdoms. \n \n Meanwhile, across the Narrow Sea, Prince Viserys, heir of the fallen House Targaryen, which once ruled all of Westeros, schemes to reclaim the throne with an army of barbarian Dothraki-whose loyalty he will purchase in the only coin left to him: his beautiful yet innocent sister, Daenerys.",
-      "description2": "For the first time, all five novels in the epic fantasy series that inspired HBO's Game of Thrones are together in one eBook bundle. An immersive entertainment experience unlike any other, A Song of Ice and Fire has earned George R. R. Martin-dubbed 'the American Tolkien' by Time magazine-international acclaim and millions of loyal readers. Now this bundle collects the entire monumental cycle in the most convenient format available: \n \n - A GAME OF THRONES (1996) \n - A CLASH OF KINGS \n - A STORM OF SWORDS \n - A FEAST FOR CROWS \n - A DANCE WITH DRAGONS (2011)",
+      "description2": "For the first time, all five novels in the epic fantasy series that inspired HBO's Game of Thrones are together in one eBook bundle. An immersive entertainment experience unlike any other, A Song of Ice and Fire has earned George R. R. Martin-dubbed 'the American Tolkien' by Time magazine-international acclaim and millions of loyal readers. Now this bundle collects the entire monumental cycle in the most convenient format available: - A GAME OF THRONES (1996) - A CLASH OF KINGS (1999) - A STORM OF SWORDS (2000) - A FEAST FOR CROWS (2005) - A DANCE WITH DRAGONS (2011)",
       "publisher": "Random House LLC US",
       "year_published": 2013,
       "page_count": 5216,
@@ -190,12 +188,13 @@ Already owned - connected to profile?
       "sku": "pp2408111206",
       "name": "Night Lords: The Omnibus",
       "description": "Driven by their hatred of the False Emperor, the Night Lords stalk the shadows of the galaxy, eternally seeking revenge for the death of their primarch. Guided by the visions of the prophet Talos, a warband from this sinister Legion struggles to survive in a constant war against the forces of the Imperium. But when they come into conflict with fellow renegades and are hunted by the eldar of Craftworld Ulthwé, the Night Lords find themselves returning to the scene of their greatest defeat and drawn into a battle they cannot possibly win.",
-      "description2": "READ IT BECAUSE: \n \n Fan favourite characters – who also happen to be amongst the most monstrous killers in the galaxy – in a fight to the death against the eldar, with the fate of the future on the line? Yes please.",
+      "description2": "READ IT BECAUSE: Fan favourite characters – who also happen to be amongst the most monstrous killers in the galaxy – in a fight to the death against the eldar, with the fate of the future on the line? Yes please.",
+      "extra_info": "Omnibus refers to a collection of multiple books in the same series in collected in one book.",
       "publisher": "Games Workshop",
       "year_published": 2014,
       "page_count": 944,
       "cover": 2,
-      "price": 19.99,
+      "price": 25.99,
       "author": 6,
       "category": [
         7
@@ -366,6 +365,7 @@ Already owned - connected to profile?
       "name": "The Lord of the Rings Boxed Set - 60th Anniversary edition",
       "description": "At 33, the age of adulthood among Hobbits, Frodo Baggins receives a magic Ring of Invisibility from his “uncle,” Bilbo. (Frodo is actually Bilbo’s first and second cousin, once removed, but Bilbo affectionately considers him a nephew.) Frodo, a Christlike figure, learns that the ring has the power to control the entire world and, he discovers, to corrupt its owner. A fellowship of Hobbits, Elves, Dwarves, and Men is formed to destroy the ring by casting it into the volcanic fires of the Crack of Doom, where it was forged. They are opposed on their harrowing mission by the evil Sauron and his Black Riders.",
       "description2": "Four-volume boxed-set edition of The Lord of the Rings in hardback, featuring Tolkien's original unused dust-jacket designs, together with fourth hardback volume, The Lord of the Rings: A Reader's Companion. Includes special features and the definitive edition of the text. Since it was first published in 1954, The Lord of the Rings has been a book people have treasured. Steeped in unrivalled magic and otherworldliness, its sweeping fantasy has touched the hearts of young and old alike, with one hundred and fifty million copies of its many editions sold around the world. In 2005 Tolkien's text was fully restored - with the full co-operation of Christopher Tolkien - with almost 400 corrections, the original red and black maps as fold-out sheets, a fully revised and enlarged index, and for the first time a special plate section containing the pages from the Book of Mazarbul, making this set as close as possible to the version that J.R.R. Tolkien intended. This Diamond Anniversary reissue of the prized boxed set marks 60 years since the first publication of The Fellowship of the Ring. These hardback editions feature Tolkien's original unused dust-jacket designs from the 1950s, reworked for this edition, and some additional text corrections. The four-volume boxed set includes The Lord of the Rings: A Reader's Companion, a unique annotated guide to the text, fully updated since its first publication in 2005, and is a book which will enhance the reader's enjoyment and understanding of one of the most influential books of the 20th century.";
+      "extra_info": "It was first published in 1954. It is split in three parts (or volumes), which are named The Fellowship of the Ring, The Two Towers, and The Return of the King. It was written after The Hobbit.",
       "publisher": "HarperCollins",
       "year_published": 2014,
       "page_count": 1472,
@@ -390,6 +390,7 @@ Already owned - connected to profile?
       "name": "The Hobbit",
       "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely travelling further than the pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard, Gandalf, and a company of thirteen dwarves arrive on his doorstep one day to whisk him away on an unexpected journey 'there and back again'. They have a plot to raid the treasure hoard of Smaug the Magnificent, a large and very dangerous dragon...",
       "description2": "Special collector's film tie-in hardback of the best-selling classic, featuring the complete story with a sumptuous cover design inspired by THE HOBBIT: AN UNEXPECTED JOURNEY and brand new reproductions of all the drawings and maps by J.R.R.. The prelude to The Lord of the Rings, The Hobbit has sold many millions of copies since its publication in 1937, establishing itself as one of the most beloved and influential books of the twentieth century.";
+      "extra_info": "Published on September 21st, 1937, The Hobbit was born into critical acclaim. It was nominated for a Carnegie Medal, and won a prize for best juvenile fiction from the New York Herald Tribune.",
       "publisher": "HarperCollins",
       "year_published": 2012,
       "page_count": 300,
@@ -397,6 +398,7 @@ Already owned - connected to profile?
       "price": 21.99,
       "author": 11,
       "category": [
+        1,
         5,
         8
       ],
@@ -410,19 +412,20 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111216",
       "name": "Helmet for My Pillow",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
+      "description": "Here is one of the most riveting first-person accounts ever to come out of World War II. Robert Leckie enlisted in the United States Marine Corps in January 1942, shortly after the Japanese attack on Pearl Harbor. In Helmet for My Pillow we follow his odyssey, from basic training on Parris Island, South Carolina, all the way to the raging battles in the Pacific, where some of the war s fiercest fighting took place. Recounting his service with the 1st Marine Division and the brutal action on Guadalcanal, New Britain, and Peleliu, Leckie spares no detail of the horrors and sacrifices of war, painting an unvarnished portrait of how real warriors are made, fight, and often die in the defense of their country. From the live-for-today rowdiness of marines on leave to the terrors of jungle warfare against an enemy determined to fight to the last man, Leckie describes what war is really like when victory can only be measured inch by bloody inch. Woven throughout are Leckie s hard-won, eloquent, and thoroughly unsentimental meditations on the meaning of war and why we fight. Unparalleled in its immediacy and accuracy, Helmet for My Pillow will leave no reader untouched. This is a book that brings you as close to the mud, the blood, and the experience of war as it is safe to come.",
+      "description2": "'Helmet for My Pillow is a grand and epic prose poem. Robert Leckie s theme is the purely human experience of war in the Pacific, written in the graceful imagery of a human being who somehow survived' - Tom Hanks";
+      "extra_info": "The book was firstly published in 1957.",
+      "publisher": "Penguin Random House",
+      "year_published": 2010,
+      "page_count": 320,
+      "cover": 2,
+      "price": 19.99,
       "author": 12,
       "category": [
-        ,
+        11
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9780553593310,
+      "image": "helmet_for_my_pillow.PNG"
     }
   },
   {
@@ -431,19 +434,18 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111217",
       "name": "Alive: The Story of the Andes Survivors",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
+      "description": "A plane has crashed in the Andes mountains. The passengers are hopelessly lost in one of the most isolated places on earth. Almost three months later, two of the survivors, emaciated and frozen, reach the authorities and lead a rescue team to the remaining fourteen passengers. The rescue team are shocked when they reach the crash-site.",
+      "publisher": "Cornerstone",
+      "year_published": 2012,
+      "page_count": 480,
+      "cover": 2,
+      "price": 12.99,
       "author": 13,
       "category": [
-        ,
+        11
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9780099574521,
+      "image": "alive_the_true_story.PNG"
     }
   },
   {
@@ -452,19 +454,20 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111218",
       "name": "Grey Knights",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
+      "description": "On the world of Khorion IX, daemonhunter Mandulis of the Grey Knights is locked in a titanic battle with the daemon prince Ghargatuloth. In a fight that costs him his life, Mandulis manages to banish the foul daemon back to the warp for a thousand years. A millennium later Justicar Alaric of the Grey Knights leads an elite team of his brothers to put paid to a prophecy which heralds Ghargatuloth's return.",
+      "description2": "Even by the standards of the Space Marines, the Grey Knights are a breed apart. Only they can hope to stand against the infernal foes of mankind, the daemons of Chaos, and defend the Imperium from the corruption they wreak. In this book the Grey Knights struggle to banish the powerful daemon Ghargatuloth before time runs out and the creature is free to rampage around the universe.";
+      "publisher": "Games Workshop",
+      "year_published": 2004,
+      "page_count": 416,
+      "cover": 2,
+      "price": 12.99,
       "author": 14,
       "category": [
-        ,
+        3,
+        7
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9781844160877,
+      "image": "grey_knights.PNG"
     }
   },
   {
@@ -473,19 +476,20 @@ Already owned - connected to profile?
     "fields": {
       "sku": "pp2408111219",
       "name": "Blood Ravens: The Dawn of War Omnibus",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
+      "description": "In the nightmare future of the 41st millennium, the superhuman Space Marines wage an endless war in their quest to protect humanity. Follow the adventures of Brother-Captain Gabriel Angelos and the Blood Ravens Space Marines as they clash against hordes of savage alien orks, battle the forces of Chaos and confront the enigmatic eldar in all out war!",
+      "description2": "Return to the adventures of Gabriel Angelos and his Blood Ravens with a digital omnibus edition of three novels and a short story based on the Dawn of War video game series.";
+      "extra_info": "Omnibus refers to a collection of multiple books in the same series in collected in one book.",
+      "publisher": "Games Workshop",
+      "year_published": 2008,
+      "page_count": 769,
+      "cover": 2,
+      "price": 24.99,
       "author": 15,
       "category": [
-        ,
+        7
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9781844165353,
+      "image": "blood_ravens_omnibus.PNG"
     }
   },
   {

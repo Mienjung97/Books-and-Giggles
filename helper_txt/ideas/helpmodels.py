@@ -40,6 +40,7 @@ class Product(models.Model):
     name = models.CharField(max_length=254)
     description = models.TextField()
     description2 = models.TextField(null=True, blank=True)
+    extra_info = models.TextField(null=True, blank=True)
     year_published = models.PositiveIntegerField(null=True, blank=True)
     publisher = models.CharField(max_length=254, null=True, blank=True)
     page_count = models.PositiveIntegerField(null=True, blank=True)
