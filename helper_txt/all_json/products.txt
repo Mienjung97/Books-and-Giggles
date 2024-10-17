@@ -14,6 +14,9 @@ Authors:
 13 Piers Paul
 14 Ben Counter
 15 C.S. Goto
+16 Travis Klune
+17 Rebecca Ross
+18 Rick Riordan
 
 
 Categories:
@@ -299,7 +302,7 @@ additional_info
       "sku": "pp2408111211",
       "name": "Walk Me Home",
       "description": "The Walk Me Home telephone helpline service has proved indispensable. Staffed by volunteers, it provides a reassuring voice at the end of the phone, helping to protect lone women as they walk home at night. Jules has only been working for Walk Me Home for a short time and has never had to deal with a truly life-threatening situation. But that all changes one Saturday night when Klara calls. The young woman is terrified. She thinks she is being followed by a man. A man from her past. A man who drew a date in blood on her bedroom wall. And that day dawns in less than two hours... For Klara – and Jules – the stakes have never been higher. Will either of them ever make it home again?",
-      "description2": "The terrifying new psychological thriller by internationally bestselling phenomenon Sebastian Fitzek. Walk Me Home is Fitzek's most enthralling work to date.";
+      "description2": "The terrifying new psychological thriller by internationally bestselling phenomenon Sebastian Fitzek. Walk Me Home is Fitzek's most enthralling work to date.",
       "publisher": "Bloomsbury Publishing",
       "year_published": 2023,
       "page_count": 384,
@@ -320,7 +323,7 @@ additional_info
       "sku": "pp2408111212",
       "name": "The Package",
       "description": "Emma's the one that got away. The only survivor of a killer known in the tabloids as 'the hairdresser' – because of the trophies he takes from his victims. Or she thinks she was. The police aren't convinced. Nor is her husband. She never even saw her tormentor properly, but now she recognises him in every man. Questioning her sanity, she gives up her job as a doctor in the local hospital and retreats from the world. It is better to stay at home. Quiet. Anonymous. Safe. No one can hurt her here. And all she did was take a parcel for a neighbour. She has no idea what she's let into her home.",
-      "description2": "'Sebastian Fitzek is without question one of the crime world's most evocative storytellers. He always serves up an intense, impossible to put down thriller and The Package is no exception. A gripping read with a surprising twist, this one is not to be missed' - KARIN SLAUGHTER | 'Sebastian Fitzek is simply amazing. I truly hope that one day I will be able to create suspense and plot twists in the way only Sebastian can. A true Master of his craft' - CHRIS CARTER";
+      "description2": "'Sebastian Fitzek is without question one of the crime world's most evocative storytellers. He always serves up an intense, impossible to put down thriller and The Package is no exception. A gripping read with a surprising twist, this one is not to be missed' - KARIN SLAUGHTER | 'Sebastian Fitzek is simply amazing. I truly hope that one day I will be able to create suspense and plot twists in the way only Sebastian can. A true Master of his craft' - CHRIS CARTER",
       "publisher": "Bloomsbury Publishing",
       "year_published": 2021,
       "page_count": 384,
@@ -341,7 +344,7 @@ additional_info
       "sku": "pp2408111213",
       "name": "The Inmate",
       "description": "A missing child. A desperate father. A terrible secret. - Guido T has already confessed to two horrific child murders and led Berlin police to the bodies. The police are sure he is also the murderer of six-year-old Max, who disappeared without a trace a year ago. But now the killer is staying silent. The investigators have no reliable evidence, so Max's parents have no certainty and are unable to say goodbye to their son. Everything changes when one investigator makes an unbelievable offer: he can place Max's father, as a fake patient, inside the maximum security psychiatric hospital where Guido T is imprisoned. Max's father agrees. He plans to force the child killer into a confession. Because nothing is worse than uncertainty. Or so he thinks...",
-      "description2": "Bestselling author Sebastian Fitzek sends you on an ingeniously disturbing journey with his brand new psychological thriller.";
+      "description2": "Bestselling author Sebastian Fitzek sends you on an ingeniously disturbing journey with his brand new psychological thriller.",
       "publisher": "Bloomsbury Publishing",
       "year_published": 2024,
       "page_count": 384,
@@ -364,7 +367,7 @@ additional_info
       "sku": "pp2408111214",
       "name": "The Lord of the Rings Boxed Set - 60th Anniversary edition",
       "description": "At 33, the age of adulthood among Hobbits, Frodo Baggins receives a magic Ring of Invisibility from his “uncle,” Bilbo. (Frodo is actually Bilbo’s first and second cousin, once removed, but Bilbo affectionately considers him a nephew.) Frodo, a Christlike figure, learns that the ring has the power to control the entire world and, he discovers, to corrupt its owner. A fellowship of Hobbits, Elves, Dwarves, and Men is formed to destroy the ring by casting it into the volcanic fires of the Crack of Doom, where it was forged. They are opposed on their harrowing mission by the evil Sauron and his Black Riders.",
-      "description2": "Four-volume boxed-set edition of The Lord of the Rings in hardback, featuring Tolkien's original unused dust-jacket designs, together with fourth hardback volume, The Lord of the Rings: A Reader's Companion. Includes special features and the definitive edition of the text. Since it was first published in 1954, The Lord of the Rings has been a book people have treasured. Steeped in unrivalled magic and otherworldliness, its sweeping fantasy has touched the hearts of young and old alike, with one hundred and fifty million copies of its many editions sold around the world. In 2005 Tolkien's text was fully restored - with the full co-operation of Christopher Tolkien - with almost 400 corrections, the original red and black maps as fold-out sheets, a fully revised and enlarged index, and for the first time a special plate section containing the pages from the Book of Mazarbul, making this set as close as possible to the version that J.R.R. Tolkien intended. This Diamond Anniversary reissue of the prized boxed set marks 60 years since the first publication of The Fellowship of the Ring. These hardback editions feature Tolkien's original unused dust-jacket designs from the 1950s, reworked for this edition, and some additional text corrections. The four-volume boxed set includes The Lord of the Rings: A Reader's Companion, a unique annotated guide to the text, fully updated since its first publication in 2005, and is a book which will enhance the reader's enjoyment and understanding of one of the most influential books of the 20th century.";
+      "description2": "Four-volume boxed-set edition of The Lord of the Rings in hardback, featuring Tolkien's original unused dust-jacket designs, together with fourth hardback volume, The Lord of the Rings: A Reader's Companion. Includes special features and the definitive edition of the text. Since it was first published in 1954, The Lord of the Rings has been a book people have treasured. Steeped in unrivalled magic and otherworldliness, its sweeping fantasy has touched the hearts of young and old alike, with one hundred and fifty million copies of its many editions sold around the world. In 2005 Tolkien's text was fully restored - with the full co-operation of Christopher Tolkien - with almost 400 corrections, the original red and black maps as fold-out sheets, a fully revised and enlarged index, and for the first time a special plate section containing the pages from the Book of Mazarbul, making this set as close as possible to the version that J.R.R. Tolkien intended. This Diamond Anniversary reissue of the prized boxed set marks 60 years since the first publication of The Fellowship of the Ring. These hardback editions feature Tolkien's original unused dust-jacket designs from the 1950s, reworked for this edition, and some additional text corrections. The four-volume boxed set includes The Lord of the Rings: A Reader's Companion, a unique annotated guide to the text, fully updated since its first publication in 2005, and is a book which will enhance the reader's enjoyment and understanding of one of the most influential books of the 20th century.",
       "extra_info": "It was first published in 1954. It is split in three parts (or volumes), which are named The Fellowship of the Ring, The Two Towers, and The Return of the King. It was written after The Hobbit.",
       "publisher": "HarperCollins",
       "year_published": 2014,
@@ -389,7 +392,7 @@ additional_info
       "sku": "pp2408111215",
       "name": "The Hobbit",
       "description": "Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely travelling further than the pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard, Gandalf, and a company of thirteen dwarves arrive on his doorstep one day to whisk him away on an unexpected journey 'there and back again'. They have a plot to raid the treasure hoard of Smaug the Magnificent, a large and very dangerous dragon...",
-      "description2": "Special collector's film tie-in hardback of the best-selling classic, featuring the complete story with a sumptuous cover design inspired by THE HOBBIT: AN UNEXPECTED JOURNEY and brand new reproductions of all the drawings and maps by J.R.R.. The prelude to The Lord of the Rings, The Hobbit has sold many millions of copies since its publication in 1937, establishing itself as one of the most beloved and influential books of the twentieth century.";
+      "description2": "Special collector's film tie-in hardback of the best-selling classic, featuring the complete story with a sumptuous cover design inspired by THE HOBBIT: AN UNEXPECTED JOURNEY and brand new reproductions of all the drawings and maps by J.R.R.. The prelude to The Lord of the Rings, The Hobbit has sold many millions of copies since its publication in 1937, establishing itself as one of the most beloved and influential books of the twentieth century.",
       "extra_info": "Published on September 21st, 1937, The Hobbit was born into critical acclaim. It was nominated for a Carnegie Medal, and won a prize for best juvenile fiction from the New York Herald Tribune.",
       "publisher": "HarperCollins",
       "year_published": 2012,
@@ -413,7 +416,7 @@ additional_info
       "sku": "pp2408111216",
       "name": "Helmet for My Pillow",
       "description": "Here is one of the most riveting first-person accounts ever to come out of World War II. Robert Leckie enlisted in the United States Marine Corps in January 1942, shortly after the Japanese attack on Pearl Harbor. In Helmet for My Pillow we follow his odyssey, from basic training on Parris Island, South Carolina, all the way to the raging battles in the Pacific, where some of the war s fiercest fighting took place. Recounting his service with the 1st Marine Division and the brutal action on Guadalcanal, New Britain, and Peleliu, Leckie spares no detail of the horrors and sacrifices of war, painting an unvarnished portrait of how real warriors are made, fight, and often die in the defense of their country. From the live-for-today rowdiness of marines on leave to the terrors of jungle warfare against an enemy determined to fight to the last man, Leckie describes what war is really like when victory can only be measured inch by bloody inch. Woven throughout are Leckie s hard-won, eloquent, and thoroughly unsentimental meditations on the meaning of war and why we fight. Unparalleled in its immediacy and accuracy, Helmet for My Pillow will leave no reader untouched. This is a book that brings you as close to the mud, the blood, and the experience of war as it is safe to come.",
-      "description2": "'Helmet for My Pillow is a grand and epic prose poem. Robert Leckie s theme is the purely human experience of war in the Pacific, written in the graceful imagery of a human being who somehow survived' - Tom Hanks";
+      "description2": "'Helmet for My Pillow is a grand and epic prose poem. Robert Leckie s theme is the purely human experience of war in the Pacific, written in the graceful imagery of a human being who somehow survived' - Tom Hanks",
       "extra_info": "The book was firstly published in 1957.",
       "publisher": "Penguin Random House",
       "year_published": 2010,
@@ -455,7 +458,7 @@ additional_info
       "sku": "pp2408111218",
       "name": "Grey Knights",
       "description": "On the world of Khorion IX, daemonhunter Mandulis of the Grey Knights is locked in a titanic battle with the daemon prince Ghargatuloth. In a fight that costs him his life, Mandulis manages to banish the foul daemon back to the warp for a thousand years. A millennium later Justicar Alaric of the Grey Knights leads an elite team of his brothers to put paid to a prophecy which heralds Ghargatuloth's return.",
-      "description2": "Even by the standards of the Space Marines, the Grey Knights are a breed apart. Only they can hope to stand against the infernal foes of mankind, the daemons of Chaos, and defend the Imperium from the corruption they wreak. In this book the Grey Knights struggle to banish the powerful daemon Ghargatuloth before time runs out and the creature is free to rampage around the universe.";
+      "description2": "Even by the standards of the Space Marines, the Grey Knights are a breed apart. Only they can hope to stand against the infernal foes of mankind, the daemons of Chaos, and defend the Imperium from the corruption they wreak. In this book the Grey Knights struggle to banish the powerful daemon Ghargatuloth before time runs out and the creature is free to rampage around the universe.",
       "publisher": "Games Workshop",
       "year_published": 2004,
       "page_count": 416,
@@ -477,7 +480,7 @@ additional_info
       "sku": "pp2408111219",
       "name": "Blood Ravens: The Dawn of War Omnibus",
       "description": "In the nightmare future of the 41st millennium, the superhuman Space Marines wage an endless war in their quest to protect humanity. Follow the adventures of Brother-Captain Gabriel Angelos and the Blood Ravens Space Marines as they clash against hordes of savage alien orks, battle the forces of Chaos and confront the enigmatic eldar in all out war!",
-      "description2": "Return to the adventures of Gabriel Angelos and his Blood Ravens with a digital omnibus edition of three novels and a short story based on the Dawn of War video game series.";
+      "description2": "Return to the adventures of Gabriel Angelos and his Blood Ravens with a digital omnibus edition of three novels and a short story based on the Dawn of War video game series.",
       "extra_info": "Omnibus refers to a collection of multiple books in the same series in collected in one book.",
       "publisher": "Games Workshop",
       "year_published": 2008,
@@ -497,20 +500,22 @@ additional_info
     "model": "products.product",
     "fields": {
       "sku": "pp2408111220",
-      "name": "",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
-      "author": ,
+      "name": "Yumi and the Nightmare Painter",
+      "description": "Yumi has spent her entire life in strict obedience, granting her the power to summon the spirits that bestow vital aid upon her society - but she longs for even a single day as a normal person. Painter patrols the dark streets dreaming of being a hero - a goal that has led to nothing but heartache and isolation, leaving him always on the outside looking in. In their own ways, both of them face the world alone. Suddenly flung together, Yumi and Painter must strive to right the wrongs in both their lives, reconciling their past and present while maintaining the precarious balance of each of their worlds. If they cannot unravel the mystery of what brought them together before it's too late, they risk forever losing not only the bond growing between them, but the very worlds they've always struggled to protect.",
+      "description2": "From Number 1 New York Times bestselling author Brandon Sanderson - creator of The Stormlight Archive, the Mistborn Saga, and countless bestselling works of science fiction and fantasy - comes this gripping story set in the Cosmere universe told by Hoid, where two people from incredibly different cultures must work together to save their worlds from certain disaster.",
+      "extra_info": "Originally published in 2023 by Dragonsteel Entertainment",
+      "publisher": "Orion Publishing Group",
+      "year_published": 2024,
+      "page_count": 384,
+      "cover": 2,
+      "price": 12.99,
+      "author": 9,
       "category": [
-        ,
+        3,
+        5
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9781399613453,
+      "image": "yumi_and_the_nightmare_painter.PNG"
     }
   },
   {
@@ -518,20 +523,24 @@ additional_info
     "model": "products.product",
     "fields": {
       "sku": "pp2408111221",
-      "name": "",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
-      "author": ,
+      "name": "Mistborn Trilogy Boxed Set",
+      "description": "An epic fantasy set in a world where the Dark Lord has gained dominion over the world. A world of ash and pain. A world subjugated. But a world where magic can be drawn from metals. A world waiting for a new heroine, a new hope.",
+      "description2": "A word of mouth bestseller in the USA Brandon Sanderson's Mistborn trilogy have now become a massive hit in the UK, introducing readers to the work of one of the genre's great talents. A master of world building, sweeping plots, believable characters and engrossing magic systems.",
+      "extra_info": "The first trilogy, published between 2006 and 2008, consists of The Final Empire, The Well of Ascension, and The Hero of Ages.",
+      "publisher": "Orion Publishing Group",
+      "year_published": 2015,
+      "page_count": 2240,
+      "cover": 2,
+      "price": 64.99,
+      "author": 9,
       "category": [
-        ,
+        1,
+        4,
+        5,
+        7
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9781473213692,
+      "image": "mistborn_trilogy_box.PNG"
     }
   },
   {
@@ -539,20 +548,21 @@ additional_info
     "model": "products.product",
     "fields": {
       "sku": "pp2408111222",
-      "name": "",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
-      "author": ,
+      "name": "The House in the Cerulean Sea - Special Edition",
+      "description": "Linus Baker leads a quiet life. At forty, he has a tiny house with a devious cat and his beloved records for company. And at the Department in Charge of Magical Youth, he’s spent many dull years monitoring their orphanages. Then one day, Linus is summoned by Extremely Upper Management and given a highly classified assignment. He must travel to an orphanage where six dangerous children reside – including the Antichrist. At the orphanage, Linus must somehow determine if these children could bring about the end of days. But their guardian, the charming and enigmatic Arthur Parnassus, will do anything to protect his wards. And, as Arthur and Linus grow ever closer, Linus must choose: his duty, or his dreams...",
+      "description2": "A beautiful new hardcover edition of one of the best-loved and best-selling fantasy novels of the past decade, New York Times bestselling author TJ Klune's The House in the Cerulean Sea, featuring aqua sprayed edges!",
+      "publisher": "Macmillan USA",
+      "year_published": 2024,
+      "page_count": 412,
+      "cover": 1,
+      "price": 29.99,
+      "author": 16,
       "category": [
-        ,
+        1,
+        5
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9781250357243,
+      "image": "the_house_in_the_cerulean_sea.PNG"
     }
   },
   {
@@ -560,20 +570,21 @@ additional_info
     "model": "products.product",
     "fields": {
       "sku": "pp2408111223",
-      "name": "",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
-      "author": ,
+      "name": "Divine Rivals",
+      "description": "Eighteen-year-old Iris dreams that one day her writing will make a difference. A war between gods is raging, and she's landed a prestigious job at the Oath Gazette. But at home, she's barely holding it together. Her brother is missing on the frontline. Her mother is lost in a haze of addiction. And each night Iris pours her heart out in letters to her brother. Letters that will never be answered. Or so she thinks... Her letters have made their way into the hands of the last person Iris trusts: Roman Kitt, her cold, unforgiving rival at the paper. When he anonymously writes back, they forge a magical connection that will seal their fate forever. NO GOD. NO CREATURE. NO WAR CAN COME BETWEEN THEM.",
+      "description2": "The epic enemies-to-lovers fantasy novel filled with hope and heartbreak from number one SUNDAY TIMES bestseller Rebecca Ross",
+      "extra_info": "This is a book that fits perfect for romantic fantasy lovers!",
+      "publisher": "HarperCollins",
+      "year_published": 2023,
+      "page_count": 357,
+      "cover": 2,
+      "price": 17.99,
+      "author": 17,
       "category": [
-        ,
+        5
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9780008600662,
+      "image": "devine_rivals.PNG"
     }
   },
   {
@@ -581,20 +592,43 @@ additional_info
     "model": "products.product",
     "fields": {
       "sku": "pp2408111224",
-      "name": "",
-      "description": "",
-      "description2": "";
-      "publisher": "",
-      "year_published": ,
-      "page_count": ,
-      "cover": ,
-      "price": ,
-      "author": ,
+      "name": "Percy Jackson and the Olympians: The Chalice of the Gods",
+      "description": "Percy Jackson has saved the world multiple times - battling monsters, Titans, even giants - but these days the modern-day son of Poseidon is hoping for a regular final year at school. Too bad the Greek gods have other plans, and three new quests for Percy to complete. First up: the cupbearer of the gods, Ganymede, is missing his golden chalice. Not only is this embarrassing (why do the gods keep losing their magical items?), it's also potentially disastrous. One sip from the cup will turn any mortal into a powerful god. And the old gods do not take kindly to newbies. Can Percy and his friends Annabeth and Grover find the chalice before it falls into the wrong hands? And even if they do, will they be able to resist its awesome power...?",
+      "description2": "Readers new to the Percy Jackson universe and long-time fans will love this epic adventure - full of legendary heroes, mythical creatures, ancient Greek gods and enduring friendship - from the global bestseller Rick Riordan.",
+      "publisher": "Penguin Books Ltd",
+      "year_published": 2023,
+      "page_count": 288,
+      "cover": 2,
+      "price": 14.99,
+      "author": 18,
       "category": [
-        ,
+        3,
+        5
       ],
-      "isbn": ,
-      "image": ".PNG"
+      "isbn": 9780241647561,
+      "image": "the_charlice_of_the_gods.PNG"
     }
   },
+  {
+    "pk": 26,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp2408111225",
+      "name": "Percy Jackson and the Olympians: Wrath of the Triple Goddess",
+      "description": "Percy Jackson has saved the world multiple times – battling monsters, Titans, even death himself – so graduating high school should be a breeze, right? Wrong. Percy needs three recommendation letters from the gods before his final year in high school comes to an end. And one thing Percy knows, the gods on Mount Olympus don’t do anything for free. To secure his second letter, Percy and his friends Annabeth and Grover agree to a new quest – pet-sitting for the goddess Hecate while she’s away over Halloween. They just need to follow her simple rules: 1. Look after the pets like their lives depend on it (because they do); 2. Don’t touch anything – especially Hecate’s magic potions!; 3. See points 1 and 2! But when Grover’s curiosity gets the better of him, the trio find themselves with a giant goat, a destroyed house, and Hecate’s (terrifying and potentially deadly) pets on the loose in New York City. Now the trio have twenty-four hours to find the pets and restore the mansion to order – or face the full fury of Hecate and her horrifying three-heads.",
+      "description2": "This is the second book in this series, the direct follower of 'The Chalice of the Gods'",
+      "publisher": "Penguin Books Ltd",
+      "year_published": 2024,
+      "page_count": 336,
+      "cover": 2,
+      "price": 14.99,
+      "author": 18,
+      "category": [
+        2,
+        5
+      ],
+      "isbn": 9780241691700,
+      "image": "wrath_of_the_triple_goddess.PNG"
+    }
+  }
 ]

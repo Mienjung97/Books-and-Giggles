@@ -91,13 +91,5 @@ New:
       "name": "true_stories",
       "friendly_name": "True Stories"
     }
-  },
-  {
-    "pk": ,
-    "model": "products.category",
-    "fields": {
-      "name": "",
-      "friendly_name": ""
-    }
   }
 ]

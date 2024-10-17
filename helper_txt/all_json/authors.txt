@@ -120,11 +120,27 @@
     }
   },
   {
-    "pk": ,
+    "pk": 16,
     "model": "products.author",
     "fields": {
-      "name": "",
-      "friendly_name": ""
+      "name": "travisklune",
+      "friendly_name": "Travis Klune"
+    }
+  },
+  {
+    "pk": 17,
+    "model": "products.author",
+    "fields": {
+      "name": "rebeccaross",
+      "friendly_name": "Rebecca Ross"
+    }
+  },
+  {
+    "pk": 18,
+    "model": "products.author",
+    "fields": {
+      "name": "rickriordan",
+      "friendly_name": "Rick Riordan"
     }
   }
 ]
