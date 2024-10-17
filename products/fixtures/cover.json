@@ -1,1 +1,1 @@
-[{"pk": 1, "model": "products.cover", "fields": {"name": "hardcover", "friendly_name": "Hardcover"}}, {"pk": 2, "model": "products.cover", "fields": {"name": "paperback", "friendly_name": "Paperback"}}]
+[{"pk": 1, "model": "products.cover", "fields": {"name": "Hardcover"}}, {"pk": 2, "model": "products.cover", "fields": {"name": "Paperback"}}]

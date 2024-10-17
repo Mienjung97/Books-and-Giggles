@@ -29,7 +29,6 @@ class ProductAdmin(admin.ModelAdmin):
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
-        'friendly_name',
         'name',
     )
 
@@ -43,7 +42,6 @@ class AuthorAdmin(admin.ModelAdmin):
 
 class CoverAdmin(admin.ModelAdmin):
     list_display = (
-        'friendly_name',
         'name',
     )
 
