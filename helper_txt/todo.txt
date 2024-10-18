@@ -1,1 +1,8 @@
-description2 and other fields to products.txt
+description2 and other fields to products.txt -> Done
+Change layout in products page (make cards even from size so that the writing is all equal) ->
+Change product detail page layout -> For loop for categories
+Change admin panel names to friendly names ->
+
+
+
+Change general styling of page ->

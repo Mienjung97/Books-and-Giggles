@@ -6,11 +6,10 @@ from .models import Product, Category, Author, Cover
 class ProductAdmin(admin.ModelAdmin):
     list_display = (
         'name',
-        'get_categories',
         'author',
-        'cover',
         'price',
-        'image',
+        'cover',
+        'get_categories',
         'sku',
     )
 
@@ -29,6 +28,7 @@ class ProductAdmin(admin.ModelAdmin):
 
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
+        'friendly_name',
         'name',
     )
 
