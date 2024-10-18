@@ -1,0 +1,2 @@
+10.10.24: Cloned my project to another private repo to try out models and products fixtures (to not create problems in real repo) -> Had issues with the database and migrations -> with tutor support I was able to delete the db and implement the new models and test fixtures
+17.10.24: after the clone, I had a copy of my project in my project -> deleted it after research on if that would create problems in the project
