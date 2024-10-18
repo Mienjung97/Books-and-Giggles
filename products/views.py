@@ -14,13 +14,22 @@ def all_products(request):
     products = Product.objects.all()
     query = None
     categories = None
+    authors = None
 
     if request.GET:
+        # for setting the categories for the nav links: 
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
+        
+        # for setting an author id for the author page: 
+        if 'author' in request.GET:
+            author_id = request.GET['author']
+            products = products.filter(author__id=author_id)
+            authors = Author.objects.filter(id=author_id)
 
+        # for processing the search: 
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -47,6 +56,7 @@ def all_products(request):
         'products': products,
         'search_term': query,
         'current_categories': categories,
+        'current_authors': authors,
     }
 
     return render(request, 'products/products.html', context)
@@ -64,3 +74,16 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
+def all_authors(request):
+    """
+    A view to show individual product details
+    """
+
+    authors = Author.objects.all()
+
+    context = {
+        'authors': authors,
+    }
+
+    return render(request, 'authors/authors.html', context)
