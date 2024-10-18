@@ -1,2 +1,10 @@
 10.10.24: Cloned my project to another private repo to try out models and products fixtures (to not create problems in real repo) -> Had issues with the database and migrations -> with tutor support I was able to delete the db and implement the new models and test fixtures
 17.10.24: after the clone, I had a copy of my project in my project -> deleted it after research on if that would create problems in the project
+18.10.24: For search queries, since author and category are own models, the search didnt work -> included classes in the view with name and friendly name -> this gave duplicate resulats, therefore distinct() function was added to new "products" variable
+
+
+
+
+
+
+friendly name -> while writing the json, it would not take authors and categories with spaces and special charaters -> friendly_name was kept -> in admin panel, name can be changed to anything -> possible fix in future!
