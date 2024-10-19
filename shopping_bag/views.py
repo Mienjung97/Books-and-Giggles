@@ -23,6 +23,5 @@ def add_to_shopping_bag(request, item_id):
 
     # updated shopping bag for this session
     request.session['shopping_bag'] = shopping_bag
-    print(request.session['shopping_bag'])
     return redirect(redirect_url)
     
