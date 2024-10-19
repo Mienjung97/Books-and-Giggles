@@ -69,7 +69,11 @@
                         {% if search_term or current_categories or current_sorting != 'None_None' %}
                             <span class="small"><a href="{% url 'products' %}">All Products</a> | </span>
                         {% endif %}
-                        {{ products|length }} Products
+                        {% if products|length == 1 %}
+                            {{ products|length }} Product
+                        {% else %}
+                            {{ products|length }} Products
+                        {% endif %}
                         {% if search_term %}
                             found for <strong>"{{ search_term }}"</strong>
                         {% endif %}
