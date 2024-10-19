@@ -27,7 +27,7 @@ Menstor session 1:
 
 - 2 or 3 "Description" areas on detail page -> e.g. "Good to know", "Additional infos", "Reading advice", "We would reccomend also" or "For whom is the book meant"?                                        Will implemnt with isbn change
 
-- product detail page: does not show categories but "products.Category.None"                                                                                                                                For loop in template and view though the categories
+- product detail page: does not show categories but "products.Category.None"                                                                                                                                For loop in template and view though the categories  || Better version found: load all related categories for each product using "prefetch_related" -> no need for a for loop in views
 
 
 

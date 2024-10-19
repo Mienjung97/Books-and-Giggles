@@ -1,6 +1,6 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
-from django.db.models import Q
+from django.db.models import Q, Prefetch
 from .models import Product, Author, Category
 
 # Create your views here.
@@ -11,7 +11,10 @@ def all_products(request):
     A view to show all products, including sorting and search queries
     """
 
-    products = Product.objects.all()
+    # collects all categories for each product since they usually have more than just one
+    products = Product.objects.all().prefetch_related(
+        Prefetch('category', queryset=Category.objects.all())
+    )
     query = None
     categories = None
     authors = None
@@ -71,7 +74,6 @@ def all_products(request):
 
     current_sorting = f'{sort}_{direction}'
 
-
     context = {
         'products': products,
         'search_term': query,
@@ -95,6 +97,7 @@ def product_detail(request, product_id):
     }
 
     return render(request, 'products/product_detail.html', context)
+
 
 def all_authors(request):
     """
