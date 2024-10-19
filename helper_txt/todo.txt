@@ -1,5 +1,5 @@
 description2 and other fields to products.txt -> Done
-Change layout in products page (make cards even from size so that the writing is all equal) ->
+
 Change product detail page layout -> For loop for categories -> Done
 Change admin panel names to friendly names -> No because sorting would not work the same way
 Change admin page links? (productsauthors) -> 
@@ -10,3 +10,5 @@ Sorting after category -> shows more products than in the store (duplicate books
 
 Change general styling of page -> All CSS that was taken will be changed! ->
 - carrusell on home page with "Bestsellers, New releases and Our reccomendation"
+- product detail page: make multiple "containers" with related infos; make size of picture universal
+- change layout in products page (make cards even from size so that the writing and pictures are all equal)
