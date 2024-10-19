@@ -46,32 +46,20 @@
                             <option value="price_desc" {% if current_sorting == 'price_desc' %}selected{% endif %}>
                                 Price (high to low)
                             </option>
-                            <option value="rating_asc" {% if current_sorting == 'rating_asc' %}selected{% endif %}>
-                                Rating (low to high)
+                            <option value="author_asc" {% if current_sorting == 'author_asc' %}selected{% endif %}>
+                                Author (A-Z)
                             </option>
-                            <option value="rating_desc"
-                                    {% if current_sorting == 'rating_desc' %}
+                            <option value="author_desc"
+                                    {% if current_sorting == 'author_desc' %}
                                         selected
                                     {% endif %}>
-                                Rating (high to low)
+                                Author (Z-A)
                             </option>
                             <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>
                                 Name (A-Z)
                             </option>
                             <option value="name_desc" {% if current_sorting == 'name_desc' %}selected{% endif %}>
                                 Name (Z-A)
-                            </option>
-                            <option value="category_asc"
-                                    {% if current_sorting == 'category_asc' %}
-                                        selected
-                                    {% endif %}>
-                                Category (A-Z)
-                            </option>
-                            <option value="category_desc"
-                                    {% if current_sorting == 'category_desc' %}
-                                        selected
-                                    {% endif %}>
-                                Category (Z-A)
                             </option>
                         </select>
                     </div>
