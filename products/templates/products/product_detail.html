@@ -42,7 +42,7 @@
                         Author: {{ product.author.friendly_name }}
                     </p>
                     <p class="mt-3">
-                        Edition: {{ product.cover.friendly_name }}
+                        Edition: {{ product.cover.name }}
                     </p>
                     <p class="mt-3">
                         Pages: {{ product.page_count }}
@@ -56,9 +56,11 @@
                     <p class="mt-3">
                         Year Published: {{ product.year_published }}
                     </p>
-                    <p class="mt-3">
-                        ISBN: {{ product.isbn }}
-                    </p>
+                    {% if product.isbn %}
+                        <p class="mt-3">
+                            ISBN: {{ product.isbn }}
+                        </p>
+                    {% endif %}
                     {% if product.description %}
                         <p class="mt-3">
                             <strong>Description:</strong>
@@ -66,8 +68,6 @@
                             <br>
                             {{ product.description }}
                         </p>
-                    {% else %}
-                        <br>
                     {% endif %}
                     {% if product.description2 %}
                         <p class="mt-3">
@@ -76,8 +76,6 @@
                             <br>
                             {{ product.description2 }}
                         </p>
-                    {% else %}
-                        <br>
                     {% endif %}
                     {% if product.extra_info %}
                         <p class="mt-3">
@@ -86,13 +84,10 @@
                             <br>
                             {{ product.extra_info }}
                         </p>
-                    {% else %}
-                        <br>
                     {% endif %}
                     {% if product.category.all %}
                             <p class="mt-3">
                                 <strong>Categories:</strong>
-                                <br>
                                 <br>
                             </p>
                             {% for category in product.category.all %}
