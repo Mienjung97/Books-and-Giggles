@@ -5,6 +5,6 @@
 
 
 
-
+19.10.24: Sorting after category -> shows more products than in the store (duplicate books) -> will tackle later
 
 friendly name -> while writing the json, it would not take authors and categories with spaces and special charaters -> friendly_name was kept -> in admin panel, name can be changed to anything -> possible fix in future!
