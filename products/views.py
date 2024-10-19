@@ -11,10 +11,7 @@ def all_products(request):
     A view to show all products, including sorting and search queries
     """
 
-    # collects all categories for each product since they usually have more than just one
-    products = Product.objects.all().prefetch_related(
-        Prefetch('category', queryset=Category.objects.all())
-    )
+    products = Product.objects.all()
     query = None
     categories = None
     authors = None
@@ -30,7 +27,6 @@ def all_products(request):
             if sortkey == 'name':
                 sortkey = 'lower_name'
                 products = products.annotate(lower_name=Lower('name'))
-
             if 'direction' in request.GET:
                 direction = request.GET['direction']
                 if direction == 'desc':
