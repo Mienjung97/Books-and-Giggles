@@ -6,6 +6,8 @@ Change admin page links? (productsauthors) ->
 
 Sorting after category -> shows more products than in the store (duplicate books) ->
 
+shoppung_bag: make shipping cost only appear when item is in bag
+
 
 
 Change general styling of page -> All CSS that was taken will be changed! ->
