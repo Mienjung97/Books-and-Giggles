@@ -10,6 +10,19 @@ def bag_contents(request):
     product_count = 0
     shopping_bag = request.session.get('shopping_bag', {})
 
+    # Check if the shopping bag is empty to not show delivery cost on empty basket
+    if not shopping_bag:
+        context = {
+            'shopping_bag_items': [],
+            'total': Decimal('0'),
+            'product_count': 0,
+            'delivery': Decimal('0'),
+            'free_delivery_delta': settings.FREE_DELIVERY_THRESHOLD,
+            'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
+            'grand_total': Decimal('0'),
+        }
+        return context
+
     # function to display items in shopping bag for all pages
     for item_id, quantity in shopping_bag.items():
         product = get_object_or_404(Product, pk=item_id)

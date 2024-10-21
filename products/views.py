@@ -69,6 +69,7 @@ def all_products(request):
                 | Q(category__name__icontains=query)
                 | Q(category__friendly_name__icontains=query)
             )
+            # distinct() removes duplicate search results
             products = products.filter(queries).distinct()
 
     current_sorting = f'{sort}_{direction}'

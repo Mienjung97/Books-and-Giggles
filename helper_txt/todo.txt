@@ -6,7 +6,9 @@ Change admin page links? (productsauthors) ->
 
 Sorting after category -> shows more products than in the store (duplicate books) ->
 
-shoppung_bag: make shipping cost only appear when item is in bag
+shoppung_bag: make shipping cost only appear when item is in bag -> Done
+
+Carousel -> 3 categories
 
 
 
