@@ -1,9 +1,11 @@
 asgiref==3.8.1
 click==8.1.7
 colorama==0.4.6
+crispy-bootstrap4==2024.10
 cssbeautifier==1.15.1
 Django==4.2.8
 django-allauth==0.54.0
+django-crispy-forms==2.3
 djlint==1.35.2
 EditorConfig==0.12.4
 gunicorn==23.0.0
