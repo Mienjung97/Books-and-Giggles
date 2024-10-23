@@ -11,6 +11,7 @@ shoppung_bag: make shipping cost only appear when item is in bag -> Done
 Carousel -> 3 categories
 
 checkout_success -> grand total not working, styling (wider box)
+loading overlay -> green!
 
 
 
