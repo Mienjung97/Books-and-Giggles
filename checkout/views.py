@@ -50,7 +50,11 @@ def checkout(request):
         }
         order_form = OrderForm(form_data)
         if order_form.is_valid():
-            order = order_form.save()
+            order = order_form.save(commit=False)
+            pid = request.POST.get('client_secret').split('_secret')[0]
+            order.stripe_pid = pid
+            order.original_bag = json.dumps(shopping_bag)
+            order.save()
             for item_id, item_data in shopping_bag.items():
                 try:
                     product = Product.objects.get(id=item_id)
@@ -61,16 +65,13 @@ def checkout(request):
                             quantity=item_data,
                         )
                         order_line_item.save()
-                    else:
-                        message.error(request, "There is nothing in your bag at the moment.")
-                        return redirect(reverse('view_shopping_bag'))
                 except Product.DoesNotExist:
-                        messages.error(request, (
-                            "One of the products in your bag wasn't found in our database. "
-                            "Please call us for assistance!")
-                        )
-                        order.delete()
-                        return redirect(reverse('view_shopping_bag'))
+                    messages.error(request, (
+                        "One of the products in your bag wasn't found in our database. "
+                        "Please call us for assistance!")
+                    )
+                    order.delete()
+                    return redirect(reverse('view_shopping_bag'))
 
             request.session['save_info'] = 'save-info' in request.POST
             return redirect(reverse('checkout_success', args=[order.order_number]))
