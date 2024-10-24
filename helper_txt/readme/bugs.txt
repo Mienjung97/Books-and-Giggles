@@ -7,6 +7,6 @@
 
 19.10.24: Sorting after category -> shows more products than in the store (duplicate books) -> will tackle later
 
-23.10.24: Stripe will not work as intended - will fix tomorrow -> in webhook_handler I renamed "shopping_bag" to "bag" while getting the metadata, but set the following variables as "shopping_bag" -> name error -> fixed the code, had issues with the email sending, commented this part out for later -> code works as intended (25.10.24)
+23.10.24: Stripe will not work as intended - will fix tomorrow -> in webhook_handler I renamed "shopping_bag" to "bag" while getting the metadata, but set the following variables as "shopping_bag" -> name error -> fixed the code, had issues with the email sending, commented this part out for later -> code works as intended (24.10.24)
 
 friendly name -> while writing the json, it would not take authors and categories with spaces and special charaters -> friendly_name was kept -> in admin panel, name can be changed to anything -> possible fix in future!
