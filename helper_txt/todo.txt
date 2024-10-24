@@ -22,3 +22,5 @@ Change general styling of page -> All CSS that was taken will be changed! ->
 - Checkout page styling
 
 fix stripe -> Done
+
+Profile app -> Save name and payment method
