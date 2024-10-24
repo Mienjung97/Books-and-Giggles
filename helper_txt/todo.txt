@@ -20,3 +20,5 @@ Change general styling of page -> All CSS that was taken will be changed! ->
 - product detail page: make multiple "containers" with related infos; make size of picture universal
 - change layout in products page (make cards even from size so that the writing and pictures are all equal)
 - Checkout page styling
+
+fix stripe -> Done

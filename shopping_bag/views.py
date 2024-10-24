@@ -30,7 +30,7 @@ def add_to_shopping_bag(request, item_id):
         messages.success(request, f'Updated {product.name} quantity to {shopping_bag[item_id]}')
     else:
         shopping_bag[item_id] = quantity
-        messages.success(request, f'Added {product.name} to your bag')
+        messages.success(request, f'Added {product.name} to your shopping_bag')
 
     # updated shopping bag for this session
     request.session['shopping_bag'] = shopping_bag
@@ -52,7 +52,7 @@ def adjust_shopping_bag(request, item_id):
         messages.success(request, f'Updated {product.name} quantity to {shopping_bag[item_id]}')
     else:
         shopping_bag.pop(item_id)
-        messages.success(request, f'Removed {product.name} from your bag')
+        messages.success(request, f'Removed {product.name} from your shopping bag')
 
     # updated shopping bag for this session
     request.session['shopping_bag'] = shopping_bag
