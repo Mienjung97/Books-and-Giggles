@@ -24,3 +24,8 @@ Change general styling of page -> All CSS that was taken will be changed! ->
 fix stripe -> Done
 
 Profile app -> Save name and payment method
+
+clean up all code for size checking
+
+
+!important: Save name and email to profile. E63!
