@@ -6,23 +6,27 @@ Order Number: {{ order.order_number }}
 Order Date: {{ order.date }}
 
 You have ordered:
-{% for item in order.lineitems.all %}
-{{ item.product.name }} <br>
+{% for item in order.lineitems.all %}{% if item.quantity == 1 %}
+    "{{ item.product.name }}" by {{item.product.author.friendly_name }}
+    Price: {{ item.product.price }}€ {% else %}
+    {{ item.quantity }} x "{{ item.product.name }}" by {{item.product.author.friendly_name }}, 
+    Price: {{ item.product.price }}€ each{% endif %}
 {% endfor %}
-
+{% if order.delivery_cost != 0 %}
 Order Total: {{ order.order_total }}€
 
-{% if order.delivery_cost != 0 %}
 Delivery: {{ order.delivery_cost }}€
-
-Grand Total: {{ order.grand_total }}€
 {% else %}
-Delivery: Free
+Free Delivery
 {% endif %}
+Grand Total: {{ order.grand_total }}€
+
 
 Your order will be shipped to {{ order.street_address1 }} in {{ order.town_or_city }}, {{ order.country }}.
 
 We've got your phone number on file as {{ order.phone_number }}.
+
+
 
 If you have any questions, feel free to contact us at {{ contact_email }}.
 
