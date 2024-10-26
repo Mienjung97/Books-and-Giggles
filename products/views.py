@@ -5,7 +5,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Product, Author, Category
-from .forms import ProductForm
+from .forms import ProductForm, AuthorForm
 
 # Create your views here.
 
@@ -195,15 +195,33 @@ def delete_product(request, product_id):
 
 # need to create templates, urls and finish the view:
 
-# @login_required
-# def add_author(request):
-#     """
-#     Add a new author while on frontend
-#     """
+@login_required
+def add_author(request):
+    """
+    Add a new author while on frontend
+    """
 
-#     if not request.user.is_superuser:
-#         messages.error(request, 'Sorry, only store owners can do that.')
-#         return redirect(reverse('home'))
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    if request.method == 'POST':
+        form = AuthorForm(request.POST, request.FILES)
+        if form.is_valid():
+            product = form.save()
+            messages.success(request, 'Successfully added author!')
+            return redirect(reverse('add_product'))
+        else:
+            messages.error(request, 'Failed to add author. Please ensure the form is valid.')
+    else:
+        form = AuthorForm()
+
+    template = 'authors/add_author.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
 
 
 
