@@ -1,5 +1,5 @@
 from django import forms
-from .models import Product, Category
+from .models import Product, Category, Author
 
 
 class ProductForm(forms.ModelForm):
@@ -12,7 +12,7 @@ class ProductForm(forms.ModelForm):
         super().__init__(*args, **kwargs)
         categories = Category.objects.all()
         friendly_names_c = [(c.id, c.get_friendly_name()) for c in categories]
-        authors = author.objects.all()
+        authors = Author.objects.all()
         friendly_names_a = [(a.id, a.get_friendly_name()) for a in authors]
 
 
