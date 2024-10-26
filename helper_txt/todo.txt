@@ -31,6 +31,6 @@ clean up all code for size checking
 !important: Save name and email to profile. E63!
 -> possibility: Create profile in checkout 
 
-!moreimportant: Add "Author" and "Category" on add product page
+!moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name
 
 remove link does not work in checkout 
