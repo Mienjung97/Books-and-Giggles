@@ -35,4 +35,6 @@ clean up all code for size checking
 
 remove link does not work in checkout 
 
-make messages disappear after 3 seconds
+make messages disappear after 5 seconds -> middle of page underneath free delivery
+
+product detail page -> more if statements for optional fields; in model make more fields required! (Cover, Publisher, Author - Pages?)
