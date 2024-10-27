@@ -33,9 +33,27 @@
                         <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
                             <div class="card h-100 border-0">
                                 <div class="card-body pb-0">
+                                    {% if author.image %}
+                                        <a href="{% url 'products' %}?author={{ author.id }}">
+                                            <img class="card-img-top img-fluid product-img"
+                                                 src="{{ author.image.url }}"
+                                                 alt="{{ author.friendly_name|default:author.name }}">
+                                        </a>
+                                    {% else %}
+                                        <a href="{% url 'products' %}?author={{ author.id }}">
+                                            <img class="card-img-top img-fluid product-img"
+                                                 src="{{ MEDIA_URL }}noauthorimage.jpg"
+                                                 alt="{{ author.friendly_name|default:author.name }}">
+                                        </a>
+                                    {% endif %}
+                                    <br>
                                     <a class="text-decoration-none text-black" href="{% url 'products' %}?author={{ author.id }}">
                                         <strong>{{ author.friendly_name|default:author.name }}</strong>
                                     </a>
+                                    {% if author.bio %}
+                                        <br>
+                                        <p>{{ author.bio }}</p>
+                                    {% endif %}
                                 </div>
                             </div>
                         </div>
