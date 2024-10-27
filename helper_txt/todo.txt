@@ -43,4 +43,6 @@ Profile app -> Save name and payment method
 
 Add Bios and pictures to authors
 
+JS for minus button -> change IDs to classes!
+
 
