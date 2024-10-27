@@ -34,7 +34,7 @@ clean up all code for size checking
 -> possibility: Create profile in checkout 
 
 !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done, styling has to follow, 
-                                                                -> categories: just views and finishing the template
+                                                                -> categories: just views and finishing the template -> functionality done -> styling!
 
 
 

@@ -5,7 +5,7 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 
 from .models import Product, Author, Category
-from .forms import ProductForm, AuthorForm
+from .forms import ProductForm, AuthorForm, CategoryForm
 
 # Create your views here.
 
@@ -226,12 +226,30 @@ def add_author(request):
 
 
 
-# @login_required
-# def add_category(request):
-#     """
-#     Add a new caategory while on frontend
-#     """
+@login_required
+def add_category(request):
+    """
+    Add a new caategory while on frontend
+    """
 
-#     if not request.user.is_superuser:
-#         messages.error(request, 'Sorry, only store owners can do that.')
-#         return redirect(reverse('home'))
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+    
+    if request.method == 'POST':
+        form = CategoryForm(request.POST, request.FILES)
+        if form.is_valid():
+            product = form.save()
+            messages.success(request, 'Successfully added category!')
+            return redirect(reverse('add_product'))
+        else:
+            messages.error(request, 'Failed to add category. Please ensure the form is valid.')
+    else:
+        form = CategoryForm()
+
+    template = 'categories/add_category.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
