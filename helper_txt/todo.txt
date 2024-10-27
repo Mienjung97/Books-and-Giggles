@@ -6,14 +6,20 @@ fix stripe -> Done
 Change admin panel names to friendly names -> No because sorting would not work the same way
 Change admin page links? (productsauthors) -> changed to (products/authors/) -> done
 checkout_success -> grand total not working -> Done
+product detail page -> more if statements for optional fields -> Done
+clean up all code for size checking -> Done
+
+
+
+in product model make more fields required! (Cover, Publisher, Author - Pages?)
+
+
 
 
 
 Sorting after category -> shows more products than in the store (duplicate books) ->
 
-
-
-
+Styling:
 
 Change general styling of page -> All CSS that was taken will be changed! 
 - carrusell on home page with "Bestsellers, New releases and Our reccomendation" -> Carousel -> 3 categories ->
@@ -22,19 +28,19 @@ Change general styling of page -> All CSS that was taken will be changed!
 - Checkout page styling
 - checkout_success -> styling (wider box)
 - loading overlay -> green!
-
 !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling
                                                                 -> categories: just views and finishing the template -> functionality done -> styling!
-
 make messages disappear after 5 seconds -> location: middle of page underneath free delivery
 
 
-clean up all code for size checking
+
+
+email address (example.com -> change) - set up new email?
 
 !important: Save name and email to profile. E63!
 Profile app -> Save name and payment method
 -> possibility: Create profile in checkout 
 
+Add Bios and pictures to authors
 
-product detail page -> more if statements for optional fields; in model make more fields required! (Cover, Publisher, Author - Pages?)
 

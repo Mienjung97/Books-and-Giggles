@@ -14,3 +14,15 @@ friendly name -> while writing the json, it would not take authors and categorie
 if the user changes the quantity to 0, 0 amount of items will be ordered, but it will still show up in the order summary and confirmation mail as "0x book"
 
 I want to make author friendly_name mandatory for added models -> make friendls_name nullable, then run "python3 manage.py makemigrations products --empty" -> migrate by hand. 
+
+
+
+
+
+
+
+
+
+
+
+Unsolved: If user clicks fast on "add to bad" button, the item will be added multiple times

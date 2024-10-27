@@ -11,7 +11,7 @@ Profile page:
 - like walkthrough
 - unsubscribe from newsletter?
 
-
+Sorting after category -> shows more products than in the store (duplicate books) ->
 
 products model: make nullable fields non nullable or leave for now? 
 nullable: 
