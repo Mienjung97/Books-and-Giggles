@@ -3,6 +3,7 @@ from django.conf import settings
 from django.shortcuts import get_object_or_404
 from products.models import Product
 
+
 def shopping_bag_contents(request):
 
     shopping_bag_items = []
@@ -28,11 +29,13 @@ def shopping_bag_contents(request):
         product = get_object_or_404(Product, pk=item_id)
         total += quantity * product.price
         product_count += quantity
-        shopping_bag_items.append({
-            'item_id': item_id,
-            'quantity': quantity,
-            'product': product,
-        })
+        shopping_bag_items.append(
+            {
+                'item_id': item_id,
+                'quantity': quantity,
+                'product': product,
+            }
+        )
 
     if total < settings.FREE_DELIVERY_THRESHOLD:
         delivery = settings.STANDARD_DELIVERY_COST
@@ -40,9 +43,9 @@ def shopping_bag_contents(request):
     else:
         delivery = Decimal('0')
         free_delivery_delta = Decimal('0')
-    
+
     grand_total = delivery + total
-    
+
     context = {
         'shopping_bag_items': shopping_bag_items,
         'total': total,

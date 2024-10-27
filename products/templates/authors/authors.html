@@ -47,12 +47,15 @@
                                         </a>
                                     {% endif %}
                                     <br>
-                                    <a class="text-decoration-none text-black" href="{% url 'products' %}?author={{ author.id }}">
+                                    <a class="text-decoration-none text-black"
+                                       href="{% url 'products' %}?author={{ author.id }}">
                                         <strong>{{ author.friendly_name|default:author.name }}</strong>
                                     </a>
                                     {% if author.bio %}
                                         <br>
-                                        <p>{{ author.bio }}</p>
+                                        <p>
+                                            {{ author.bio }}
+                                        </p>
                                     {% endif %}
                                 </div>
                             </div>

@@ -32,12 +32,14 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = 'DEVELOPMENT' in os.environ
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net']
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net'
+]
 
 ALLOWED_HOSTS = [
     '8000-mienjung97-booksandgigg-gih9t2qszhe.ws.codeinstitute-ide.net',
     'books-and-giggles-dcc63078a535.herokuapp.com',
-    ]
+]
 
 
 # Application definition
@@ -58,7 +60,6 @@ INSTALLED_APPS = [
     'shopping_bag',
     'checkout',
     'profiles',
-
     # Other
     'crispy_forms',
     'crispy_bootstrap4',
@@ -100,8 +101,7 @@ TEMPLATES = [
             'builtins': [
                 'crispy_forms.templatetags.crispy_forms_tags',
                 'crispy_forms.templatetags.crispy_forms_field',
-                
-            ]
+            ],
         },
     },
 ]
@@ -111,7 +111,6 @@ MESSAGE_STORAGE = 'django.contrib.messages.storage.session.SessionStorage'
 AUTHENTICATION_BACKENDS = (
     # Needed to log in by username in Django admin, regardless of ''allauth'
     'django.contrib.auth.backends.ModelBackend',
-
     # `allauth` specific authentication methods, such as log in via email
     'allauth.account.auth_backends.AuthenticationBackend',
 )
@@ -193,12 +192,12 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 if 'USE_AWS' in os.environ:
-     # Cache control
+    # Cache control
     AWS_S3_OBJECT_PARAMETERS = {
         'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
-        'CacheControl': 'max-age=94608000'
+        'CacheControl': 'max-age=94608000',
     }
-    
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'booksandgigglesmj'
     AWS_S3_REGION_NAME = 'eu-central-1'
@@ -221,7 +220,7 @@ if 'USE_AWS' in os.environ:
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-# Stripe 
+# Stripe
 FREE_DELIVERY_THRESHOLD = 40
 STANDARD_DELIVERY_COST = Decimal('5.99')
 STRIPE_CURRENCY = 'eur'

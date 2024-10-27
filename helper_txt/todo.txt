@@ -44,5 +44,6 @@ Profile app -> Save name and payment method
 Add Bios and pictures to authors
 
 JS for minus button -> change IDs to classes!
+-> change "#" to "." to target classes - does not work at the moment -> will be targeted
 
 

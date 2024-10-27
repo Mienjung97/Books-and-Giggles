@@ -6,12 +6,14 @@ from products.models import Product
 
 # Create your views here.
 
+
 def view_shopping_bag(request):
     """
     A view that renders the bag contents page
     """
 
     return render(request, 'shopping_bag/shopping_bag.html')
+
 
 def add_to_shopping_bag(request, item_id):
     """
@@ -27,7 +29,10 @@ def add_to_shopping_bag(request, item_id):
     # Add or change quantity of item on product detail page
     if item_id in list(shopping_bag.keys()):
         shopping_bag[item_id] += quantity
-        messages.success(request, f'Updated {product.name} quantity to {shopping_bag[item_id]}')
+        messages.success(
+            request,
+            f'Updated {product.name} quantity to {shopping_bag[item_id]}',
+        )
     else:
         shopping_bag[item_id] = quantity
         messages.success(request, f'Added {product.name} to your shopping_bag')
@@ -36,6 +41,7 @@ def add_to_shopping_bag(request, item_id):
     request.session['shopping_bag'] = shopping_bag
     return redirect(redirect_url)
 
+
 def adjust_shopping_bag(request, item_id):
     """
     Adjust the quantity of the specified product in the shopping bag
@@ -43,20 +49,26 @@ def adjust_shopping_bag(request, item_id):
 
     product = get_object_or_404(Product, pk=item_id)
     quantity = int(request.POST.get('quantity'))
-    
+
     shopping_bag = request.session.get('shopping_bag', {})
 
     # Change quantity of item in shopping bag
     if quantity >= 0:
         shopping_bag[item_id] = quantity
-        messages.success(request, f'Updated {product.name} quantity to {shopping_bag[item_id]}')
+        messages.success(
+            request,
+            f'Updated {product.name} quantity to {shopping_bag[item_id]}',
+        )
     else:
         shopping_bag.pop(item_id)
-        messages.success(request, f'Removed {product.name} from your shopping bag')
+        messages.success(
+            request, f'Removed {product.name} from your shopping bag'
+        )
 
     # updated shopping bag for this session
     request.session['shopping_bag'] = shopping_bag
     return redirect(reverse('view_shopping_bag'))
+
 
 def remove_from_shopping_bag(request, item_id):
     """

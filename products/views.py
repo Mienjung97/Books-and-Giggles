@@ -22,7 +22,6 @@ def all_products(request):
     sort = None
     direction = None
 
-
     if request.GET:
         # for making sorting and sorting direction possible
         if 'sort' in request.GET:
@@ -39,19 +38,19 @@ def all_products(request):
                     sortkey = f'-{sortkey}'
             products = products.order_by(sortkey)
 
-        # for setting the categories for the nav links: 
+        # for setting the categories for the nav links:
         if 'category' in request.GET:
             categories = request.GET['category'].split(',')
             products = products.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
-        
-        # for setting an author id for the author page: 
+
+        # for setting an author id for the author page:
         if 'author' in request.GET:
             author_id = request.GET['author']
             products = products.filter(author__id=author_id)
             authors = Author.objects.filter(id=author_id)
 
-        # for processing the search: 
+        # for processing the search:
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
@@ -133,7 +132,10 @@ def add_product(request):
             messages.success(request, 'Successfully added product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to add product. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add product. Please ensure the form is valid.',
+            )
     else:
         form = ProductForm()
 
@@ -163,7 +165,10 @@ def edit_product(request, product_id):
             messages.success(request, 'Successfully updated product!')
             return redirect(reverse('product_detail', args=[product.id]))
         else:
-            messages.error(request, 'Failed to update product. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to update product. Please ensure the form is valid.',
+            )
     else:
         form = ProductForm(instance=product)
         messages.info(request, f'You are editing {product.name}')
@@ -195,6 +200,7 @@ def delete_product(request, product_id):
 
 # need to create templates, urls and finish the view:
 
+
 @login_required
 def add_author(request):
     """
@@ -212,7 +218,10 @@ def add_author(request):
             messages.success(request, 'Successfully added author!')
             return redirect(reverse('add_product'))
         else:
-            messages.error(request, 'Failed to add author. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add author. Please ensure the form is valid.',
+            )
     else:
         form = AuthorForm()
 
@@ -224,8 +233,6 @@ def add_author(request):
     return render(request, template, context)
 
 
-
-
 @login_required
 def add_category(request):
     """
@@ -235,7 +242,7 @@ def add_category(request):
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
-    
+
     if request.method == 'POST':
         form = CategoryForm(request.POST, request.FILES)
         if form.is_valid():
@@ -243,7 +250,10 @@ def add_category(request):
             messages.success(request, 'Successfully added category!')
             return redirect(reverse('add_product'))
         else:
-            messages.error(request, 'Failed to add category. Please ensure the form is valid.')
+            messages.error(
+                request,
+                'Failed to add category. Please ensure the form is valid.',
+            )
     else:
         form = CategoryForm()
 

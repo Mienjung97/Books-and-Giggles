@@ -19,7 +19,7 @@ I want to make author friendly_name mandatory for added models -> make friendls_
 
 
 
-
+JS code: change targeted IDs to target classes -> change "#" to "." to target classes - does not work at the moment -> will be targeted
 
 
 
