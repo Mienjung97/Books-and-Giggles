@@ -1,0 +1,21 @@
+3 custom models:                                                                                                                                                                                            Good models
+- FaQ
+- Contact form on about page (like PP4 walkthrough)
+- Discount -> Buy 5 books, get the cheapest for free     
+
+
+All pages:
+- Footer with newsletter subscription?
+
+Profile page:
+- like walkthrough
+- unsubscribe from newsletter?
+
+
+
+products model: make nullable fields non nullable or leave for now? 
+
+nullable: 
+author friendly_name
+publisher
+cover

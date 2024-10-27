@@ -23,19 +23,18 @@ Change general styling of page -> All CSS that was taken will be changed!
 - checkout_success -> styling (wider box)
 - loading overlay -> green!
 
+!moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling
+                                                                -> categories: just views and finishing the template -> functionality done -> styling!
 
 make messages disappear after 5 seconds -> location: middle of page underneath free delivery
 
-Profile app -> Save name and payment method
 
 clean up all code for size checking
 
 !important: Save name and email to profile. E63!
+Profile app -> Save name and payment method
 -> possibility: Create profile in checkout 
-
-!moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done, styling has to follow, 
-                                                                -> categories: just views and finishing the template -> functionality done -> styling!
-
 
 
 product detail page -> more if statements for optional fields; in model make more fields required! (Cover, Publisher, Author - Pages?)
+
