@@ -1,4 +1,4 @@
-3 custom models:                                                                                                                                                                                            Good models
+3 custom models:                                                                                                                                                          -> Good models, but maybe I wont need all
 - FaQ
 - Contact form on about page (like PP4 walkthrough)
 - Discount -> Buy 5 books, get the cheapest for free     
@@ -7,7 +7,7 @@
 
 
 
-All pages:
+All pages:                                                                                                                                                                 -> MUST HAVE 
 - Footer with newsletter subscription?
 
 Profile page:
@@ -22,7 +22,7 @@ Profile page:
 
 
 
-- products model: make nullable fields non nullable or leave for now? 
+- products model: make nullable fields non nullable or leave for now?                                                                                                       -> Take up with tutor support
 nullable: 
 author friendly_name
 publisher
@@ -30,7 +30,7 @@ cover
 
 
 
-delete old s3 bucket? 
+delete old s3 bucket?                                                                                                                                                       -> Take up with tutor support
 AWS for deployment needed? also can I take pictures from pdf? (posted by osin_ci on 04.10.2024 in slack "project-portfolio-5-ecommerce")
 - https://docs.google.com/document/d/1bqvCFiCW_JV9sllNZrN5uUJpIiusHICTk4TIk3oUWHY/edit?tab=t.0
 - https://docs.google.com/document/d/1z6L8KKiTi3QU5rMbHXhA3QR9jQIG7wLqnScUDpe238E/edit?tab=t.0#heading=h.1ixuny26uvc

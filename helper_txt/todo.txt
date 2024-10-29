@@ -47,3 +47,4 @@ JS for minus button -> change IDs to classes!
 -> change "#" to "." to target classes - does not work at the moment -> will be targeted
 
 
+AUTHORS: on delete - delete all books!

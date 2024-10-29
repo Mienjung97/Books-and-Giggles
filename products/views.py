@@ -115,6 +115,17 @@ def all_authors(request):
     return render(request, 'authors/authors.html', context)
 
 
+#                           Product Management
+
+@login_required
+def management(request):
+    """
+    A view to show the product management options
+    """
+
+    return render(request, 'management/product_management.html')
+
+
 @login_required
 def add_product(request):
     """
@@ -198,7 +209,75 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 
-# need to create templates, urls and finish the view:
+
+
+
+@login_required
+def add_category(request):
+    """
+    Add a new caategory while on frontend
+    """
+
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    if request.method == 'POST':
+        form = CategoryForm(request.POST, request.FILES)
+        if form.is_valid():
+            product = form.save()
+            messages.success(request, 'Successfully added category!')
+            return redirect(reverse('add_product'))
+        else:
+            messages.error(
+                request,
+                'Failed to add category. Please ensure the form is valid.',
+            )
+    else:
+        form = CategoryForm()
+
+    template = 'categories/add_category.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
+
+
+@login_required
+def edit_author(request, author_id):
+    """
+    Edit a author in the frontend
+    """
+
+    if not request.user.is_superuser:
+        messages.error(request, 'Sorry, only store owners can do that.')
+        return redirect(reverse('home'))
+
+    author = get_object_or_404(Author, pk=author_id)
+    if request.method == 'POST':
+        form = AuthorForm(request.POST, request.FILES, instance=author)
+        if form.is_valid():
+            form.save()
+            messages.success(request, 'Successfully updated author!')
+            return redirect(reverse('authors', args=[author.id]))
+        else:
+            messages.error(
+                request,
+                'Failed to update the author. Please ensure the form is valid.',
+            )
+    else:
+        form = AuthorForm(instance=author)
+        messages.info(request, f'You are editing {product.name}')
+
+    template = 'authors/edit_author.html'
+    context = {
+        'form': form,
+        'author': author,
+    }
+
+    return render(request, template, context)
+
 
 
 @login_required
@@ -232,34 +311,17 @@ def add_author(request):
 
     return render(request, template, context)
 
-
 @login_required
-def add_category(request):
+def delete_author(request, author_id):
     """
-    Add a new caategory while on frontend
+    Delete an author from the store
     """
 
     if not request.user.is_superuser:
         messages.error(request, 'Sorry, only store owners can do that.')
         return redirect(reverse('home'))
 
-    if request.method == 'POST':
-        form = CategoryForm(request.POST, request.FILES)
-        if form.is_valid():
-            product = form.save()
-            messages.success(request, 'Successfully added category!')
-            return redirect(reverse('add_product'))
-        else:
-            messages.error(
-                request,
-                'Failed to add category. Please ensure the form is valid.',
-            )
-    else:
-        form = CategoryForm()
-
-    template = 'categories/add_category.html'
-    context = {
-        'form': form,
-    }
-
-    return render(request, template, context)
+    author = get_object_or_404(Author, pk=author_id)
+    author.delete()
+    messages.success(request, 'Author deleted!')
+    return redirect(reverse('authors'))
