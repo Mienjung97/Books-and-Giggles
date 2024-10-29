@@ -4,6 +4,9 @@
 - Discount -> Buy 5 books, get the cheapest for free     
 
 
+
+
+
 All pages:
 - Footer with newsletter subscription?
 
@@ -11,9 +14,15 @@ Profile page:
 - like walkthrough
 - unsubscribe from newsletter?
 
-Sorting after category -> shows more products than in the store (duplicate books) ->
 
-products model: make nullable fields non nullable or leave for now? 
+
+
+- Sorting after category -> shows more products than in the store (duplicate books) ->
+
+
+
+
+- products model: make nullable fields non nullable or leave for now? 
 nullable: 
 author friendly_name
 publisher
@@ -26,3 +35,16 @@ AWS for deployment needed? also can I take pictures from pdf? (posted by osin_ci
 - https://docs.google.com/document/d/1bqvCFiCW_JV9sllNZrN5uUJpIiusHICTk4TIk3oUWHY/edit?tab=t.0
 - https://docs.google.com/document/d/1z6L8KKiTi3QU5rMbHXhA3QR9jQIG7wLqnScUDpe238E/edit?tab=t.0#heading=h.1ixuny26uvc
 
+
+
+
+TO DO: 
+
+- Add contact model, view and template to about app
+- Add FAQ 
+
+- Styling of all pages
+- make whole clickable fields for products and author (basically cards)
+- Save name and email to profile -> possibility: Create profile in checkout?
+- Add Bios and pictures to authors
+- JS for minus button -> change IDs to classes!
