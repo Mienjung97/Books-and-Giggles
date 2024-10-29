@@ -1,0 +1,62 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block page_header %}
+    <div class="container header-container">
+        <div class="row">
+            <div class="col">
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block content %}
+    {# djlint:off H006 #}
+
+    <div class="overlay">
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-6 mx-auto pt-5">
+                <img class="about-image img-fluid"
+                     src=" {{ about.about_image.url }}"
+                     alt="{{ about.title }}" />
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                    </div>
+                    <div class="col-8">
+                        <!-- Title goes between these h2 tags -->
+                        <br>
+                        <h2 class="text-center">
+                            {{ about.title }}
+                        </h2>
+                        <!-- Content goes directly underneath this -->
+                        <br>
+                        <p>
+                            <a href="{% url 'products' %}"
+                               class="bg-container text-black text-uppercase text-decoration-none mx-auto"><strong>Shop Now</strong></a>
+                        </p>
+                        <br>
+                        {{ about.content | safe }}
+                        <br>
+                        <!-- contact us form -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col text-right">
+                <!-- Updated on field goes in here -->
+                <p class="text-end">
+                    <em>Updated on: {{ about.updated_on }}</em>
+                </p>
+            </div>
+        </div>
+    </div>
+
+{% endblock content %}

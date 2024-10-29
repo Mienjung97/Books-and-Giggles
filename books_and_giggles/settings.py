@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django_summernote',
     'django.contrib.sites',
     'allauth',
     'allauth.account',
@@ -60,10 +61,13 @@ INSTALLED_APPS = [
     'shopping_bag',
     'checkout',
     'profiles',
+    'about',
+
     # Other
     'crispy_forms',
     'crispy_bootstrap4',
     'storages',
+    'faq',
 ]
 
 MIDDLEWARE = [
