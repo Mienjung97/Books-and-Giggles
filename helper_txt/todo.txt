@@ -8,6 +8,9 @@ Change admin page links? (productsauthors) -> changed to (products/authors/) -> 
 checkout_success -> grand total not working -> Done
 product detail page -> more if statements for optional fields -> Done
 clean up all code for size checking -> Done
+JS for minus button -> change IDs to classes!
+-> change "#" to "." to target classes - does not work at the moment -> Done
+Sorting after category -> shows more products than in the store (duplicate books) -> Deleted -> Done
 
 
 
@@ -17,7 +20,6 @@ in product model make more fields required! (Cover, Publisher, Author - Pages?)
 
 
 
-Sorting after category -> shows more products than in the store (duplicate books) ->
 
 Styling:
 
@@ -43,8 +45,6 @@ Profile app -> Save name and payment method
 
 Add Bios and pictures to authors
 
-JS for minus button -> change IDs to classes!
--> change "#" to "." to target classes - does not work at the moment -> will be targeted
 
 
 AUTHORS: on delete - delete all books!
