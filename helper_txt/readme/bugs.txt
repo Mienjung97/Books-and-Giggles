@@ -2,6 +2,12 @@
 17.10.24: after the clone, I had a copy of my project in my project -> deleted it after research on if that would create problems in the project
 18.10.24: For search queries, since author and category are own models, the search didnt work -> included classes in the view with name and friendly name -> this gave duplicate resulats, therefore distinct() function was added to new "products" variable
 
+JS code: change targeted IDs to target classes -> change "#" to "." to target classes - does not work at the moment -> will be targeted
+-> 30.10.24
+!important:
+Fix for the minus button in checkout once you finished the code for the quantity form:
+in the form, all 3 ids have to be taken completely and put into the corresponding class element. 2 Buttons: increment and decrement and the input group
+in the quantity_input_script.html, nested in the products includes folder, in the first function, all three "#" have to be changed to a "."
 
 
 
@@ -19,7 +25,6 @@ I want to make author friendly_name mandatory for added models -> make friendls_
 
 
 
-JS code: change targeted IDs to target classes -> change "#" to "." to target classes - does not work at the moment -> will be targeted
 
 
 

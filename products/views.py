@@ -268,7 +268,7 @@ def edit_author(request, author_id):
             )
     else:
         form = AuthorForm(instance=author)
-        messages.info(request, f'You are editing {product.name}')
+        messages.info(request, f'You are editing {author.name}')
 
     template = 'authors/edit_author.html'
     context = {
