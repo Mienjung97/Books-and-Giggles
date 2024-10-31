@@ -11,9 +11,8 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5"
-               href="{% url 'about' %}"
-               id="home-link">
-                About
+               href="{% url 'authors' %}">
+                Authors
             </a>
         </li>
 
@@ -60,9 +59,17 @@
         </li>
 
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black"
-               href="{% url 'authors' %}">
-                Authors
+            <a class="logo-font font-weight-bold nav-link text-black mr-5"
+               href="{% url 'about' %}"
+               id="home-link">
+                About
+            </a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5"
+               href="{% url 'faq' %}"
+               id="home-link">
+                FAQ
             </a>
         </li>
     </ul>

@@ -36,13 +36,13 @@ AUTHORS: on delete - delete all books!
         !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling
                                                                         -> categories: just views and finishing the template -> functionality done -> styling!
         make messages disappear after 5 seconds -> location: middle of page underneath free delivery
+Make home button show on collapsed bar under 998px!
 
         Add Bios and pictures to authors
 
 Contact field: Size the boxes! -> just to admin or make admin fronend page?
                                 Email varification?
                                 make "container box" with different background
-
 
 
 
