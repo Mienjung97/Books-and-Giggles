@@ -27,5 +27,5 @@ class Contact(models.Model):
     message = models.CharField(max_length=2000, blank=False)
 
     def __str__(self):
-        return f"Contact request from {self.name}"
+        return f"Contact request from {self.name}" # This string might get changed down the road
 
