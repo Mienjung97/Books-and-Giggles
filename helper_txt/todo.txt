@@ -11,12 +11,11 @@ clean up all code for size checking -> Done
 JS for minus button -> change IDs to classes!
 -> change "#" to "." to target classes - does not work at the moment -> Done
 Sorting after category -> shows more products than in the store (duplicate books) -> Deleted -> Done
+!important: Save name and email to profile. E63! Profile app -> Save name and payment method -> Done
 
 
 
-!important: Save name and email to profile. E63!
-Profile app -> Save name and payment method
--> possibility: Create profile in checkout 
+-> possibility: Create profile in checkout? -> probably not
 
 in product model make more fields required! (Cover, Publisher, Author - Pages?)
 
