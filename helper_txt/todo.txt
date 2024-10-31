@@ -14,37 +14,38 @@ Sorting after category -> shows more products than in the store (duplicate books
 
 
 
+!important: Save name and email to profile. E63!
+Profile app -> Save name and payment method
+-> possibility: Create profile in checkout 
+
 in product model make more fields required! (Cover, Publisher, Author - Pages?)
 
+AUTHORS: on delete - delete all books!
 
 
 
 
+        Styling:
 
-Styling:
+        Change general styling of page -> All CSS that was taken will be changed! 
+        - carrusell on home page with "Bestsellers, New releases and Our reccomendation" -> Carousel -> 3 categories ->
+        - product detail page: make multiple "containers" with related infos; make size of picture universal
+        - change layout in products page (make cards even from size so that the writing and pictures are all equal)
+        - Checkout page styling
+        - checkout_success -> styling (wider box)
+        - loading overlay -> green!
+        !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling
+                                                                        -> categories: just views and finishing the template -> functionality done -> styling!
+        make messages disappear after 5 seconds -> location: middle of page underneath free delivery
 
-Change general styling of page -> All CSS that was taken will be changed! 
-- carrusell on home page with "Bestsellers, New releases and Our reccomendation" -> Carousel -> 3 categories ->
-- product detail page: make multiple "containers" with related infos; make size of picture universal
-- change layout in products page (make cards even from size so that the writing and pictures are all equal)
-- Checkout page styling
-- checkout_success -> styling (wider box)
-- loading overlay -> green!
-!moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling
-                                                                -> categories: just views and finishing the template -> functionality done -> styling!
-make messages disappear after 5 seconds -> location: middle of page underneath free delivery
+        Add Bios and pictures to authors
+
+Contact field: Size the boxes! -> just to admin or make admin fronend page?
+                                Email varification?
+                                make "container box" with different background
 
 
 
 
 email address (example.com -> change) - set up new email?
 
-!important: Save name and email to profile. E63!
-Profile app -> Save name and payment method
--> possibility: Create profile in checkout 
-
-Add Bios and pictures to authors
-
-
-
-AUTHORS: on delete - delete all books!

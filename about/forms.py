@@ -1,5 +1,5 @@
 from django import forms
-from .models import ContactRequest
+from .models import Contact
 
 
 class ContactForm(forms.ModelForm):
@@ -8,5 +8,5 @@ class ContactForm(forms.ModelForm):
     """
 
     class Meta:
-        model = ContactRequest
+        model = Contact
         fields = ('name', 'email', 'subject', 'message')
