@@ -14,6 +14,12 @@ img {
     width: auto;
 }
 
+/* --------------------------------------------------------- Header */
+
+.bg-book {
+    background: #fff3dc;
+}
+
 .bg-container {
     background-color: rgba(210, 210, 210, 0.85);
     padding: 25px;
