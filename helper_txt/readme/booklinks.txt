@@ -31,4 +31,9 @@ The Bird Book: https://www.thalia.de/shop/home/artikeldetails/A1071187977?ProvID
 
 
 picture for about page: Foto von <a href="https://unsplash.com/de/@maripotter?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Mari Potter</a> auf <a href="https://unsplash.com/de/fotos/braunes-bucherregal-aus-holz-Zh0mcQuw_EQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
-  
+"book shield": Foto von <a href="https://unsplash.com/de/@multimaniaco?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">César Viteri</a> auf <a href="https://unsplash.com/de/fotos/buchschild-hangt-neben-weisser-wand-693RRbiTAaI?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+"Bestseller": Foto von <a href="https://unsplash.com/de/@madskillsdixon?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Bruce Dixon</a> auf <a href="https://unsplash.com/de/fotos/bucher-mit-verschiedenen-titeln-im-braunen-regal-_5u4fTyALjk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+"Our recommendation": Foto von <a href="https://unsplash.com/de/@austinchan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Austin Chan</a> auf <a href="https://unsplash.com/de/fotos/dies-ist-das-schild-nach-dem-sie-gesucht-haben-ukzHlkoz1IE?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+"New Releases": Foto von <a href="https://unsplash.com/de/@sincerelymedia?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Sincerely Media</a> auf <a href="https://unsplash.com/de/fotos/weisse-holzerne-bucherregale-mit-buchern--IIIr1Hu6aY?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+"look for yourself": Foto von <a href="https://unsplash.com/de/@darwiiiin?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Darwin Vegher</a> auf <a href="https://unsplash.com/de/fotos/person-die-einen-rucksack-in-der-bibliothek-tragt-W_ZYCEUapF0?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>

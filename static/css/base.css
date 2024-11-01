@@ -21,6 +21,26 @@ img {
     border-radius: 15px;
 }
 
+.btn-bg-container {
+    background-color: rgba(210, 210, 210, 0.85);
+    padding: 10px;
+    margin: 2px !important;
+    border: 1px solid black;
+    border-radius: 15px;
+    align-self: center;
+}
+
+.height {
+    z-index: 99;
+    margin-top: 25vh;
+    /* max-width: 60vw; */
+}
+
+.hide-message {
+    margin: 0% !important;
+}
+
+
 /* from Bulma */
 .icon {
     align-items: center;
