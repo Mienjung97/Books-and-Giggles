@@ -23,16 +23,32 @@
             </div>
         </div>
         <br>
+        {% if request.user.is_superuser %}
+            <br>
+            <div class="row">
+                <div class="col text-center">
+                    <a href="{% url 'add_faq' %}"
+                       class="bg-container text-black text-uppercase py-3 text-decoration-none">Add a FAQ</a>
+                </div>
+            </div>
+            <br>
+        {% endif %}
         <br>
-        {% for f in faq %}
+        {% for faq_item in faq_items %}
             <div class="row">
                 <div class="mx-auto">
                     <h3>
-                        {{ f.question }}
+                        {{ faq_item.question }}
                     </h3>
                     <p>
-                        {{ f.answer }}
+                        {{ faq_item.answer }}
                     </p>
+                    {% if request.user.is_superuser %}
+                        <small class="ml-3">
+                            <a href="{% url 'edit_faq' faq_item.id %}">Edit</a> |
+                            <a class="text-danger" href="{% url 'delete_faq' faq_item.id %}">Delete</a>
+                        </small>
+                    {% endif %}
                     <hr>
                     <br>
                 </div>
