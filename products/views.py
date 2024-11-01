@@ -139,6 +139,7 @@ def all_authors(request):
 
 #                           Product Management
 
+
 @login_required
 def management(request):
     """
@@ -146,6 +147,9 @@ def management(request):
     """
 
     return render(request, 'management/product_management.html')
+
+
+# Products
 
 
 @login_required
@@ -231,7 +235,7 @@ def delete_product(request, product_id):
     return redirect(reverse('products'))
 
 
-
+# Categories
 
 
 @login_required
@@ -264,6 +268,9 @@ def add_category(request):
     }
 
     return render(request, template, context)
+
+
+#Authors
 
 
 @login_required
@@ -301,7 +308,6 @@ def edit_author(request, author_id):
     return render(request, template, context)
 
 
-
 @login_required
 def add_author(request):
     """
@@ -332,6 +338,7 @@ def add_author(request):
     }
 
     return render(request, template, context)
+
 
 @login_required
 def delete_author(request, author_id):

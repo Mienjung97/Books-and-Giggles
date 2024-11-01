@@ -21,18 +21,26 @@
                     Product Management
                 </h2>
                 <hr>
+                <div class="col-12 col-md-6">
+                    <h4>
+                        <a href="{% url 'admin:index' %}">Go to the Admin panel</a>
+                    </h4>
+                    <br>
+                </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col-12 col-md-6">
                 <a href="{% url 'add_product' %}">Add a Product</a>
-            </div>
-            <div class="col-12 col-md-6">
+                <br>
+                <a href="{% url 'add_category' %}">Add a Category</a>
+                <br>
                 <a href="{% url 'add_author' %}">Add an Author</a>
             </div>
             <div class="col-12 col-md-6">
-                <a href="{% url 'add_category' %}">Add a Category</a>
+                <a href="{% url 'add_faq' %}">Add a question to the FAQ page</a>
+                <br>
             </div>
         </div>
     </div>
