@@ -44,17 +44,21 @@
                 Categories
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="category-link">
-                <a href="{% url 'products' %}?category=bestsellers" class="dropdown-item">Bestsellers</a>
-                <a href="{% url 'products' %}?category=new_releases" class="dropdown-item">New Releases</a>
-                <a href="{% url 'products' %}?category=our_recommendations" class="dropdown-item">Our Recommendations</a>
-                <a href="{% url 'products' %}?category=box_set" class="dropdown-item">Box Set</a>
-                <a href="{% url 'products' %}?category=fantasy" class="dropdown-item">Fantasy</a>
-                <a href="{% url 'products' %}?category=historic_fiction" class="dropdown-item">Historic Fiction</a>
-                <a href="{% url 'products' %}?category=science_fiction" class="dropdown-item">Science Fiction</a>
-                <a href="{% url 'products' %}?category=illustrated_books" class="dropdown-item">Illustrated Books</a>
-                <a href="{% url 'products' %}?category=casual_science" class="dropdown-item">Casual Science</a>
-                <a href="{% url 'products' %}?category=thriller" class="dropdown-item">Thriller</a>
-                <a href="{% url 'products' %}?category=true_stories" class="dropdown-item">True Stories</a>
+                {% for category in categories %}
+                    <a href="{% url 'products' %}?category={{ category.name }}" class="dropdown-item">{{ category.friendly_name }}</a>
+                {% empty %}
+                    <a href="{% url 'products' %}?category=bestsellers" class="dropdown-item">Bestsellers</a>
+                    <a href="{% url 'products' %}?category=new_releases" class="dropdown-item">New Releases</a>
+                    <a href="{% url 'products' %}?category=our_recommendations" class="dropdown-item">Our Recommendations</a>
+                    <a href="{% url 'products' %}?category=box_set" class="dropdown-item">Box Set</a>
+                    <a href="{% url 'products' %}?category=fantasy" class="dropdown-item">Fantasy</a>
+                    <a href="{% url 'products' %}?category=historic_fiction" class="dropdown-item">Historic Fiction</a>
+                    <a href="{% url 'products' %}?category=science_fiction" class="dropdown-item">Science Fiction</a>
+                    <a href="{% url 'products' %}?category=illustrated_books" class="dropdown-item">Illustrated Books</a>
+                    <a href="{% url 'products' %}?category=casual_science" class="dropdown-item">Casual Science</a>
+                    <a href="{% url 'products' %}?category=thriller" class="dropdown-item">Thriller</a>
+                    <a href="{% url 'products' %}?category=true_stories" class="dropdown-item">True Stories</a>
+                {% endfor %}
             </div>
         </li>
 

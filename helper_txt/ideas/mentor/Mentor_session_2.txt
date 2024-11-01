@@ -17,7 +17,7 @@ Profile page:
 
 
 
-- Sorting after category -> shows more products than in the store (duplicate books) ->
+- Sorting after category -> shows more products than in the store (duplicate books) ->                                                                                      -> Deleted
 
 
 
