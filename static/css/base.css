@@ -17,18 +17,18 @@ img {
 /* --------------------------------------------------------- Header */
 
 .bg-book {
-    background: #fff3dc;
+    background: #fff7e7;
 }
 
 .bg-container {
-    background-color: rgba(210, 210, 210, 0.85);
+    background-color: rgba(255, 247, 231, 0.85);
     padding: 25px;
     border: 1px solid black;
     border-radius: 15px;
 }
 
 .btn-bg-container {
-    background-color: rgba(210, 210, 210, 0.85);
+    background-color: rgba(255, 247, 231, 0.85);
     padding: 10px;
     margin: 2px !important;
     border: 1px solid black;
@@ -135,6 +135,7 @@ img {
 
 .author-text {
     text-decoration: none;
+    color: #000;
 }
 
 .author-text:hover {
@@ -147,8 +148,27 @@ img {
 .product-img {
     max-height: 40vh;
     max-width: fit-content;
-    height: 100%;
-    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.product-img-container {
+    height: 40vh;
+    text-align: center;
+}
+
+.name-container {
+    height: 7vh;
+    margin: 15px 20px 20px;
+}
+
+.category-container {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.cover-container {
+    margin: 0 20px 0 20px;
 }
 
 a.category-badge>span.badge:hover {
@@ -393,5 +413,14 @@ input[name='q']::placeholder {
     .increment-qty,
     .decrement-qty {
         padding: .25rem .5rem !important;
+    }
+}
+
+
+
+/* make the gap between author and cover smaller on big displays */
+@media (min-width:1400px) {
+    .change-sz {
+        display: none;
     }
 }
