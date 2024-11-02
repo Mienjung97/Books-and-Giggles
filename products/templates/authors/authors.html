@@ -29,23 +29,14 @@
                 <!-- <div class="row mt-1 mb-2">
                     <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
                         <div class="sort-select-wrapper w-50">
-                            <select id="sort-selector"
-                                    class="custom-select custom-select-sm rounded-0 border border-
-                                           {% if current_sorting != 'None_None' %}
-                                               info
-                                           {% else %}
-                                               black
-                                           {% endif %}">
+                            <select id="sort-selector" class="custom-select custom-select-sm rounded-0 border border- {% if current_sorting != 'None_None' %} info {% else %} black {% endif %}">
                                 <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>
                                     Sort by...
                                 </option>
                                 <option value="author_asc" {% if current_sorting == 'author_asc' %}selected{% endif %}>
                                     Author (A-Z)
                                 </option>
-                                <option value="author_desc"
-                                        {% if current_sorting == 'author_desc' %}
-                                            selected
-                                        {% endif %}>
+                                <option value="author_desc" {% if current_sorting == 'author_desc' %} selected {% endif %}>
                                     Author (Z-A)
                                 </option>
                                 <option value="name_asc" {% if current_sorting == 'name_asc' %}selected{% endif %}>
@@ -55,69 +46,84 @@
                                     Name (Z-A)
                                 </option>
                             </select>
+
+ img-fluid 
+
                         </div>
                     </div>
                 </div> -->
-                <div class="row">
-                    {% for author in authors %}
-                        <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
-                            <div class="card h-100 border-0">
-                                <div class="card-body pb-0">
-                                    {% if author.image %}
-                                        <a href="{% url 'products' %}?author={{ author.id }}">
-                                            <img class="card-img-top img-fluid product-img"
-                                                 src="{{ author.image.url }}"
-                                                 alt="{{ author.friendly_name|default:author.name }}">
-                                        </a>
-                                    {% else %}
-                                        <a href="{% url 'products' %}?author={{ author.id }}">
-                                            <img class="card-img-top img-fluid product-img"
-                                                 src="{{ MEDIA_URL }}noauthorimage.jpg"
-                                                 alt="{{ author.friendly_name|default:author.name }}">
-                                        </a>
-                                    {% endif %}
-                                    <br>
-                                    <a class="text-decoration-none text-black"
-                                       href="{% url 'products' %}?author={{ author.id }}">
-                                        <strong>{{ author.friendly_name|default:author.name }}</strong>
-                                    </a>
-                                    {% if author.bio %}
+                <div class="col-12">
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2 mg-btm">
+                        {% for author in authors %}
+                            <div class="col">
+                                <div class="card h-100 border-0">
+                                    <div class="card-body pb-0">
+                                        {% if author.image %}
+                                            <a href="{% url 'products' %}?author={{ author.id }}">
+                                                <div class="image-container text-center">
+                                                    <img class="card-img-top author-img"
+                                                         src="{{ author.image.url }}"
+                                                         alt="{{ author.friendly_name|default:author.name }}">
+                                                </div>
+                                            </a>
+                                            <br>
+                                        {% else %}
+                                            <a href="{% url 'products' %}?author={{ author.id }}">
+                                                <div class="image-container text-center">
+                                                    <img class="card-img-top author-img"
+                                                         src="{{ MEDIA_URL }}noauthorimage.jpg"
+                                                         alt="{{ author.friendly_name|default:author.name }}">
+                                                </div>
+                                            </a>
+                                            <br>
+                                        {% endif %}
                                         <br>
-                                        <p>
-                                            {{ author.bio }}
-                                        </p>
-                                    {% endif %}
-                                    {% if request.user.is_superuser %}
-                                        <small class="ml-3">
-                                            <a href="{% url 'edit_author' author.id %}">Edit</a> |
-                                            <a class="text-danger" href="{% url 'delete_author' author.id %}">Delete</a>
-                                        </small>
-                                    {% endif %}
+                                        <a class="author-text text-black"
+                                           href="{% url 'products' %}?author={{ author.id }}">
+                                            <strong>{{ author.friendly_name|default:author.name }}</strong>
+                                        </a>
+                                        <br>
+                                        {% if author.bio %}
+                                            <br>
+                                            <p>
+                                                {{ author.bio }}
+                                            </p>
+                                        {% endif %}
+
+                                        {% if request.user.is_superuser %}
+                                            <hr>
+                                            <small class="ml-3">
+                                                <a href="{% url 'edit_author' author.id %}">Edit</a> |
+                                                <a class="text-danger" href="{% url 'delete_author' author.id %}">Delete</a>
+                                            </small>
+                                        {% endif %}
+                                        <hr>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        {% if forloop.counter|divisibleby:1 %}
-                            <div class="col-12 d-sm-none mb-5">
-                                <hr>
-                            </div>
-                        {% endif %}
+                            <!-- {% if forloop.counter|divisibleby:1 %}
+                                <div class="col-12 d-sm-none mb-5">
+                                    <hr>
+                                </div>
+                            {% endif %}
 
-                        {% if forloop.counter|divisibleby:2 %}
-                            <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
-                                <hr>
-                            </div>
-                        {% endif %}
-                        {% if forloop.counter|divisibleby:3 %}
-                            <div class="col-12 d-none d-lg-block d-xl-none mb-5">
-                                <hr>
-                            </div>
-                        {% endif %}
-                        {% if forloop.counter|divisibleby:4 %}
-                            <div class="col-12 d-none d-xl-block mb-5">
-                                <hr>
-                            </div>
-                        {% endif %}
-                    {% endfor %}
+                            {% if forloop.counter|divisibleby:2 %}
+                                <div class="col-12 d-none d-sm-block d-md-block d-lg-none mb-5">
+                                    <hr>
+                                </div>
+                            {% endif %}
+                            {% if forloop.counter|divisibleby:3 %}
+                                <div class="col-12 d-none d-lg-block d-xl-none mb-5">
+                                    <hr>
+                                </div>
+                            {% endif %}
+                            {% if forloop.counter|divisibleby:4 %}
+                                <div class="col-12 d-none d-xl-block mb-5">
+                                    <hr>
+                                </div>
+                            {% endif %} -->
+                        {% endfor %}
+                    </div>
                 </div>
             </div>
         </div>
