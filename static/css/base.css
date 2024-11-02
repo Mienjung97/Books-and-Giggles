@@ -255,6 +255,16 @@ input[name='q']::placeholder {
     border: 1px solid #fff7e7dc !important;
 }
 
+
+.bg-admin {
+    border-radius: 10px;
+    border: 1px solid #ffc24975;
+    background: #fff7e7;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
 /* --------------------------------------------------------- bootstrap toasts */
 
 .message-container {

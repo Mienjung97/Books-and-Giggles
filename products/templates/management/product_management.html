@@ -14,34 +14,36 @@
     <div class="overlay">
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-6">
+        <div class="row text-center">
+            <div class="col-12">
                 <hr>
                 <h2 class="logo-font mb-4">
                     Product Management
                 </h2>
                 <hr>
-                <div class="col-12 col-md-6">
+                <div class="col-12">
                     <h4>
-                        <a href="{% url 'admin:index' %}">Go to the Admin panel</a>
+                        <a href="{% url 'admin:index' %}" class="btn btn-lg bg-admin" >Go to the Admin panel</a>
                     </h4>
                     <br>
                 </div>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-12 col-md-6">
-                <a href="{% url 'add_product' %}">Add a Product</a>
+        <div class="row text-center">
+            <div class="col-md-2 col-lg-3"></div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <a href="{% url 'add_product' %}" class="btn bg-admin">Add a Product</a>
                 <br>
-                <a href="{% url 'add_category' %}">Add a Category</a>
+                <a href="{% url 'add_category' %}" class="btn bg-admin">Add a Category</a>
                 <br>
-                <a href="{% url 'add_author' %}">Add an Author</a>
+                <a href="{% url 'add_author' %}" class="btn bg-admin">Add an Author</a>
             </div>
-            <div class="col-12 col-md-6">
-                <a href="{% url 'add_faq' %}">Add a question to the FAQ page</a>
+            <div class="col-12 col-md-4 col-lg-3">
+                <a href="{% url 'add_faq' %}" class="btn bg-admin">Add a question to the FAQ page</a>
                 <br>
             </div>
+            <div class="col-md-2 col-xl-3"></div>
         </div>
     </div>
 {% endblock %}
