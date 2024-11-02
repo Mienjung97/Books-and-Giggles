@@ -26,7 +26,7 @@
                 <i class="fa-solid fa-caret-down"></i>
                 All Books
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-books-link">
+            <div class="dropdown-menu border-0 bg-book" aria-labelledby="all-books-link">
                 <a href="{% url 'products' %}?sort=author&direction=asc" class="dropdown-item ">By Author</a>
                 <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item ">By Price</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
@@ -43,7 +43,7 @@
                 <i class="fa-solid fa-caret-down"></i>
                 Categories
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="category-link">
+            <div class="dropdown-menu border-0 bg-book" aria-labelledby="category-link">
                 {% for category in categories %}
                     <a href="{% url 'products' %}?category={{ category.name }}" class="dropdown-item">{{ category.friendly_name }}</a>
                 {% empty %}

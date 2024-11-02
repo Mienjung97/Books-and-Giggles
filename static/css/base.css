@@ -36,6 +36,12 @@ img {
     align-self: center;
 }
 
+.logo-font {
+    text-transform: uppercase;
+}
+
+/* --------------------------------------------------------- general styles */
+
 .height {
     z-index: 99;
     margin-top: 25vh;
@@ -54,10 +60,6 @@ img {
     justify-content: center;
     height: 1.5rem;
     width: 1.5rem;
-}
-
-.logo-font {
-    text-transform: uppercase;
 }
 
 .main-logo-link {
