@@ -36,24 +36,43 @@
         <br>
         {% for faq_item in faq_items %}
             <div class="row">
-                <div class="mx-auto">
-                    <h3>
-                        {{ faq_item.question }}
-                    </h3>
-                    <p>
-                        {{ faq_item.answer }}
-                    </p>
-                    {% if request.user.is_superuser %}
-                        <small class="ml-3">
-                            <a href="{% url 'edit_faq' faq_item.id %}">Edit</a> |
-                            <a class="text-danger" href="{% url 'delete_faq' faq_item.id %}">Delete</a>
-                        </small>
-                    {% endif %}
-                    <hr>
-                    <br>
+                <div class="col-sm-1 col-md-2 col-xl-3">
                 </div>
-            </div>
-
-        {% endfor %}
+                <div class="bg-faq col-12 col-sm-10 col-md-8 col-xl-6">
+                    <div class="accordion" id="faqAccordion">
+                        <div class="bg-book">
+                            <div class="card-header faq-border" id="heading{{ forloop.counter }}">
+                                <h2 class="mb-0">
+                                    <button class="faq-dd faq-font-bg faq-btn col-12"
+                                            type="button"
+                                            data-toggle="collapse"
+                                            data-target="#collapse{{ forloop.counter }}"
+                                            aria-expanded="false"
+                                            aria-controls="collapse{{ forloop.counter }}">
+                                            <i class="fa-solid fa-caret-down"></i> {{ faq_item.question }}
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapse{{ forloop.counter }}"
+                                 class="collapse"
+                                 aria-labelledby="heading{{ forloop.counter }}"
+                                 data-parent="#faqAccordion">
+                                <div class="card-body">
+                                    {{ faq_item.answer }}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            {% if request.user.is_superuser %}
+                <small class="ml-3">
+                    <a href="{% url 'edit_faq' faq_item.id %}">Edit</a> |
+                    <a class="text-danger" href="{% url 'delete_faq' faq_item.id %}">Delete</a>
+                </small>
+            {% endif %}
+        </div>
+        <div class="col-sm-1 col-md-2 col-xl-3">
+        </div>
     </div>
+{% endfor %}
+</div>
 {% endblock %}

@@ -50,6 +50,7 @@ img {
 
 .hide-message {
     margin: 0% !important;
+    text-align: center !important;
 }
 
 
@@ -220,6 +221,38 @@ input[name='q']::placeholder {
     background-color: #dc3545;
     border-color: #dc3545;
     border-radius: 0;
+}
+
+/* --------------------------------------------------------- FAQ */
+
+.faq-dd {
+    list-style-type: none !important;
+}
+
+.faq-font-bg {
+    text-decoration: none !important;
+    font-size: 1em;
+    color: #000;
+}
+
+.faq-btn {
+    box-sizing: none !important;
+    border-width: 0 !important;
+    background: none;
+    text-align: left;
+}
+
+.bg-faq {
+    border-radius: 10px;
+    border: 1px solid #fff7e7dc;
+    background: #fff7e7;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.faq-border {
+    border-radius: 10px !important;
+    border: 1px solid #fff7e7dc !important;
 }
 
 /* --------------------------------------------------------- bootstrap toasts */

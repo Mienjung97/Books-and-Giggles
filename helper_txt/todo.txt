@@ -49,3 +49,4 @@ Contact field: Size the boxes! -> just to admin or make admin fronend page?
 email address (example.com -> change) - set up new email?
 
 
+Do you really want to delete the author? page
