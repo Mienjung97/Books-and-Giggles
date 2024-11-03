@@ -151,11 +151,16 @@ img {
     max-width: fit-content;
     margin-top: auto;
     margin-bottom: auto;
+    text-align: center;
 }
 
 .product-img-container {
     height: 40vh;
     text-align: center;
+}
+
+.p-mg {
+    padding: 2vw !important;
 }
 
 .name-container {
