@@ -50,3 +50,5 @@ email address (example.com -> change) - set up new email?
 
 
 Do you really want to delete the author? page
+
+make footer not cover everything

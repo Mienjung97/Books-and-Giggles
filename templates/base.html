@@ -49,6 +49,8 @@
             <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
                   rel="stylesheet">
             <link rel="stylesheet" href="{% static 'css/base.css' %}">
+            <link rel="stylesheet"
+                  href="https://sibforms.com/forms/end-form/build/sib-styles.css">
         {% endblock %}
 
         {% block extra_css %}
@@ -63,6 +65,17 @@
             <script src="https://kit.fontawesome.com/fbb5fcb3ba.js" crossorigin="anonymous"></script>
             <!-- Stripe -->
             <script src="https://js.stripe.com/v3/"></script>
+            <!-- Newsletter -->
+
+            <!-- MailerLite Universal -->
+            <!-- <script>
+                (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+                .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+                n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+                (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+                ml('account', '1174123');
+            </script> -->
+            <!-- End MailerLite Universal -->
         {% endblock %}
 
         {% block extra_js %}
@@ -119,7 +132,7 @@
                                     </p>
                                 </div>
                             </a>
-                            <div class="dropdown-menu border-0" aria-labelledby="user-options">
+                            <div class="dropdown-menu border-0 bg-book" aria-labelledby="user-options">
                                 {% if request.user.is_authenticated %}
                                     {% if request.user.is_superuser %}
                                         <a href="{% url 'management' %}" class="dropdown-item">Product Management</a>
@@ -173,24 +186,24 @@
                 </nav>
             </div>
             {% if request.path == '/' %}
-            <div id="delivery-banner" class="row text-center">
-                <div class="col bg-black text-white">
-                    <h4 class="logo-font my-2">
-                        Free delivery on orders over {{ free_delivery_threshold }}€!
-                    </h4>
+                <div id="delivery-banner" class="row text-center">
+                    <div class="col bg-black text-white">
+                        <h4 class="logo-font my-2">
+                            Free delivery on orders over {{ free_delivery_threshold }}€!
+                        </h4>
+                    </div>
                 </div>
-            </div>
             {% else %}
-            <div id="delivery-banner" class="row text-center">
-                <div class="col bg-black text-black text-center">
-                    <p class="hide-message d-none d-sm-flex">
-                        This is a hidden message. You are amazing! Stay as you are!
-                    </p>
-                    <p class="hide-message d-sm-none">
-                        You are amazing!
-                    </p>
+                <div id="delivery-banner" class="row text-center">
+                    <div class="col bg-black text-black text-center">
+                        <p class="hide-message d-none d-sm-flex">
+                            This is a hidden message. You are amazing! Stay as you are!
+                        </p>
+                        <p class="hide-message d-sm-none">
+                            You are amazing!
+                        </p>
+                    </div>
                 </div>
-            </div>
             {% endif %}
         </header>
         {% if messages %}
@@ -217,10 +230,56 @@
         {% block content %}
         {% endblock %}
 
+        <!-- Footer -->
+        <footer class="footer mt-5 py-3 bg-book text-black fixed-bottom">
+            <div class="row">
+                <div class="d-none d-md-flex col-md-4">
+                    <a href="{% url 'newsletter' %}" class="footer-links media-link">Subscribe to our Newsletter</a>
+                </div>
+                <div class="col col-md-4">
+                    <p class="m-0 text-center">
+                        {% block copyright %}
+                            Copyright 2024 Sebastian Kefer
+                        {% endblock copyright %}
+                    </p>
+                    <p class="m-0 text-center text-decoration-none">
+                        Follow us:
+                        <a href="https://www.facebook.com" target="_blank" class="media-link"><i class="fab fa-facebook-square ms-3"></i></a>
+                        <a href="https://www.instagram.com" target="_blank" class="media-link"><i class="fab fa-instagram-square ms-3"></i></a>
+                        <a href="https://www.linkedin.com" target="_blank" class="media-link"><i class="fab fa-brands fa-linkedin ms-3"></i></a>
+                    </p>
+                </div>
+                <div class="d-none d-md-flex col-md-4">
+                    <a href="{% url 'contact' %}" class="footer-links media-link">Contact us</a>
+                </div>
+            </div>
+        </footer>
+
         {% block postloadjs %}
             <script type="text/javascript">
             $('.toast').toast('show');
             </script>
+
+            <!-- START - We recommend to place the below code in footer or bottom of your website html  -->
+            <script>
+            window.REQUIRED_CODE_ERROR_MESSAGE = 'Wählen Sie bitte einen Ländervorwahl aus.';
+            window.LOCALE = 'de';
+            window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Signing up failed. Please ensure the form is valid.";
+            window.REQUIRED_ERROR_MESSAGE = "This field is not allowed to be empty. ";
+            window.GENERIC_INVALID_MESSAGE = "Signing up failed. Please ensure the form is valid.";
+        
+            window.translation = {
+            common: {
+                selectedList: '{quantity} Liste ausgewählt',
+                selectedLists: '{quantity} Listen ausgewählt'
+            }
+            };
+            var AUTOHIDE = Boolean(0);
+            </script>
+            <script defer src="https://sibforms.com/forms/end-form/build/main.js"></script>
+
+            <!-- END - We recommend to place the above code in footer or bottom of your website html  -->
+            <!-- End Brevo Form -->
         {% endblock %}
 
     </body>

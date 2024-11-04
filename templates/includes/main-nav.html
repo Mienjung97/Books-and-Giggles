@@ -24,7 +24,7 @@
                aria-haspopup="true"
                aria-expanded="false">
                 <i class="fa-solid fa-caret-down"></i>
-                All Books
+                Books
             </a>
             <div class="dropdown-menu border-0 bg-book" aria-labelledby="all-books-link">
                 <a href="{% url 'products' %}?sort=author&direction=asc" class="dropdown-item ">By Author</a>
@@ -64,17 +64,20 @@
 
         <li class="nav-item dropdown">
             <a class="logo-font font-weight-bold nav-link text-black mr-5"
-               href="{% url 'about' %}"
-               id="home-link">
-                About
+               href="#"
+               id="about-us-link"
+               data-toggle="dropdown"
+               aria-haspopup="true"
+               aria-expanded="false">
+                <i class="fa-solid fa-caret-down"></i>
+                About  Us
             </a>
-        </li>
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5"
-               href="{% url 'faq' %}"
-               id="home-link">
-                FAQ
-            </a>
+            <div class="dropdown-menu border-0 bg-book" aria-labelledby="about-us">
+                <a href="{% url 'faq' %}" class="dropdown-item">FAQ</a>
+                <a href="{% url 'about' %}" class="dropdown-item">About Page</a>
+                <a href="{% url 'contact' %}" class="dropdown-item">Contact Us</a>
+                <a href="{% url 'newsletter' %}" class="dropdown-item">Newsletter</a>
+            </div>
         </li>
     </ul>
 </div>

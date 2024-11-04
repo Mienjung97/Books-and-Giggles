@@ -12,8 +12,19 @@
 
 {% block content %}
     {# djlint:off H006 #}
-    <div class="container h-100">
+    <div class="container">
         <div class="h-100">
+            <a href="{% url 'products' %}" class="text-decoration-none">
+                <div class="mx-auto col-12 col-md-8 col-l-6 col-xl-5 height">
+                    <p class="text-black bg-container text-center">
+                        <strong>Shop for the best books right here!</strong>
+                        <br>
+                        <br>
+                        We have everything from beststellers
+                        and historical fiction to fanatsy and illustarted books.
+                    </p>
+                </div>
+            </a>
             <div id="carouselExampleCaptions"
                  class="carousel slide height text-black bg-container mx-auto col-12 col-md-8 col-l-6 col-xl-5"
                  data-ride="carousel">
@@ -93,21 +104,6 @@
                     <span class="sr-only">Next</span>
                 </button>
             </div>
-            <br>
-            <div class="mx-auto col-12 col-md-8 col-l-6 col-xl-5 my-3">
-                <p class="text-black bg-container text-center">
-                    <strong>Shop for the best books right here! <br> We have everything from beststellers
-                    and historical fiction to fanatsy and illustarted books.</strong>
-                </p>
-            </div>
-            <a href="{% url 'products' %}"
-               class="text-black text-uppercase text-decoration-none">
-                <div class="btn-bg-container mx-auto btn">
-                    <p>
-                        <strong>Shop Now</strong>
-                    </p>
-                </div>
-            </a>
         </div>
     </div>
 {% endblock %}
