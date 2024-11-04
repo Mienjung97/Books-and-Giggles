@@ -24,7 +24,7 @@ I want to make author friendly_name mandatory for added models -> make friendls_
 
 
 
-
+WTF - When trying to edit a product, the edit author page appears. URLs seem to be correct
 
 
 
