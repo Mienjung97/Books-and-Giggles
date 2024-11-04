@@ -42,6 +42,10 @@ img {
 
 /* --------------------------------------------------------- general styles */
 
+.container-height {
+    padding-bottom: 100px;
+}
+
 .height {
     z-index: 99;
     margin-top: 5vh;
