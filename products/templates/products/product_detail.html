@@ -21,7 +21,12 @@
                 <div class="col text-center">
                     <small>
                         <a href="{% url 'edit_product' product.id %}">Edit</a> |
-                        <a class="text-danger" href="{% url 'delete_product' product.id %}">Delete</a>
+                        <form action="{% url 'delete_product' product.id %}" method="get" class="text-end">
+                            {% csrf_token %}
+                            <button type="submit" class="text-danger">
+                                Delete this product
+                            </button>
+                        </form>
                     </small>
                 </div>
             </div>

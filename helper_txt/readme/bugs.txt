@@ -1,6 +1,7 @@
 10.10.24: Cloned my project to another private repo to try out models and products fixtures (to not create problems in real repo) -> Had issues with the database and migrations -> with tutor support I was able to delete the db and implement the new models and test fixtures
 17.10.24: after the clone, I had a copy of my project in my project -> deleted it after research on if that would create problems in the project
 18.10.24: For search queries, since author and category are own models, the search didnt work -> included classes in the view with name and friendly name -> this gave duplicate resulats, therefore distinct() function was added to new "products" variable
+04.11.24: When trying to edit a product, the edit author page appears. URLs seem to be correct -> URL mistake -> Done 05.11.2024
 
 JS code: change targeted IDs to target classes -> change "#" to "." to target classes - does not work at the moment -> will be targeted
 -> 30.10.24
@@ -24,7 +25,6 @@ I want to make author friendly_name mandatory for added models -> make friendls_
 
 
 
-WTF - When trying to edit a product, the edit author page appears. URLs seem to be correct
 
 
 
