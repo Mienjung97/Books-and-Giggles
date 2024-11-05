@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% load static %}
 
+{# djlint:off H006 #}
+
 {% block page_header %}
     <div class="container header-container">
         <div class="row">
@@ -24,23 +26,31 @@
                 </div>
             </div>
             <br>
-
-            <div>
+            <br>
+            <div class="text-center">
                 <h3>
-                    "{{ product.name }}"
+                    "{{ product.name }}" by "{{ product.author.friendly_name }}"
                 </h3>
+                <br>
+                {% if product.image %}
+                    <div class="img-container">
+                        <img src="{{ product.image.url }}" alt="{{ product.name }}">
+                    </div>
+                {% endif %}
             </div>
             <br>
             <div class="row">
-                <form action="{% url 'delete_product' product.id %}" method="post">
-                    {% csrf_token %}
-                    <button type="submit" class="btn btn-danger">
-                        Delete this product
-                    </button>
-                    <a class="btn btn-edit" href="{% url 'product_detail' product.id %}">
-                        Cancel
-                    </a>
-                </form>
+                <div class="text-center">
+                    <form action="{% url 'delete_product' product.id %}" method="post">
+                        {% csrf_token %}
+                        <button type="submit" class="btn btn-danger">
+                            Delete this product
+                        </button>
+                        <a class="btn btn-edit" href="{% url 'product_detail' product.id %}">
+                            Cancel
+                        </a>
+                    </form>
+                </div>
             </div>
         </div>
     </div>
