@@ -68,10 +68,19 @@
 
                                             {% if request.user.is_superuser %}
                                                 <hr>
-                                                <small class="ml-3">
-                                                    <a href="{% url 'edit_author' author.id %}">Edit</a> |
-                                                    <a class="text-danger" href="{% url 'delete_author' author.id %}">Delete</a>
-                                                </small>
+                                                <div class="row">
+                                                    <div class="col text-center">
+                                                        <small>
+                                                            <a href="{% url 'edit_author' author.id %}">Edit</a> |
+                                                            <form action="{% url 'delete_author' author.id %}" method="get" class="text-end">
+                                                                {% csrf_token %}
+                                                                <button type="submit" class="text-danger">
+                                                                    Delete this author
+                                                                </button>
+                                                            </form>
+                                                        </small>
+                                                    </div>
+                                                </div>
                                             {% endif %}
                                             <hr>
                                         </div>

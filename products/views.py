@@ -360,6 +360,15 @@ def delete_author(request, author_id):
         return redirect(reverse('home'))
 
     author = get_object_or_404(Author, pk=author_id)
-    author.delete()
-    messages.success(request, 'Author deleted!')
-    return redirect(reverse('authors'))
+
+    if request.method == "POST":
+        author.delete()
+        messages.success(request, 'Author deleted!')
+        return redirect(reverse('authors'))
+    
+    template ='authors/delete_author.html'
+    context = {
+        'author': author
+    }
+
+    return render(request, template, context)
