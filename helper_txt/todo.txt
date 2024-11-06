@@ -31,11 +31,11 @@ AUTHORS: on delete - delete all books!
         Styling:
 
         - carrusell on home page with "Bestsellers, New releases and Our reccomendation" -> Carousel -> 3 categories -> Done
+        - change layout in products page (make cards even from size so that the writing and pictures are all equal) -> Done
         - product detail page: make multiple "containers" with related infos; make size of picture universal -> Done
 
 
         Change general styling of page -> All CSS that was taken will be changed! 
-        - change layout in products page (make cards even from size so that the writing and pictures are all equal)
         - Checkout page styling
         - checkout_success -> styling (wider box)
         - loading overlay -> green!
