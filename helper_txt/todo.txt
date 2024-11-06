@@ -12,6 +12,10 @@ JS for minus button -> change IDs to classes!
 -> change "#" to "." to target classes - does not work at the moment -> Done
 Sorting after category -> shows more products than in the store (duplicate books) -> Deleted -> Done
 !important: Save name and email to profile. E63! Profile app -> Save name and payment method -> Done
+Make home button show on collapsed bar under 998px! -> Done
+Add Bios and pictures to authors -> Done (not in db)
+Do you really want to delete the author? page -> Done
+make footer not cover everything -> Done
 
 
 
@@ -26,9 +30,11 @@ AUTHORS: on delete - delete all books!
 
         Styling:
 
+        - carrusell on home page with "Bestsellers, New releases and Our reccomendation" -> Carousel -> 3 categories -> Done
+        - product detail page: make multiple "containers" with related infos; make size of picture universal -> Done
+
+
         Change general styling of page -> All CSS that was taken will be changed! 
-        - carrusell on home page with "Bestsellers, New releases and Our reccomendation" -> Carousel -> 3 categories ->
-        - product detail page: make multiple "containers" with related infos; make size of picture universal
         - change layout in products page (make cards even from size so that the writing and pictures are all equal)
         - Checkout page styling
         - checkout_success -> styling (wider box)
@@ -36,9 +42,7 @@ AUTHORS: on delete - delete all books!
         !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling
                                                                         -> categories: just views and finishing the template -> functionality done -> styling!
         make messages disappear after 5 seconds -> location: middle of page underneath free delivery
-Make home button show on collapsed bar under 998px!
 
-        Add Bios and pictures to authors
 
 Contact field: Size the boxes! -> just to admin or make admin fronend page?
                                 Email varification?
@@ -49,6 +53,3 @@ Contact field: Size the boxes! -> just to admin or make admin fronend page?
 email address (example.com -> change) - set up new email?
 
 
-Do you really want to delete the author? page
-
-make footer not cover everything
