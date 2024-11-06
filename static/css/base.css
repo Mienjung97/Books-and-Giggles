@@ -56,6 +56,70 @@ img {
     text-align: center !important;
 }
 
+.btn-del {
+    background: none;
+    border: none;
+    color: rgb(138, 0, 0);
+    padding: none;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto 0 auto;
+}
+
+.btn-del:hover {
+    background-color: rgb(138, 0, 0) !important;
+    border: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff !important;
+}
+
+.btn-edit {
+    background: none;
+    border: none;
+    color: #694600;
+    padding: none;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    text-decoration: none;
+}
+
+.btn-edit:hover {
+    background-color: #694600 !important;
+    border: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff !important;
+    text-decoration: none;
+}
+
+.btn-cancel {
+    background: none;
+    border: none;
+    color: rgb(138, 0, 0);
+    padding: none;
+    font-size: 0.9rem;
+    text-decoration: none;
+    cursor: pointer;
+    width: fit-content;
+    margin: 0 auto 0 auto;
+}
+
+.btn-cancel:hover {
+    background-color: rgb(138, 0, 0) !important;
+    border: none;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    color: #fff !important;
+}
 
 /* from Bulma */
 .icon {

@@ -14,166 +14,184 @@
 {% block content %}
     <div class="overlay">
     </div>
-    <div class="container-fluid">
-
-        {% if request.user.is_superuser %}
+    <div class="container container-height">
+        <div class="container-fluid">
             <div class="row">
-                <div class="col text-center">
-                    <small>
-                        <a href="{% url 'edit_product' product.id %}">Edit</a> |
-                        <form action="{% url 'delete_product' product.id %}" method="get" class="text-end">
-                            {% csrf_token %}
-                            <button type="submit" class="text-danger">
-                                Delete this product
-                            </button>
-                        </form>
-                    </small>
+                <div class="col text-center mt-3">
+                    <h1>
+                        {{ product.name }}
+                    </h1>
+                    {% if request.user.is_superuser %}
+                        <hr class="w-50">
+                    {% else %}
+                        <hr class="w-50 mb-1">
+                        <br>
+                    {% endif %}
                 </div>
             </div>
-        {% endif %}
 
-        <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
-            <div class="image-container my-5 text-center">
-                {% if product.image %}
-                    <a href="{{ product.image.url }}" target="_blank">
-                        <img class="card-img-top img-fluid product-img"
-                             src="{{ product.image.url }}"
-                             alt="{{ product.name }}">
-                    </a>
-                {% else %}
-                    <a href="">
-                        <img class="card-img-top img-fluid product-img"
-                             src="{{ MEDIA_URL }}noimage.jpg"
-                             alt="{{ product.name }}">
-                    </a>
-                {% endif %}
-            </div>
-            <div class="product-details-container mb-5 mt-md-5 p-mg">
-                <div>
-                    <p class="mb-0">
-                        <strong>{{ product.name }}</strong>
-                    </p>
-                    <p class="mt-3">
-                        Author: {{ product.author.friendly_name }}
-                    </p>
-                    <p class="mt-3">
-                        Edition: {{ product.cover.name }}
-                    </p>
-                    <p class="lead mb-0 text-left font-weight-bold">
-                        Price: {{ product.price }}€
-                    </p>
-                    <br>
-                    <form class="form" action="{% url 'add_to_shopping_bag' product.id %}" method="post">
-                        {% csrf_token %}
-                        <div class="form-row">
-                            <div class="col-12">
-                                <p class="mt-3">
-                                    <strong>Quantity:</strong>
-                                </p>
-                                <div class="form-group w-50">
-                                    <div class="input-group">
-                                        <div class="input-group-prepend">
-                                            <button class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}"
-                                                    data-item_id="{{ product.id }}">
-                                                <span class="icon">
-                                                    <i class="fas fa-minus"></i>
-                                                </span>
-                                            </button>
-                                        </div>
-                                        <input class="form-control qty_input id_qty_{{ product.id }}"
-                                               type="number"
-                                               name="quantity"
-                                               value="1"
-                                               min="1"
-                                               max="99"
-                                               data-item_id="{{ product.id }}">
-                                        <div class="input-group-append">
-                                            <button class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}"
-                                                    data-item_id="{{ product.id }}">
-                                                <span class="icon">
-                                                    <i class="fas fa-plus"></i>
-                                                </span>
-                                            </button>
+            {% if request.user.is_superuser %}
+                <div class="row">
+                    <div class="col text-center">
+                        <small>
+                            <div class="text-center">
+                                <a href="{% url 'edit_product' product.id %}" class="btn btn-edit">Edit "{{ product.name }}"</a>
+                                <form action="{% url 'delete_product' product.id %}" method="get">
+                                    {% csrf_token %}
+                                    <button type="submit" class="btn btn-del">
+                                        Delete "{{ product.name }}"
+                                    </button>
+                                </form>
+                            </small>
+                        </div>
+                        <hr class="w-50 mb-1">
+                    </div>
+                </div>
+            {% endif %}
+
+            <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3">
+                <div class="image-container my-5 text-center">
+                    {% if product.image %}
+                        <a href="{{ product.image.url }}" target="_blank">
+                            <img class="card-img-top img-fluid product-img"
+                                 src="{{ product.image.url }}"
+                                 alt="{{ product.name }}">
+                        </a>
+                    {% else %}
+                        <a href="">
+                            <img class="card-img-top img-fluid product-img"
+                                 src="{{ MEDIA_URL }}noimage.jpg"
+                                 alt="{{ product.name }}">
+                        </a>
+                    {% endif %}
+                </div>
+                <div class="product-details-container mb-5 mt-md-5 p-mg">
+                    <div>
+                        <p class="mb-0">
+                            <strong>{{ product.name }}</strong>
+                        </p>
+                        <p class="mt-3">
+                            Author: {{ product.author.friendly_name }}
+                        </p>
+                        <p class="mt-3">
+                            Edition: {{ product.cover.name }}
+                        </p>
+                        <p class="lead mb-0 text-left font-weight-bold">
+                            Price: {{ product.price }}€
+                        </p>
+                        <br>
+                        <form class="form" action="{% url 'add_to_shopping_bag' product.id %}" method="post">
+                            {% csrf_token %}
+                            <div class="form-row">
+                                <div class="col-12">
+                                    <p class="mt-3">
+                                        <strong>Quantity:</strong>
+                                    </p>
+                                    <div class="form-group w-50">
+                                        <div class="input-group">
+                                            <div class="input-group-prepend">
+                                                <button class="decrement-qty btn btn-black rounded-0 decrement-qty_{{ product.id }}"
+                                                        data-item_id="{{ product.id }}">
+                                                    <span class="icon">
+                                                        <i class="fas fa-minus"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
+                                            <input class="form-control qty_input id_qty_{{ product.id }}"
+                                                   type="number"
+                                                   name="quantity"
+                                                   value="1"
+                                                   min="1"
+                                                   max="99"
+                                                   data-item_id="{{ product.id }}">
+                                            <div class="input-group-append">
+                                                <button class="increment-qty btn btn-black rounded-0 increment-qty_{{ product.id }}"
+                                                        data-item_id="{{ product.id }}">
+                                                    <span class="icon">
+                                                        <i class="fas fa-plus"></i>
+                                                    </span>
+                                                </button>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
 
-                            <div class="col-12">
-                                <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-2">
-                                    <span class="icon">
-                                        <i class="fas fa-chevron-left"></i>
-                                    </span>
-                                    <span class="text-uppercase">Keep Shopping</span>
-                                </a>
-                                <input type="submit"
-                                       class="btn btn-black rounded-0 text-uppercase mt-2"
-                                       value="Add to Bag">
+                                <div class="col-12">
+                                    <a href="{% url 'products' %}" class="btn btn-outline-black rounded-0 mt-2">
+                                        <span class="icon">
+                                            <i class="fas fa-chevron-left"></i>
+                                        </span>
+                                        <span class="text-uppercase">Keep Shopping</span>
+                                    </a>
+                                    <input type="submit"
+                                           class="btn btn-black rounded-0 text-uppercase mt-2"
+                                           value="Add to Bag">
+                                </div>
+                                <input type="hidden" name="redirect_url" value="{{ request.path }}">
                             </div>
-                            <input type="hidden" name="redirect_url" value="{{ request.path }}">
-                        </div>
-                    </form>
+                        </form>
+                    </div>
                 </div>
-            </div>
-            <div class="p-mg">
-                <strong>About this copy:</strong>
-                {% if product.page_count %}
-                    <p class="mt-3">
-                        Pages: {{ product.page_count }}
-                    </p>
-                {% endif %}
-                <p class="mt-3">
-                    Publisher: {{ product.publisher }}
-                </p>
-                {% if product.year_published %}
-                    <p class="mt-3">
-                        Year Published: {{ product.year_published }}
-                    </p>
-                {% endif %}
-                {% if product.isbn %}
-                    <p class="mt-3">
-                        ISBN: {{ product.isbn }}
-                    </p>
-                {% endif %}
-                {% if product.description %}
-                    <p class="mt-3 ">
-                        <strong>Description:</strong>
-                        <br>
-                        <br>
-                        {{ product.description }}
-                    </p>
-                {% endif %}
-            </div>
-            <div class="p-mg">
-                {% if product.description2 %}
-                    <p class="mt-3">
-                        <strong>More Description:</strong>
-                        <br>
-                        <br>
-                        {{ product.description2 }}
-                    </p>
-                {% endif %}
-                {% if product.extra_info %}
-                    <p class="mt-3">
-                        <strong>Other information:</strong>
-                        <br>
-                        <br>
-                        {{ product.extra_info }}
-                    </p>
-                {% endif %}
-                {% if product.category.all %}
-                    <p class="mt-3">
-                        <strong>Categories:</strong>
-                        <br>
-                    </p>
-                    {% for category in product.category.all %}
-                        <p class="small mt-1 mb-0">
-                            <a class="text-muted" href="{% url 'products' %}?category={{ category.name }}">
-                                <i class="fas fa-tag mr-1"></i>{{ category.friendly_name }}
-                            </a>
+                <div class="p-mg">
+                    <strong>About this copy:</strong>
+                    {% if product.page_count %}
+                        <p class="mt-3">
+                            Pages: {{ product.page_count }}
                         </p>
-                    {% endfor %}
-                {% endif %}
+                    {% endif %}
+                    <p class="mt-3">
+                        Publisher: {{ product.publisher }}
+                    </p>
+                    {% if product.year_published %}
+                        <p class="mt-3">
+                            Year Published: {{ product.year_published }}
+                        </p>
+                    {% endif %}
+                    {% if product.isbn %}
+                        <p class="mt-3">
+                            ISBN: {{ product.isbn }}
+                        </p>
+                    {% endif %}
+                    {% if product.description %}
+                        <p class="mt-3 ">
+                            <strong>Description:</strong>
+                            <br>
+                            <br>
+                            {{ product.description }}
+                        </p>
+                    {% endif %}
+                </div>
+                <div class="p-mg">
+                    {% if product.description2 %}
+                        <p class="mt-3">
+                            <strong>More Description:</strong>
+                            <br>
+                            <br>
+                            {{ product.description2 }}
+                        </p>
+                    {% endif %}
+                    {% if product.extra_info %}
+                        <p class="mt-3">
+                            <strong>Other information:</strong>
+                            <br>
+                            <br>
+                            {{ product.extra_info }}
+                        </p>
+                    {% endif %}
+                    {% if product.category.all %}
+                        <p class="mt-3">
+                            <strong>Categories:</strong>
+                            <br>
+                        </p>
+                        {% for category in product.category.all %}
+                            <p class="small mt-1 mb-0">
+                                <a class="text-muted" href="{% url 'products' %}?category={{ category.name }}">
+                                    <i class="fas fa-tag mr-1"></i>{{ category.friendly_name }}
+                                </a>
+                            </p>
+                        {% endfor %}
+                    {% endif %}
+                </div>
             </div>
         </div>
     </div>
