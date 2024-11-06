@@ -40,6 +40,8 @@ img {
     text-transform: uppercase;
 }
 
+
+
 /* --------------------------------------------------------- general styles */
 
 .container-height {
@@ -555,6 +557,17 @@ footer {
 
     .header-container {
         padding-top: 164px;
+    }
+
+    .border-dd {
+        border: 1px solid black !important;
+        border-top: 0 !important;
+        border-radius: 0 0 15px 15px;
+    }
+    
+    .nav-padding {
+        padding-top: 13px;
+        padding-bottom: 3px !important;
     }
 }
 
