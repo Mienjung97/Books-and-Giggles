@@ -601,6 +601,17 @@ footer {
 }
 
 /* pad the top with collapsed navbar on mobile */
+@media (max-width:1191px) {
+    .header-container {
+        padding-top: 193px;
+    }
+
+    body {
+        height: calc(100vh - 193px)
+    }
+}
+
+/* pad the top with collapsed navbar on mobile */
 @media (max-width:991px) {
     .header-container {
         padding-top: 116px;
@@ -644,6 +655,16 @@ footer {
     }
 }
 
+/* pad the top with collapsed navbar on mobile */
+@media (max-width:371px) {
+    .header-container {
+        padding-top: 180px;
+    }
+
+    body {
+        height: calc(100vh - 180px)
+    }
+}
 
 
 /* make the gap between author and cover smaller on big displays */
