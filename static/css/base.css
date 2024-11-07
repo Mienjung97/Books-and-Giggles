@@ -386,6 +386,10 @@ footer {
     width: 100%;
 }
 
+.f-border {
+    border-top: 1px solid #3b3b3b;
+}
+
 .media-link {
     text-decoration: none;
     color: #3b3b3b;
