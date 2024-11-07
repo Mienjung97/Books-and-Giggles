@@ -485,6 +485,13 @@ footer {
     height: 2px;
 }
 
+.message-new {
+    position: fixed;
+    top: 185px;
+    right: 25px;
+    z-index: 99999999999;
+}
+
 /* from CSS-tricks.com: https://css-tricks.com/snippets/css/css-triangle/ */
 .arrow-up {
     width: 0;
