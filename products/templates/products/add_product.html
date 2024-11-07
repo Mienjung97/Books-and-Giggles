@@ -31,7 +31,9 @@
             </div>
 
             <div class="row">
-                <div class="col-12 col-md-6">
+                <div class="col-md-1 col-xl-2">
+                </div>
+                <div class="col-12 col-md-10 col-xl-8 custom-form">
                     <form method="post"
                           action="{% url 'add_product' %}"
                           class="form mb-2"
@@ -39,9 +41,13 @@
                         {% csrf_token %}
                         {% for field in form %}
                             {% if field.name == 'author' %}
-                                <a href="{% url 'add_author' %}">Add Author</a>
+                                <div class="text-right pr-5">
+                                    <a href="{% url 'add_author' %}" class="media-link">Add Author</a>
+                                </div>
                             {% elif field.name == 'category' %}
-                                <a href="{% url 'add_category' %}">Add Category</a>
+                                <div class="text-right pr-5">
+                                    <a href="{% url 'add_category' %}" class="media-link">Add Category</a>
+                                </div>
                             {% endif %}
                             {% if field.name != 'image' %}
                                 {{ field | as_crispy_field }}
@@ -56,6 +62,8 @@
                             </button>
                         </div>
                     </form>
+                </div>
+                <div class="col-md-1 col-xl-2">
                 </div>
             </div>
         </div>

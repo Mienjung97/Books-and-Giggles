@@ -22,7 +22,7 @@ if the user changes the quantity to 0, 0 amount of items will be ordered, but it
 
 I want to make author friendly_name mandatory for added models -> make friendls_name nullable, then run "python3 manage.py makemigrations products --empty" -> migrate by hand. 
 
-
+In the add_product page, the borders are not round -> wont fix yet
 
 
 

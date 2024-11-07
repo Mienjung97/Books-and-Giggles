@@ -16,7 +16,9 @@ Make home button show on collapsed bar under 998px! -> Done
 Add Bios and pictures to authors -> Done (not in db)
 Do you really want to delete the author? page -> Done
 make footer not cover everything -> Done
-
+Contact field:                  Email varification? -> Done
+                                make "container box" with different background -> Done
+                                Size the boxes! -> Done
 
 
 -> possibility: Create profile in checkout? -> probably not
@@ -44,11 +46,9 @@ AUTHORS: on delete - delete all books!
         make messages disappear after 5 seconds -> location: middle of page underneath free delivery
 
 
-Contact field: Size the boxes! -> just to admin or make admin fronend page?
-                                Email varification? -> Done
-                                make "container box" with different background
+Contact field: Contact just to admin or make admin fronend page?
 
-
+profile: Same box as contact for profile form?
 
 email address (example.com -> change) - set up new email?
 

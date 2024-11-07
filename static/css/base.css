@@ -56,6 +56,13 @@ img {
     text-align: center !important;
 }
 
+.custom-form {
+    padding: 15px;
+    background: #fff7e7;
+    border: 1px solid #3b3b3b;
+    border-radius: 15px;
+}
+
 .btn-del {
     background: none;
     border: none;
@@ -170,6 +177,10 @@ img {
 
 .text-black {
     color: #3b3b3b !important;
+}
+
+.text-white {
+    color: #fff !important;
 }
 
 .text-hidden {
@@ -378,6 +389,7 @@ footer {
 .media-link {
     text-decoration: none;
     color: #3b3b3b;
+    cursor: pointer;
 }
 
 .media-link:hover {
@@ -391,13 +403,6 @@ footer {
 }
 
 /* --------------------------------------------------------- Contact page */
-
-.contact {
-    padding: 15px;
-    background: #fff7e7;
-    border: 1px solid #3b3b3b;
-    border-radius: 15px;
-}
 
 .btn-secondary {
     background-color: #3b3b3b !important;
