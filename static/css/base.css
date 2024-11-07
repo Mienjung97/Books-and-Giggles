@@ -192,6 +192,10 @@ img {
     z-index: -1;
 }
 
+.scroll-mg {
+    margin-bottom: 80px !important;
+}
+
 /* --------------------------------------------------------- Homepage */
 
 .carousel-control-next-icon {
