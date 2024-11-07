@@ -34,18 +34,18 @@ AUTHORS: on delete - delete all books!
         - change layout in products page (make cards even from size so that the writing and pictures are all equal) -> Done
         - product detail page: make multiple "containers" with related infos; make size of picture universal -> Done
         - Checkout page styling -> Done
+        - checkout_success -> styling (wider box) -> Done
+        - loading overlay -> green! -> Done (but brown)
 
 
         Change general styling of page -> All CSS that was taken will be changed! 
-        - checkout_success -> styling (wider box)
-        - loading overlay -> green!
         !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling
                                                                         -> categories: just views and finishing the template -> functionality done -> styling!
         make messages disappear after 5 seconds -> location: middle of page underneath free delivery
 
 
 Contact field: Size the boxes! -> just to admin or make admin fronend page?
-                                Email varification?
+                                Email varification? -> Done
                                 make "container box" with different background
 
 
