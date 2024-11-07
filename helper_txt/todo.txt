@@ -33,10 +33,10 @@ AUTHORS: on delete - delete all books!
         - carrusell on home page with "Bestsellers, New releases and Our reccomendation" -> Carousel -> 3 categories -> Done
         - change layout in products page (make cards even from size so that the writing and pictures are all equal) -> Done
         - product detail page: make multiple "containers" with related infos; make size of picture universal -> Done
+        - Checkout page styling -> Done
 
 
         Change general styling of page -> All CSS that was taken will be changed! 
-        - Checkout page styling
         - checkout_success -> styling (wider box)
         - loading overlay -> green!
         !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling

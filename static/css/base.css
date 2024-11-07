@@ -6,7 +6,7 @@ body {
     background: url('/media/book_store.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #3b3b3b;
     font-family: 'Playfair Display';
 }
 
@@ -39,8 +39,6 @@ img {
 .logo-font {
     text-transform: uppercase;
 }
-
-
 
 /* --------------------------------------------------------- general styles */
 
@@ -136,11 +134,11 @@ img {
     width: fit-content;
 }
 
-.shop-now-button {
+/* .shop-now-button {
     background: black;
     color: white;
     min-width: 260px;
-}
+} */
 
 .btn-black {
     background: black;
@@ -160,9 +158,9 @@ img {
     color: white !important;
 }
 
-.shop-now-button:hover,
+/* .shop-now-button:hover,
 .shop-now-button:active,
-.shop-now-button:focus,
+.shop-now-button:focus, */
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
@@ -171,11 +169,15 @@ img {
 }
 
 .text-black {
-    color: #000 !important;
+    color: #3b3b3b !important;
+}
+
+.text-hidden {
+    color: black !important;
 }
 
 .border-black {
-    border: 1px solid black !important;
+    border: 1px solid #3b3b3b !important;
 }
 
 .bg-black {
@@ -224,7 +226,7 @@ img {
 
 .author-text {
     text-decoration: none;
-    color: #000;
+    color: #3b3b3b;
 }
 
 .author-text:hover {
@@ -244,6 +246,14 @@ img {
 
 .product-img-container {
     height: 40vh;
+    text-align: center;
+}
+
+.cart-img {
+    max-height: 25vh;
+    max-width: fit-content;
+    margin-top: auto;
+    margin-bottom: auto;
     text-align: center;
 }
 
@@ -325,7 +335,7 @@ input[name='q']::placeholder {
 .faq-font-bg {
     text-decoration: none !important;
     font-size: 1em;
-    color: #000;
+    color: #3b3b3b;
 }
 
 .faq-btn {
@@ -367,7 +377,7 @@ footer {
 
 .media-link {
     text-decoration: none;
-    color: black;
+    color: #3b3b3b;
 }
 
 .media-link:hover {
@@ -617,13 +627,13 @@ footer {
         font-size: .9rem;
     }
 
-    .btn.btn-outline-black.rounded-0,
-    .btn.btn-black.rounded-0 {
+    .btn.btn-outline-black,
+    .btn.btn-black {
         padding: .375rem .375rem;
     }
 
-    .btn.btn-outline-black.rounded-0.btn-lg,
-    .btn.btn-black.rounded-0.btn-lg {
+    .btn.btn-outline-black.btn-lg,
+    .btn.btn-black.btn-lg {
         padding: .375rem .375rem;
         font-size: .75rem;
     }

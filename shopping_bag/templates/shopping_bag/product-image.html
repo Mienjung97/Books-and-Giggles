@@ -1,10 +1,10 @@
 {# djlint:off H006 #}
 {% if item.product.image %}
-    <img class="image-fluid rounded"
+    <img class="image-fluid rounded cart-img"
          src="{{ item.product.image.url }}"
          alt="{{ item.product.name }}">
 {% else %}
-    <img class="image-fluid rounded"
+    <img class="image-fluid rounded cart-img"
          src="{{ MEDIA_URL }}noimage.png"
          alt="{{ item.product.name }}">
 {% endif %}
