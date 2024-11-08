@@ -207,27 +207,21 @@
             {% endif %}
         </header>
         {% if messages %}
-            {% for message in messages %}
-                {% with message.level as level %}
-                    {% if level == 25 %}
-                        <div class="message-container">
+            <div class="message-container">
+                {% for message in messages %}
+                    {% with message.level as level %}
+                        {% if level == 25 %}
                             {% include 'includes/toasts/toast_success.html' %}
-                        </div>
-                    {% elif level == 40 %}
-                        <div class="message-new">
+                        {% elif level == 40 %}
                             {% include 'includes/toasts/toast_error.html' %}
-                        </div>
-                    {% elif level == 30 %}
-                        <div class="message-new">
+                        {% elif level == 30 %}
                             {% include 'includes/toasts/toast_warning.html' %}
-                        </div>
-                    {% else %}
-                        <div class="message-new">
+                        {% else %}
                             {% include 'includes/toasts/toast_info.html' %}
-                        </div>
-                    {% endif %}
-                {% endwith %}
-            {% endfor %}
+                        {% endif %}
+                    {% endwith %}
+                {% endfor %}
+            </div>
         {% endif %}
 
         {% block page_header %}
