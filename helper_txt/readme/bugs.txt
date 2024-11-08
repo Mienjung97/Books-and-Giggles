@@ -12,7 +12,7 @@ in the quantity_input_script.html, nested in the products includes folder, in th
 
 
 
-19.10.24: Sorting after category -> shows more products than in the store (duplicate books) -> will tackle later
+19.10.24: Sorting after category -> shows more products than in the store (duplicate books) -> will tackle later -> Deleted sorting option
 
 23.10.24: Stripe will not work as intended - will fix tomorrow -> in webhook_handler I renamed "shopping_bag" to "bag" while getting the metadata, but set the following variables as "shopping_bag" -> name error -> fixed the code, had issues with the email sending, commented this part out for later -> code works as intended (24.10.24)
 
@@ -20,13 +20,24 @@ friendly name -> while writing the json, it would not take authors and categorie
 
 if the user changes the quantity to 0, 0 amount of items will be ordered, but it will still show up in the order summary and confirmation mail as "0x book"
 
-I want to make author friendly_name mandatory for added models -> make friendls_name nullable, then run "python3 manage.py makemigrations products --empty" -> migrate by hand. 
+I want to make author friendly_name mandatory for added models -> make friendls_name nullable, then run "python3 manage.py makemigrations products --empty" -> migrate by hand. Damn.... gotta do
 
 In the add_product page, the borders are not round -> wont fix yet
 
 
 
-
+migration - nullable to be non nullable: With AI and tutor support solved:
+    AI's take: Step 1: Add a default value
+    First, add a default value to the field you want to make non-nullable. This ensures that existing NULL values have a valid replacement:
+    Step 2: Populate existing NULL values
+    Create a data migration to populate any existing NULL values with the default value:
+    Create an empty migration:
+    Edit the new migration file to include a function that updates NULL values:
+    Apply this migration.
+    Step 3: Remove null=True
+    Now that all NULL values have been replaced, you can remove null=True from your model field:
+    Generate and apply migrations for this change.
+    Step 4: Remove the default value (optional)
 
 
 

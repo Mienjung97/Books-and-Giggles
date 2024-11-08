@@ -19,18 +19,10 @@ make footer not cover everything -> Done
 Contact field:                  Email varification? -> Done
                                 make "container box" with different background -> Done
                                 Size the boxes! -> Done
-
-
--> possibility: Create profile in checkout? -> probably not
-
-in product model make more fields required! (Cover, Publisher, Author - Pages?)
-
-AUTHORS: on delete - delete all books!
-
-
-
-
+seperate toast for success for admin. -> Done
+profile: Same box as contact for profile form? -> Done
         Styling:
+        Change general styling of page -> All CSS that was taken will be changed!  -> Done
 
         - carrusell on home page with "Bestsellers, New releases and Our reccomendation" -> Carousel -> 3 categories -> Done
         - change layout in products page (make cards even from size so that the writing and pictures are all equal) -> Done
@@ -38,23 +30,35 @@ AUTHORS: on delete - delete all books!
         - Checkout page styling -> Done
         - checkout_success -> styling (wider box) -> Done
         - loading overlay -> green! -> Done (but brown)
+        !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling -> Done
+                                                                        -> categories: just views and finishing the template -> functionality done -> styling! -> Done
+        make messages disappear after 5 seconds -> location: middle of page underneath free delivery  -> Done
+in product model make more fields required! (Cover, Publisher, Author - Pages?) -> Done
 
 
-        Change general styling of page -> All CSS that was taken will be changed! 
-        !moreimportant: Add "Author" and "Category" on add product page -> link to separate site to add both name and firendy_name -> Author functionality is done -> styling
-                                                                        -> categories: just views and finishing the template -> functionality done -> styling!
-        make messages disappear after 5 seconds -> location: middle of page underneath free delivery
+
+
+
+
+
+
+-> possibility: Create profile in checkout? -> probably not
+
+
+AUTHORS: on delete - delete all books!
 
 
 Contact field: Contact just to admin or make admin fronend page?
 
-profile: Same box as contact for profile form?
 
 email address (example.com -> change) - set up new email?
 
 
+404 page
+favicon on deployed webpage
+validation
+Author friendly name non nullable
+Errors from development tool console
 
-
-seperate toast for success for admin.
 
 
