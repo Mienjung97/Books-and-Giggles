@@ -27,32 +27,41 @@
             </div>
             <br>
             <br>
-            <div class="text-center">
-                <h3>
-                    "{{ product.name }}" by "{{ product.author.friendly_name }}"
-                </h3>
-                <br>
-                {% if product.image %}
-                    <div class="img-container">
-                        <img src="{{ product.image.url }}" alt="{{ product.name }}">
-                    </div>
-                {% endif %}
-            </div>
-            <br>
             <div class="row">
-                <div class="text-center">
+                <div class="col-md-1 col-xl-2">
+                </div>
+                <div class="col-12 col-md-10 col-xl-8 custom-form">
+                    <div class="text-center">
+                        <h3>
+                            {{ product.name }}
+                        </h3>
+                        <br>
+                        {% if product.image %}
+                            <div class="text-center">
+                                <img src="{{ product.image.url }}" alt="{{ product.name }}" class="img-del">
+                            </div>
+                        {% endif %}
+                        <br>
+                        <h4>
+                            By {{ product.author.friendly_name }}
+                        </h4>
+                    </div>
+                    <br>
                     <form action="{% url 'delete_product' product.id %}" method="post">
                         {% csrf_token %}
-                        <button type="submit" class="btn btn-danger">
-                            Delete this product
-                        </button>
-                        <a class="btn btn-edit" href="{% url 'product_detail' product.id %}">
-                            Cancel
-                        </a>
+                        <div class="text-right">
+                            <a class="btn btn-outline-black" href="{% url 'product_detail' product.id %}">
+                                Cancel
+                            </a>
+                            <button type="submit" class="btn btn-danger">
+                                Delete this product
+                            </button>
+                        </div>
                     </form>
+                </div>
+                <div class="col-md-1 col-xl-2">
                 </div>
             </div>
         </div>
     </div>
-
 {% endblock %}

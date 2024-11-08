@@ -148,20 +148,24 @@ img {
 } */
 
 .btn-black {
-    background: black;
+    background: #3b3b3b;
     color: white;
+}
+
+.btn-danger {
+    border: 1px solid #3b3b3b !important;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important;
-    border: 1px solid black;
+    color: #3b3b3b !important;
+    border: 1px solid #3b3b3b;
 }
 
 .btn-outline-black:hover,
 .btn-outline-black:active,
 .btn-outline-black:focus {
-    background: black;
+    background: #3b3b3b;
     color: white !important;
 }
 
@@ -171,7 +175,7 @@ img {
 .btn-black:hover,
 .btn-black:active,
 .btn-black:focus {
-    background: #222;
+    background: #3b3b3b;
     color: white;
 }
 
@@ -212,15 +216,15 @@ img {
 /* --------------------------------------------------------- Homepage */
 
 .carousel-control-next-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e") !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233b3b3b' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e") !important;
 }
 
 .carousel-control-prev-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23000000' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%233b3b3b' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e") !important;
 }
 
 .carousel-indicators li {
-    background-color: #000 !important;
+    background-color: #3b3b3b !important;
 }
 
 .home-margin {
@@ -272,6 +276,10 @@ img {
     text-align: center;
 }
 
+.img-del {
+    max-height: 20vh !important;
+}
+
 .p-mg {
     padding: 2vw !important;
 }
@@ -291,7 +299,7 @@ img {
 }
 
 a.category-badge>span.badge:hover {
-    background: #212529 !important;
+    background: #3b3b3b !important;
     color: #fff !important;
 }
 
@@ -581,8 +589,8 @@ footer {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-    background-color: #000;
-    border: 1px solid #000;
+    background-color: #3b3b3b;
+    border: 1px solid #3b3b3b;
     padding: .375rem .75rem;
     font-size: 1rem;
     line-height: 1.5;
@@ -618,10 +626,6 @@ footer {
         margin-top: 5vh;
     }
 }
-
-
-
-
 
 
 /* pad the top with collapsed navbar on mobile */
