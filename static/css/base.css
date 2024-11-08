@@ -223,6 +223,10 @@ img {
     background-color: #000 !important;
 }
 
+.home-margin {
+    margin-top: 15vh;
+}
+
 
 /* --------------------------------------------------------- Authors */
 
@@ -603,49 +607,34 @@ footer {
 
 /* --------------------------------------------------------- Media Queries */
 
-/* Slightly larger container on xl screens */
-@media (min-width: 1200px) {
-    .container {
-        max-width: 80%;
+@media (max-height:1000px) {
+    .home-margin {
+        margin-top: 10vh;
     }
 }
 
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-    .fixed-top-desktop-only {
-        position: fixed;
-        top: 0;
-        right: 0;
-        left: 0;
-        z-index: 1030;
-    }
-
-    .header-container {
-        padding-top: 164px;
-    }
-
-    .border-dd {
-        border: 1px solid black !important;
-        border-top: 0 !important;
-        border-radius: 0 0 15px 15px;
-    }
-
-    .nav-padding {
-        padding-top: 13px;
-        padding-bottom: 3px !important;
+@media (max-height:800px) {
+    .home-margin {
+        margin-top: 5vh;
     }
 }
+
+
+
+
+
 
 /* pad the top with collapsed navbar on mobile */
-@media (max-width:1191px) {
+@media (max-width:371px) {
     .header-container {
-        padding-top: 193px;
+        padding-top: 180px;
     }
 
     body {
-        height: calc(100vh - 193px)
+        height: calc(100vh - 180px)
     }
 }
+
 
 /* pad the top with collapsed navbar on mobile */
 @media (max-width:991px) {
@@ -691,17 +680,50 @@ footer {
     }
 }
 
-/* pad the top with collapsed navbar on mobile */
-@media (max-width:371px) {
-    .header-container {
-        padding-top: 180px;
+/* fixed top navbar only on medium and up */
+@media (min-width: 992px) {
+    .fixed-top-desktop-only {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 1030;
     }
 
-    body {
-        height: calc(100vh - 180px)
+    .header-container {
+        padding-top: 164px;
+    }
+
+    .border-dd {
+        border: 1px solid black !important;
+        border-top: 0 !important;
+        border-radius: 0 0 15px 15px;
+    }
+
+    .nav-padding {
+        padding-top: 13px;
+        padding-bottom: 3px !important;
     }
 }
 
+
+/* pad the top with collapsed navbar on mobile */
+@media (max-width:1191px) {
+    .header-container {
+        padding-top: 193px;
+    }
+
+    body {
+        height: calc(100vh - 193px)
+    }
+}
+
+/* Slightly larger container on xl screens */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 80%;
+    }
+}
 
 /* make the gap between author and cover smaller on big displays */
 @media (min-width:1400px) {
