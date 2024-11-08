@@ -42,16 +42,16 @@ class Product(models.Model):
     author = models.ForeignKey(
         'Author', null=True, blank=True, on_delete=models.SET_NULL
     )
-    sku = models.CharField(max_length=254, null=True, blank=True)
+    sku = models.CharField(max_length=254)
     name = models.CharField(max_length=254)
     description = models.TextField()
     description2 = models.TextField(null=True, blank=True)
     extra_info = models.TextField(null=True, blank=True)
     year_published = models.PositiveIntegerField(null=True, blank=True)
-    publisher = models.CharField(max_length=254, null=True, blank=True)
+    publisher = models.CharField(max_length=254)
     page_count = models.PositiveIntegerField(null=True, blank=True)
     cover = models.ForeignKey(
-        'Cover', null=True, blank=True, on_delete=models.SET_NULL
+        'Cover', null=True, blank=True, default='', on_delete=models.SET_NULL
     )
     price = models.DecimalField(max_digits=6, decimal_places=2)
     isbn = models.CharField(max_length=13, null=True, blank=True)
