@@ -7,13 +7,17 @@
 {% endblock %}
 
 {% block inner_content %}
-    <hr>
-    <h2 class="logo-font mb-4">
-        {% trans "Sign Up Closed" %}
-    </h2>
-    <hr>
+    <div class="col text-center mt-3">
+        <h1>
+            {% trans "Sign Up Closed" %}
+        </h1>
+        <hr class="w-50 mb-1">
+        <br>
+    </div>
 
-    <p>
-        {% trans "We are sorry, but the sign up is currently closed." %}
-    </p>
+    <div class="custom-form text-center">
+        <p>
+            {% trans "We are sorry, but the sign up is currently closed." %}
+        </p>
+    </div>
 {% endblock %}
