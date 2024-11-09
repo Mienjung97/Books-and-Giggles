@@ -539,12 +539,12 @@ footer {
 .allauth-form-inner-content p {
     margin-top: 1.5rem;
     /* mt-4 */
-    color: #6c757d;
+    color: #3b3b3b;
     /* text-secondary */
 }
 
 .allauth-form-inner-content input {
-    border-color: #000;
+    border-color: #3b3b3b;
     border-radius: 0;
 }
 
@@ -587,8 +587,12 @@ footer {
 }
 
 .allauth-form-inner-content a {
-    color: #17a2b8;
+    color: #127a8a;
     /* text-info */
+}
+
+.text-info {
+    color: #127a8a !important;
 }
 
 
