@@ -32,7 +32,8 @@ def contact(request):
             print(form)
             messages.success(
                 request,
-                "Your message has been received! We will respond to your message within 3 business days.",
+                "Your message has been received! We will respond to your\
+                     message within 3 business days.",
             )
 
             return redirect(reverse('home'))

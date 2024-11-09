@@ -61,4 +61,5 @@ favicon on deployed webpage
 validation
 
 
-Contact model string
+Contact model string -> important
+Stopped validating python at faq
