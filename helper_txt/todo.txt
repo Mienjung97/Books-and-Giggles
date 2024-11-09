@@ -34,6 +34,8 @@ profile: Same box as contact for profile form? -> Done
                                                                         -> categories: just views and finishing the template -> functionality done -> styling! -> Done
         make messages disappear after 5 seconds -> location: middle of page underneath free delivery  -> Done
 in product model make more fields required! (Cover, Publisher, Author - Pages?) -> Done
+Author friendly name non nullable -> Done
+404/500 error page -> Done
 
 
 
@@ -54,10 +56,8 @@ Contact field: Contact just to admin or make admin fronend page?
 email address (example.com -> change) - set up new email?
 
 
-404 page
 favicon on deployed webpage
 validation
-Author friendly name non nullable
 Errors from development tool console
 
 
