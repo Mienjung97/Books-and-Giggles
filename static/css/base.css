@@ -641,7 +641,7 @@ footer {
 
 
 /* pad the top with collapsed navbar on mobile */
-@media (max-width:991px) {
+@media (min-width: 372px) and (max-width: 991px) {
     .header-container {
         padding-top: 116px;
     }
@@ -685,7 +685,7 @@ footer {
 }
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
+@media (min-width: 992px) and (max-width:1191px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -695,7 +695,7 @@ footer {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 193px;
     }
 
     .border-dd {
@@ -712,9 +712,9 @@ footer {
 
 
 /* pad the top with collapsed navbar on mobile */
-@media (max-width:1191px) {
+@media (min-width:1191px) {
     .header-container {
-        padding-top: 193px;
+        padding-top: 164px;
     }
 
     body {
