@@ -4,10 +4,12 @@
         {{ widget.initial_text }}:
     </p>
     <a href="{{ widget.value.url }}">
-        <img width="auto !important"
-             height="96"
-             class="rounded shadow-sm"
-             src="{{ widget.value.url }}">
+        <div>
+            <img width="auto !important"
+                 height="96"
+                 class="rounded shadow-sm"
+                 src="{{ widget.value.url }}">
+        </div>
     </a>
     {% if not widget.required %}
         <div class="custom-control custom-checkbox mt-2">

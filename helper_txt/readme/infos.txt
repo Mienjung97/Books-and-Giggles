@@ -1,1 +1,3 @@
 25.10.24: Email has been set up to send confirmation mails, it was tested and it works; Styling of email will be changed minimally in this commit, possible further changes down the road!
+
+Validation errors for edit_product: direct input -> 

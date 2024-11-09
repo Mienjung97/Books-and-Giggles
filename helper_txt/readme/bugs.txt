@@ -14,6 +14,7 @@ Fix:
 LMS Boutique Ado Bugs: 
 - mobile-top-header throws HTML errors: li item is child of menu item. -> Add an ul tag with corresponding classes (Tutor support helped)
 - HTML validator: Element p not allowed as child of element strong in this context. -> custom_clearable_file_input has that set up. Solution: removed "<strong></strong>"
+- SAME DAMN FILE: Error: Bad value auto !important for attribute width on element img: Expected a digit but saw a instead. -> added a <div> between <a> and <img>
 
 
 23.10.24: Stripe will not work as intended - will fix tomorrow -> in webhook_handler I renamed "shopping_bag" to "bag" while getting the metadata, but set the following variables as "shopping_bag" -> name error -> fixed the code, had issues with the email sending, commented this part out for later -> code works as intended (24.10.24)
