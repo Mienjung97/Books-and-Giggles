@@ -2,17 +2,19 @@
 17.10.24: after the clone, I had a copy of my project in my project -> deleted it after research on if that would create problems in the project
 18.10.24: For search queries, since author and category are own models, the search didnt work -> included classes in the view with name and friendly name -> this gave duplicate resulats, therefore distinct() function was added to new "products" variable
 04.11.24: When trying to edit a product, the edit author page appears. URLs seem to be correct -> URL mistake -> Done 05.11.2024
-
-JS code: change targeted IDs to target classes -> change "#" to "." to target classes - does not work at the moment -> will be targeted
--> 30.10.24
-!important:
-Fix for the minus button in checkout once you finished the code for the quantity form:
-in the form, all 3 ids have to be taken completely and put into the corresponding class element. 2 Buttons: increment and decrement and the input group
-in the quantity_input_script.html, nested in the products includes folder, in the first function, all three "#" have to be changed to a "."
-
-
-
+I want to make author friendly_name mandatory for added models -> make friendls_name nullable, then run "python3 manage.py makemigrations products --empty" -> migrate by hand. Damn.... gotta do -> Done 09.11.2024
 19.10.24: Sorting after category -> shows more products than in the store (duplicate books) -> will tackle later -> Deleted sorting option
+
+JS code: change targeted IDs to target classes -> change "#" to "." to target classes - does not work at the moment -> will be targeted -> 30.10.24
+Fix:
+    Fix for the minus button in checkout once you finished the code for the quantity form:
+    in the form, all 3 ids have to be taken completely and put into the corresponding class element. 2 Buttons: increment and decrement and the input group
+    in the quantity_input_script.html, nested in the products includes folder, in the first function, all three "#" have to be changed to a "."
+
+LMS Boutique Ado Bugs: 
+- mobile-top-header throws HTML errors: li item is child of menu item. -> Add an ul tag with corresponding classes (Tutor support helped)
+- HTML validator: Element p not allowed as child of element strong in this context. -> custom_clearable_file_input has that set up. Solution: removed "<strong></strong>"
+
 
 23.10.24: Stripe will not work as intended - will fix tomorrow -> in webhook_handler I renamed "shopping_bag" to "bag" while getting the metadata, but set the following variables as "shopping_bag" -> name error -> fixed the code, had issues with the email sending, commented this part out for later -> code works as intended (24.10.24)
 
@@ -20,7 +22,6 @@ friendly name -> while writing the json, it would not take authors and categorie
 
 if the user changes the quantity to 0, 0 amount of items will be ordered, but it will still show up in the order summary and confirmation mail as "0x book"
 
-I want to make author friendly_name mandatory for added models -> make friendls_name nullable, then run "python3 manage.py makemigrations products --empty" -> migrate by hand. Damn.... gotta do
 
 In the add_product page, the borders are not round -> wont fix yet
 

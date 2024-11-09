@@ -40,7 +40,7 @@
                     <div class="col-sm-1 col-md-2 col-xl-3">
                     </div>
                     <div class="bg-faq col-12 col-sm-10 col-md-8 col-xl-6">
-                        <div class="accordion" id="faqAccordion">
+                        <div class="accordion" id="faqAccordion{{ forloop.counter }}">
                             <div class="bg-book">
                                 <div class="card-header faq-border" id="heading{{ forloop.counter }}">
                                     <h2 class="mb-0">
@@ -57,7 +57,7 @@
                                 <div id="collapse{{ forloop.counter }}"
                                      class="collapse"
                                      aria-labelledby="heading{{ forloop.counter }}"
-                                     data-parent="#faqAccordion">
+                                     data-parent="#faqAccordion{{ forloop.counter }}">
                                     <div class="card-body">
                                         {{ faq_item.answer }}
                                     </div>
