@@ -433,6 +433,11 @@ footer {
 
 /* --------------------------------------------------------- Newsletter */
 
+.sib-form-block,
+.sib-form {
+    font-family: 'Playfair Display' !important;
+}
+
 @font-face {
     font-display: block;
     font-family: 'Playfair Display';
