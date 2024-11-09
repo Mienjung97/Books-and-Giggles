@@ -67,7 +67,6 @@ img {
     background: none;
     border: 0;
     color: rgb(138, 0, 0);
-    padding: none;
     font-size: 0.9rem;
     text-decoration: none;
     cursor: pointer;
@@ -87,7 +86,6 @@ img {
     background: none;
     border: 0;
     color: #694600;
-    padding: none;
     font-size: 0.9rem;
     text-decoration: none;
     cursor: pointer;
@@ -103,26 +101,6 @@ img {
     border-radius: 5px;
     color: #fff !important;
     text-decoration: none;
-}
-
-.btn-cancel {
-    background: none;
-    border: 0;
-    color: rgb(138, 0, 0);
-    padding: none;
-    font-size: 0.9rem;
-    text-decoration: none;
-    cursor: pointer;
-    width: fit-content;
-    margin: 0 auto 0 auto;
-}
-
-.btn-cancel:hover {
-    background-color: rgb(138, 0, 0) !important;
-    border: 0;
-    text-decoration: none;
-    border-radius: 5px;
-    color: #fff !important;
 }
 
 /* from Bulma */
@@ -359,7 +337,6 @@ input[name='q']::placeholder {
 }
 
 .faq-btn {
-    box-sizing: 0 !important;
     border-width: 0 !important;
     background: none;
     text-align: left;
