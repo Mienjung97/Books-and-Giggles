@@ -36,6 +36,7 @@ profile: Same box as contact for profile form? -> Done
 in product model make more fields required! (Cover, Publisher, Author - Pages?) -> Done
 Author friendly name non nullable -> Done
 404/500 error page -> Done
+Errors from development tool console -> Done
 
 
 
@@ -58,7 +59,6 @@ email address (example.com -> change) - set up new email?
 
 favicon on deployed webpage
 validation
-Errors from development tool console
 
 
-
+Contact model string

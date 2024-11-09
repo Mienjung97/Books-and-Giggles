@@ -26,13 +26,14 @@
                 </div>
             </div>
             <br>
-            <div class="row"></div>
-                <div class="product-container col-10 offset-1">
-                    <div class="row">
-                        <div class="row mt-1 mb-2">
-                        </div>
-                        <div class="col-12">
-                            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2 mg-btm">
+            <div class="row">
+            </div>
+            <div class="product-container col-10 offset-1">
+                <div class="row">
+                    <div class="row mt-1 mb-2">
+                    </div>
+                    <div class="col-12">
+                        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4 g-2 mg-btm">
                             {% for author in authors %}
                                 <div class="col">
                                     <div class="card h-100 border-0">
@@ -101,36 +102,13 @@
             </a>
         </div>
     </div>
-    {% endblock %}
+{% endblock %}
 
-    {% block postloadjs %}
-        {{ block.super }}
-        <script type="text/javascript">
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript">
 		$('.btt-link').click(function(e) {
-			window.scrollTo(0,0)
-		})
-        </script>
-
-        <script type="text/javascript">
-        $('#sort-selector').change(function() {
-            var selector = $(this);
-            var currentUrl = new URL(window.location);
-
-            var selectedVal = selector.val();
-            if(selectedVal != "reset"){
-                var sort = selectedVal.split("_")[0];
-                var direction = selectedVal.split("_")[1];
-
-                currentUrl.searchParams.set("sort", sort);
-                currentUrl.searchParams.set("direction", direction);
-
-                window.location.replace(currentUrl);
-            } else {
-                currentUrl.searchParams.delete("sort");
-                currentUrl.searchParams.delete("direction");
-
-                window.location.replace(currentUrl);
-            }
-        })
-        </script>
-    {% endblock %}
+			window.scrollTo(0,0);
+		});
+    </script>
+{% endblock %}

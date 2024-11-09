@@ -15,7 +15,7 @@ class ProductAdmin(admin.ModelAdmin):
 
     # since one book can have more than one category, this is the
     # helper function:
-    # It sorts through the current product, checks for categories 
+    # It sorts through the current product, checks for categories
     # and joins them with a comma. The last line just changes the
     # display name in the Admin panel
     def get_categories(self, product):

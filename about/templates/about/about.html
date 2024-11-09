@@ -37,16 +37,13 @@
                         <div class="col-2">
                         </div>
                         <div class="col-8">
-                            <!-- Title goes between these h2 tags -->
                             <br>
                             <h2 class="text-center">
                                 {{ about.title }}
                             </h2>
-                            <!-- Content goes directly underneath this -->
                             <br>
                             {{ about.content | safe }}
                             <br>
-                            <!-- contact us form -->
                         </div>
                     </div>
                 </div>
@@ -56,7 +53,6 @@
         <div class="container">
             <div class="row">
                 <div class="col text-right">
-                    <!-- Updated on field goes in here -->
                     <p class="text-end">
                         <em>Updated on: {{ about.updated_on }}</em>
                     </p>
@@ -64,4 +60,4 @@
             </div>
         </div>
     </div>
-    {% endblock content %}
+{% endblock content %}

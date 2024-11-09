@@ -3,6 +3,7 @@ from django import forms
 
 # Create your models here.
 
+
 class About(models.Model):
     """
     Stores a single about me text.
@@ -21,11 +22,11 @@ class Contact(models.Model):
     """
     Gives the user the ability to contact the page admin
     """
+
     name = models.CharField(max_length=100, blank=False)
     email = models.EmailField(max_length=254, blank=False)
     subject = models.CharField(max_length=100, blank=False)
     message = models.TextField(max_length=2000, blank=False)
 
     def __str__(self):
-        return f"Contact request from {self.name}" # This string might get changed down the road
-
+        return f"Contact request from {self.name}"  # This string might get changed down the road

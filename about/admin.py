@@ -10,6 +10,7 @@ class AboutAdmin(SummernoteModelAdmin):
 
     summernote_fields = ('content',)
 
+
 @admin.register(Contact)
 class ContactAdmin(admin.ModelAdmin):
     list_display = ('name', 'subject', 'email')

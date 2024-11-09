@@ -107,7 +107,7 @@ def all_authors(request):
     """
 
     authors = Author.objects.all()
-   
+
     context = {
         'authors': authors,
     }
@@ -213,11 +213,9 @@ def delete_product(request, product_id):
         product.delete()
         messages.success(request, 'Product deleted!')
         return redirect("home")
-    
-    template ='products/delete_product.html'
-    context = {
-        'product': product
-    }
+
+    template = 'products/delete_product.html'
+    context = {'product': product}
 
     return render(request, template, context)
 
@@ -257,7 +255,7 @@ def add_category(request):
     return render(request, template, context)
 
 
-#Authors
+# Authors
 
 
 @login_required
@@ -343,10 +341,8 @@ def delete_author(request, author_id):
         author.delete()
         messages.success(request, 'Author deleted!')
         return redirect(reverse('authors'))
-    
-    template ='authors/delete_author.html'
-    context = {
-        'author': author
-    }
+
+    template = 'authors/delete_author.html'
+    context = {'author': author}
 
     return render(request, template, context)

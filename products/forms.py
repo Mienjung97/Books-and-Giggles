@@ -31,7 +31,7 @@ class AuthorForm(forms.ModelForm):
     class Meta:
         model = Author
         fields = '__all__'
-    
+
     image = forms.ImageField(
         label='Image', required=False, widget=CustomClearableFileInput
     )
