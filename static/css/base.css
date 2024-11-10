@@ -622,9 +622,20 @@ footer {
     }
 }
 
+/* pad the top with collapsed navbar on mobile */
+@media (min-width: 372px) and (max-width: 421px) {
+    .header-container {
+        padding-top: 190px;
+    }
+
+    body {
+        height: calc(100vh - 190px)
+    }
+}
+
 
 /* pad the top with collapsed navbar on mobile */
-@media (min-width: 372px) and (max-width: 991px) {
+@media (min-width: 422px) and (max-width: 991px) {
     .header-container {
         padding-top: 116px;
     }
