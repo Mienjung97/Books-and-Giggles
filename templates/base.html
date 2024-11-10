@@ -37,7 +37,7 @@
               type="image/png"
               sizes="512x512"
               href="/static/images/favicon/android-chrome-512x512.png">
-        <link rel="manifest" href="/static/images/favicon/site.webmanifest">
+        <link rel="manifest" href="{% static 'site.webmanifest' %}">
 
         {% block corecss %}
             <link rel="stylesheet"
@@ -233,9 +233,18 @@
                     </p>
                     <p class="m-0 text-center text-decoration-none">
                         Follow us:
-                        <a href="https://www.facebook.com" target="_blank" class="media-link" aria-label="Facebook"><i class="fab fa-facebook-square ms-3"></i></a>
-                        <a href="https://www.instagram.com" target="_blank" class="media-link" aria-label="Instagram"><i class="fab fa-instagram-square ms-3"></i></a>
-                        <a href="https://www.linkedin.com" target="_blank" class="media-link" aria-label="LinkedIn"><i class="fab fa-brands fa-linkedin ms-3"></i></a>
+                        <a href="https://www.facebook.com"
+                           target="_blank"
+                           class="media-link"
+                           aria-label="Facebook"><i class="fab fa-facebook-square ms-3"></i></a>
+                        <a href="https://www.instagram.com"
+                           target="_blank"
+                           class="media-link"
+                           aria-label="Instagram"><i class="fab fa-instagram-square ms-3"></i></a>
+                        <a href="https://www.linkedin.com"
+                           target="_blank"
+                           class="media-link"
+                           aria-label="LinkedIn"><i class="fab fa-brands fa-linkedin ms-3"></i></a>
                     </p>
                 </div>
                 <div class="d-none d-md-flex col-md-4">
