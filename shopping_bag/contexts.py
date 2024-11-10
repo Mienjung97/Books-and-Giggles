@@ -11,7 +11,8 @@ def shopping_bag_contents(request):
     product_count = 0
     shopping_bag = request.session.get('shopping_bag', {})
 
-    # Check if the shopping bag is empty to not show delivery cost on empty basket
+    # Check if the shopping bag is empty to not
+    # show delivery cost on empty basket
     if not shopping_bag:
         context = {
             'shopping_bag_items': [],

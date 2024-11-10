@@ -1,3 +1,9 @@
 25.10.24: Email has been set up to send confirmation mails, it was tested and it works; Styling of email will be changed minimally in this commit, possible further changes down the road!
 
-Validation errors for edit_product: direct input -> 
+Validation errors for edit_product/edit_author: direct input -> Errors are from from AWS and third party libary
+
+Validated more than nessesary just to be complete
+
+Contact/FAQ/Newsletter could have been in home app!
+
+All erors so far: E501 line too long; mostly in strings

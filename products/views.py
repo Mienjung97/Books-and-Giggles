@@ -278,7 +278,8 @@ def edit_author(request, author_id):
         else:
             messages.error(
                 request,
-                'Failed to update the author. Please ensure the form is valid.',
+                'Failed to update the author.\
+                     Please ensure the form is valid.',
             )
     else:
         form = AuthorForm(instance=author)
