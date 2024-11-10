@@ -209,6 +209,9 @@ def delete_product(request, product_id):
 
     product = get_object_or_404(Product, pk=product_id)
 
+    if request.method == "GET":
+        messages.warning(request, 'You are about to delete a Product.')
+
     if request.method == "POST":
         product.delete()
         messages.success(request, 'Product deleted!')
@@ -337,6 +340,9 @@ def delete_author(request, author_id):
         return redirect(reverse('home'))
 
     author = get_object_or_404(Author, pk=author_id)
+
+    if request.method == "GET":
+        messages.warning(request, 'You are about to delete an Author.')
 
     if request.method == "POST":
         author.delete()
