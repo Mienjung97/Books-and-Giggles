@@ -29,7 +29,6 @@ def contact(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
-            print(form)
             messages.success(
                 request,
                 "Your message has been received! We will respond to your\

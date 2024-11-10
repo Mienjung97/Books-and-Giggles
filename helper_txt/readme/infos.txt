@@ -7,3 +7,5 @@ Validated more than nessesary just to be complete
 Contact/FAQ/Newsletter could have been in home app!
 
 All erors so far: E501 line too long; mostly in strings
+
+Future feature: Newsletter view

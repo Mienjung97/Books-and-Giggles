@@ -6,7 +6,7 @@ from django import forms
 
 class About(models.Model):
     """
-    Stores a single about me text.
+    Stores a single about text.
     """
 
     title = models.CharField(max_length=200, unique=True)

@@ -38,6 +38,9 @@ Author friendly name non nullable -> Done
 404/500 error page -> Done
 Errors from development tool console -> Done
 validation -> Done
+Contact model string -> print statement removed -> Done
+Contact field: Contact just to admin or make admin fronend page? -> Admin I guess -> Done
+favicon on deployed webpage -> Done
 
 
 
@@ -53,14 +56,11 @@ AUTHORS: on delete - delete all books!
 -> Future feature because of time reasons -> instructions for what happens if an admin were to delete an Author
 
 
-Contact field: Contact just to admin or make admin fronend page? -> Admin I guess
 
 
 email address (example.com -> change) - set up new email?
 
 
-favicon on deployed webpage
 
 
-Contact model string -> important
 
