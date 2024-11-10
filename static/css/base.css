@@ -188,6 +188,12 @@ img {
     margin-bottom: 80px !important;
 }
 
+.sign-link {
+    text-decoration: underline;
+    color: #3b3b3b !important;
+    cursor: pointer;
+}
+
 /* --------------------------------------------------------- Homepage */
 
 .carousel-control-next-icon {

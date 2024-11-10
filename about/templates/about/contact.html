@@ -31,9 +31,11 @@
                     <form method="post">
                         {% csrf_token %}
                         {{ form | crispy }}
-                        <button type="submit" class="btn btn-secondary">
-                            Submit
-                        </button>
+                        <div class="text-right">
+                            <button type="submit" class="btn btn-secondary">
+                                Submit
+                            </button>
+                        </div>
                     </form>
                 </div>
                 <div class="col-1 col-md-2 col-xl-3">
