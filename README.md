@@ -865,20 +865,47 @@ The desktop footer shows links to all social media platforms, as well as links f
 ## Testing User Stories
 
 ## Code Validation
-The code on the 'PROject GOLFblog' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service, JSHint and the CodeInstutute pep8 validator. Errors were at first found on the site in the W3C Markup Validation Service but could quite easily be fixed (see bugs section). 
+The code on the 'Books and Giggles' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service, JSHint and the CodeInstutute pep8 validator. A few errors were found the W3C Markup Validation Service but could either be quite easily fixed (see bugs section) or have to do with third party code, especially Stripe, AWS and Brevo. 
 
 ### Markup Validation
-While validating the HTML code, I encountered a few errors. The **About** page displays 2 errors concerning the "font element" - this is produced through the Summernote extension. Since the Markup validator is not an authenticated user, I could only validate the **Home** and **About** page via url input - so with use of the chrome developer tools I validated every page via direct input. No errors came up, proof for all validations are in the folder with path "readme/assets/images/validation/html"
+While validating the HTML code, I encountered only a few errors. Since the Markup validator is not an admin user, I could only validate the pages availabe for endusers via url input - so with use of the chrome developer tools I validated every admin related page via direct input. The only errors that came up are due to third party code. Proof for all validations are in this [folder](readme/assets/images/validation/html). From my previous project, I know that summernote, wich I use for the "About" page, can throw "font element" errors, which might not be included since I have not updated the content on the "About" page yet.
 
-<details><summary><b>HTML Validation Result</b></summary>
+The following shows some validations, especially the ones that had an error:
 
-Home page:
+
+<details><summary><b>HTML Validation URL input</b></summary>
+
+Password Change (Errors):
+
+![HTML Result Password Change](readme/assets/images/validation/html/pw_change_html_val.PNG)
+
+Home page (Warnings):
 
 ![HTML Result Home Page](readme/assets/images/validation/html/home_html_val.PNG)
 
-About page:
+Newsletter page (no errors or warnings):
 
-![HTML Result About Page](readme/assets/images/validation/html/about_html_val.PNG)
+![HTML Result About Page](readme/assets/images/validation/html/newsletter_html_val.PNG)
+
+</details><br/>
+
+<details><summary><b>HTML Validation direct input</b></summary>
+
+Admin pages via direct input:
+
+Product Management page (Errors):
+
+![HTML Result Checkout Page](readme/assets/images/validation/html/product_management_html_val.PNG)
+
+Checkout page (Errors):
+
+![HTML Result Checkout Page](readme/assets/images/validation/html/checkout_html_di_val.PNG)
+
+Delete author page (Errors):
+
+![HTML Result Delete Author](readme/assets/images/validation/html/delete_author_html_val.PNG)
+
+
 </details><br/>
 
 [Back to top](<#table-of-content>)
@@ -908,18 +935,29 @@ URL input:
 [Back to top](<#table-of-content>)
 
 ### PEP Validation
-To validate the python files, I have used the [pep8 CodeInstitute linter](https://pep8ci.herokuapp.com/) I have tested all python files in my project without getting any errors. The documentation can be found in the path "readme/assets/images/validation/python". Every picture is labled with the first letter as the corresponding app (a=about, b=blog, u=userprofile and p=project_golfblog) and the name of the python file. None of the 25 files reported an error.
+To validate the python files, I have used the [pep8 CodeInstitute linter](https://pep8ci.herokuapp.com/) I have tested all python files in my project without getting any errors. The documentation can be found in the [folder](readme/assets/images/validation/python). Every picture is labled with the first word as the corresponding app and the name of the python file. 45 out of the 47 files reported no error - just the webhook.py file in the checkout app, as well as in the settings the "AUTH_PASSWORD_VALIDATORS" were longer than 79 lines. Both files have been fixed.
 
 [Back to top](<#table-of-content>)
 
 ### JavaScript Validation
-The JSHint validator results can be seen below:
+The JSHint validator results can be seen below, only 3 files are shown. the rest of the validation can be found in this [folder](readme/assets/images/validation/static/js)
 
-No errors were returned when passing through JSHint (comments.js), the test reported one undefined variable connected to Bootstrap and gave out 19 warnings. None of these are problematic.
+No errors were returned when passing through JSHint, the tests reported undefined variables and gave out a total of 8 warnings. None of these are problematic. 
 
 <details><summary><b>JSHint Validation Result</b></summary>
 
-![JSHint Validation](readme/assets/images/validation/static/comments_val.PNG)
+stripe_elemets:
+
+![JSHint Validation Stripe](readme/assets/images/validation/static/js/stripe_elements_js_val.PNG)
+
+Quantity input form:
+
+![JSHint Validation Quantity Input](readme/assets/images/validation/static/js/quantity_input_js_val.PNG)
+
+JS for the newsletter:
+
+![JSHint Validation Newsletter](readme/assets/images/validation/static/js/newsletter_js_val.PNG)
+
 </details><br/>
 
 ## Additional Testing
