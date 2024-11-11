@@ -673,12 +673,16 @@ This section is devided in [Existing Features](<#existing-features>) and [Future
 
 ## Existing Features
 
+This section will be devided into multiple sub sections:
+
+## Navigational Features
+
+<details><summary><b>Open</b></summary>
+
 ### Navigation
 The styling of the navigation bar was heavily influenced by the [Boutique ADO](https://boutique-ado-mj-102bd7708d45.herokuapp.com/) walkthough website, while I tried to keep it as clean as possible. The only differences are between Admins and any other users - in addition to the usual navigation, the admin also has a "Product Management" option in the profile dropdown.
 
 The following is devided into mobile and desktop views, showing how each individual dropdown menu looks according to the screen size:
-
-#### Navigation Large
 
 <details><summary><b>Navigation Large</b></summary>
 
@@ -720,7 +724,6 @@ Main Navigation:
 
 </details><br/>
 
-#### Navigation Small
 
 <details><summary><b>Navigation Small</b></summary>
 
@@ -762,6 +765,23 @@ Small Navigation opened
 
 </details><br/>
 
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Footer
+The desktop footer shows links to all social media platforms, as well as links for the contact and newsletter page. The latter ones are only in the main navigation for mobile screens available:
+
+<details><summary><b>Footer</b></summary>
+
+Footer Dekstop
+
+![Footer Dekstop](readme/assets/images/features/footer_bg.PNG)
+
+Footer Mobile
+
+![Footer Mobile](readme/assets/images/features/footer_sm.PNG)
+
 </details><br/>
 
 [Back to top](<#table-of-content>)
@@ -769,79 +789,382 @@ Small Navigation opened
 </details><br/>
 
 
+## General Features
 
-### Footer
-
-The desktop footer shows links to all social media platforms, as well as links for the contact and newsletter page. The latter ones are only in the main navigation for mobile screens available:
-
-![Footer Dekstop](readme/assets/images/features/footer_bg.PNG)
-
-![Footer Mobile](readme/assets/images/features/footer_sm.PNG)
+<details><summary><b>Open</b></summary>
 
 ### Home
 
+The home page is simplistic, easy to navigate and fully responsive: 
 
+<details><summary><b>Home</b></summary>
+
+Home Dekstop
 
 ![Home Dekstop](readme/assets/images/features/home_bg.PNG)
 
+Home Mobile
+
 ![Home Mobile](readme/assets/images/features/home_sm.PNG)
+
+</details><br/>
 
 
 ### About
+The About page features a welcoming picture, as well as information about the store and its ideology. 
+
+<details><summary><b>About</b></summary>
+
+</details><br/>
 
 ### FAQ
+On the FAQ page, an admin can add questions with their corresponding answer, so that users of the webpage always have their questions answered. The admin is encouraged to add questions that have been asked via the contact page to the FAQ page.
+
+<details><summary><b>FAQ</b></summary>
+
+</details><br/>
 
 ### Contact Page
+The Contact Us page features a a form which includes *Name*, *email*, *subject* and *message* that gets send directly towards the admin panel.
+
+<details><summary><b>Contact Page</b></summary>
+
+Contact Dekstop
+
+![Contact Dekstop](readme/assets/images/features/contact_bg.PNG)
+
+Contact Mobile
+
+![Contact Mobile](readme/assets/images/features/contact_sm.PNG)
+
+</details><br/>
 
 ### Newsletter
+The Newsletter used in this project was designed and set up with [Brevo](https://www.brevo.com/). At the moment, a user will only get a newsletter subscription confirmation email, but brevo allows to schedule outgoing emails and a variety of other possible marketing option.
+
+<details><summary><b>Newsletter</b></summary>
+
+Newsletter Dekstop
+
+![Newsletter Dekstop](readme/assets/images/features/contact_bg.PNG)
+
+Newsletter Mobile
+
+![Newsletter Mobile](readme/assets/images/features/contact_sm.PNG)
+
+Newsletter Confirmation Mail
+
+![Newsletter confirmation](readme/assets/images/newsletter_confirmation.PNG)
+
+</details><br/>
 
 ### Products View
+The Products page shows all available books in the store with a picture, name of the book, the author, what kind of cover it has, all categories it belongs to and the price of the item. The user has to click on the cover picture to get redirected to the detail view. The products page is devided into 4 collumns, which are getting reduced to just one collumn, depending on the screen size.
+
+<details><summary><b>Products View</b></summary>
+
+Products Dekstop
+
+![Products Dekstop](readme/assets/images/features/products_bg.PNG)
+
+Products Tablet Big
+
+![Products Tablet Big](readme/assets/images/features/products_t_bg.PNG)
+
+Products Tablet Small
+
+![Products Tablet Small](readme/assets/images/features/products_t_sm.PNG)
+
+Products Mobile
+
+![Products Mobile](readme/assets/images/features/products_sm.PNG)
+
+</details><br/>
 
 ### Product Detail View
+In the Product detail view, the user gets all the information of each individual item. Not every book has all fields filled out, but mostly, all of the fields are filled out. 
+
+The fields which are available:
+
+* Picture
+* Name
+* Author
+* SKU
+* Price
+* Page count
+* Publisher
+* Year published
+* ISBN
+* Description1
+* Description2
+* Extra Info
+* Type of cover
+
+<details><summary><b>Product Detail View</b></summary>
+
+Product Detail View Dekstop
+
+![Product Detail View Dekstop](readme/assets/images/features/product_detail_bg.PNG)
+
+Product Detail View Mobile
+
+![Product Detail View Mobile](readme/assets/images/features/product_detail_sm.PNG)
+
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+## E-commerce Features
+
+<details><summary><b>Open</b></summary>
 
 ### Shopping Bag
+The shopping bag does exactly what a shopping bag should do: You can add and remove items, as well as adjusting the quantity of each item in the bag. The bag displays the nessesary information about the product or products the user would like to purchase like name, picture and price. Depending on mobile or desktop view, the layout is a bit different, to make the process to the checkout page as easy as possible. The shopping bag also informs the user about delivery costs or if the minimum for free delivery has been reached.
+
+<details><summary><b>Shopping Bag</b></summary>
+
+Shopping Bag Dekstop: Empty
+
+![Shopping Bag Dekstop](readme/assets/images/features/shopping_bag_empty_bg.PNG)
+
+Shopping Bag Dekstop: No delivery cost
+
+![Shopping Bag Dekstop](readme/assets/images/features/shopping_bag_no_delivery_bg.PNG)
+
+Shopping Bag Dekstop: Delivery cost
+
+![Shopping Bag Dekstop](readme/assets/images/features/shopping_bag_delivery_bg.PNG)
+
+Shopping Bag Mobile: Empty
+
+![Shopping Bag Mobile](readme/assets/images/features/shopping_bag_empty_sm.PNG)
+
+Shopping Bag Mobile: No delivery cost
+
+![Shopping Bag Mobile](readme/assets/images/features/shopping_bag_no_delivery_sm.PNG)
+
+Shopping Bag Mobile: Delivery cost
+
+![Shopping Bag Mobile](readme/assets/images/features/shopping_bag_delivery_sm.PNG)
+
+
+</details><br/>
 
 ### Checkout
+In the checkout view, the user has to provide their name, email, shipping details and credit card details. If the user already has a profile, they can save the information to their profile or if they have already filled out all infos, either through an earlier purchase or by filling out the profile form manually, the checkout form will be pre populated (excluding the payment information).
+
+<details><summary><b>Checkout</b></summary>
+
+Checkout Dekstop
+
+![Checkout Dekstop](readme/assets/images/features/checkout_bg.PNG)
+
+Checkout Mobile
+
+![Checkout Mobile](readme/assets/images/features/checkout_sm.PNG)
+
+</details><br/>
 
 ### Checkout Success
+The checkout success page provides the user with their order details, including an order summary, order number and the info that a confirmation mail will be send to the by the user provided email address.
+
+<details><summary><b>Checkout Success</b></summary>
+
+Checkout Success Dekstop
+
+![Checkout Success Dekstop](readme/assets/images/features/checkout_success_bg.PNG)
+
+Checkout Success Mobile
+
+![Checkout Success Mobile](readme/assets/images/features/checkout_success_sm.PNG)
+
+</details><br/>
+
+[Back to top](<#table-of-content>)
+
+## Profile Features
+
+<details><summary><b>Open</b></summary>
+
 
 ### Register
+The sign up page is a modified all auth template that fullfills the basic "sign up" features like email and password input and validation and a user name. Also it gives the user twice the option to change to the "sign in" page.
+
+<details><summary><b>Register</b></summary>
+
+Sign up Desktop
+
+![Sign up Dekstop](readme/assets/images/features/signup_bg.PNG)
+
+Sign up Mobile
+
+![Sign up Mobile](readme/assets/images/features/signup_sm.PNG)
+
+</details><br/>
 
 ### Log In
+The Log in page is a modified all auth template that fullfills the basic "sign in" features. The user has to provide an email or username as well as their password. Also it gives the user the option to change to the "sign up" page or to reset their password.
+
+<details><summary><b>Sign In</b></summary>
+
+Sign In Desktop
+
+![Sign In Dekstop](readme/assets/images/features/signin_bg.PNG)
+
+Sign In Mobile
+
+![Sign In Mobile](readme/assets/images/features/signin_sm.PNG)
+
+</details><br/>
 
 ### Logout
+The Logout page is a modified all auth template that fullfills the basic "logout" features - it loggs the user out.
+
+<details><summary><b>Logout</b></summary>
+
+Logout Dekstop
+
+![Logout Dekstop](readme/assets/images/features/signout_bg.PNG)
+
+Logout Mobile
+
+![Logout Mobile](readme/assets/images/features/signout_sm.PNG)
+
+</details><br/>
 
 ### Profile
+The profile page consists of two parts: The users profile info, including name, email and shipping address and as the second part the order history.
+
+<details><summary><b>Profile</b></summary>
+
+Profile Dekstop
+
+![Profile Dekstop](readme/assets/images/features/profile_page_bg.PNG)
+
+Profile Mobile
+
+![Profile Mobile](readme/assets/images/features/profile_page_sm.PNG)
+
+</details><br/>
+
+</details><br/>
+
+</details><br/>
+
+## Confirmation Features
+
+<details><summary><b>Open</b></summary>
 
 ### Confirmation Messages
 
+
+<details><summary><b>Confirmation Messages</b></summary>
+
+</details><br/>
+
 ### Confirmation Emails
+
+
+<details><summary><b>Confirmation Emails</b></summary>
+
+</details><br/>
+
+</details><br/>
+
+
+## Admin Features
+
+<details><summary><b>Open</b></summary>
 
 ### Admin
 
+
+<details><summary><b>Admin</b></summary>
+
+</details><br/>
+
 ### Add Product
+
+
+<details><summary><b>Add Product</b></summary>
+
+</details><br/>
 
 ### Edit Product
 
+
+<details><summary><b>Edit Product</b></summary>
+
+</details><br/>
+
 ### Delete Product
+
+
+<details><summary><b>Delete Product</b></summary>
+
+</details><br/>
 
 ### Add Author
 
+
+<details><summary><b>Add Author</b></summary>
+
+</details><br/>
+
 ### Edit Author
+
+
+<details><summary><b>Edit Author</b></summary>
+
+</details><br/>
 
 ### Delete Author
 
+
+<details><summary><b>Delete Author</b></summary>
+
+</details><br/>
+
 ### Add FAQ
+
+
+<details><summary><b>Add FAQ</b></summary>
+
+</details><br/>
 
 ### Edit FAQ
 
+
+<details><summary><b>Edit FAQ</b></summary>
+
+</details><br/>
+
 ### Delete FAQ
 
+
+<details><summary><b>Delete FAQ</b></summary>
+
+</details><br/>
+
 ### Add Category
+
+
+<details><summary><b>Add Category</b></summary>
+
+</details><br/>
 
 ### Admin Panel
 
 
+<details><summary><b>Admin Panel</b></summary>
+
+</details><br/>
+
+</details><br/>
+
+</details><br/>
 
 ## Future Features
 
