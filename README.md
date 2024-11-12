@@ -556,7 +556,7 @@ The wireframes for the site were created in the software [Balsamiq](https://bals
 |  | | |
 |:-------:|:--------|:--------|
 | As a Site User | I can enter the page on the 'home' page so that I can see bestsellers and new books immediately | &check; |
-| As a Site User | I can see all products and sort them to my preferences so that I can browse all books to see what is interesting for me | &check; |
+| As a Site User | I can see all products and sort them to my preferences so that I can browse all books to see what is interesting for me | &cross; |
 | As a Site User | I can view detailed information about a book so that I can make an informed purchase decision | &check; |
 | As a Site User | I can browse books by categories so that I can find books I'm interested in | &check; |
 | As a Site User | I can sort by categories so that I can search for books which category interests me | &check; |
@@ -1414,18 +1414,88 @@ On the admin panel, an admin can access all profiles, email addresses, order, pr
 ### Features
 
 * Admin capability: Responding to contact requests via the website
-* 
 
+* Bugfixes (see "Bugs" section)
+* Adding a "Back to log in" button to the confirmation page which a user gets after resetting their password
+* Implementing some kind of discounts or loyalty rewards
+* Add a contact us modification so that the user gets the notification via email with their whole request
+* Change the Product model so that the cover is non nullable
+* Add e-books to the stores inventory
+* Implement a function that keeps track of the inventory so that an admin can specify on how many products are available
+* Extend the search function to also include the FAQ and About page
+* If an admin deletes an author or category, corresponding relations between the deleted models and the products should be applied
+* Adding an "Out of stock" label which disables the possibility to order an item, but it can still be displayed on the page
+
+[Back to top](<#table-of-content>)
 
 # Technologies Used
 
 ## Languages
 
+* [Python](https://en.wikipedia.org/wiki/Python_(programming_language)) - Provides the functionality for the site.
+* [HTML5](https://en.wikipedia.org/wiki/HTML) - Provides the content and structure for the website.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) - Provides the styling for the website.
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript) - Provides interactive elements of the website
+
 ## Frameworks & Software
 
+* [Bootstrap](https://getbootstrap.com/) - A CSS framework that helps building solid, responsive, mobile-first sites
+* [Django](https://www.djangoproject.com/) - A model-view-template framework used to create the Books and Giggles site
+* [Balsamiq](https://balsamiq.com/) - Used to create the wireframe
+* [Github](https://github.com/) - Used to host and edit the website
+* [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal in [Gitpod](https://www.gitpod.io) used to push changes to the GitHub repository
+* [Heroku](https://en.wikipedia.org/wiki/Heroku) - A cloud platform that the application is deployed to
+* [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/) - Used to test performance of site
+* [Multi Mockup](https://techsini.com/multi-mockup/) - Used for responsiveness check
+* [Graph Models](https://django-extensions.readthedocs.io/en/latest/graph_models.html) - Used to create a *.dot file of all models in the project
+* [dreampuf](https://dreampuf.github.io/GraphvizOnline/) - Creates visually appealing database diagrams of *.dot files
+* [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) - Used to debug and test responsiveness
+* [AWS](https://aws.amazon.com/) - Amazon Web Services - used to host all static files and pictures from the project in a S3 Bucket
+* [Stripe](https://stripe.com/) - A service provider to handle all payments on the website
+* [HTML Validation](https://validator.w3.org/) - Used to validate HTML code
+* [CSS Validation](https://jigsaw.w3.org/css-validator/) - Used to validate CSS code
+* [PEP8CI Validation](https://pep8ci.herokuapp.com/) - Used to validate the Python Code
+* [JSHint Validation](https://jshint.com/) - Used to validate JavaScript code
+
+[Back to top](<#table-of-content>)
+
 ## Libraries
+The libraries used in this project are located in the requirements.txt file and have been documented below
 
-
+* [asgiref](https://pypi.org/project/asgiref/) - ASGI is a standard for Python asynchronous web apps and servers to communicate with each other, and positioned as an asynchronous successor to WSGI
+* [boto3](https://pypi.org/project/boto3/) - Boto3 is the Amazon Web Services (AWS) Software Development Kit (SDK) for Python, which allows Python developers to write software that makes use of services like Amazon S3 and Amazon EC2. Boto3 is maintained and published by Amazon Web Services
+* [botocore](https://pypi.org/project/botocore/) - A low-level interface to a growing number of Amazon Web Services. The botocore package is the foundation for the AWS CLI as well as boto3. Botocore is maintained and published by Amazon Web Services
+* [click](https://pypi.org/project/django-click/) - django-click is a library to easily write Django management commands using the click command line library
+* [Colorama](https://pypi.org/project/colorama/) - Makes ANSI escape character sequences (for producing colored terminal text and cursor positioning) work under MS Windows
+* [crispy-bootstrap4](https://pypi.org/project/crispy-bootstrap4/) - Bootstrap5 template pack for django-crispy-forms
+* [CSSbeautifier](https://pypi.org/project/cssbeautifier/) - Beautify, unpack or deobfuscate CSS
+* [dj-database-url](https://pypi.org/project/dj-database-url/0.5.0/) - This simple Django utility allows you to utilize the 12factor inspired DATABASE_URL environment variable to configure your Django application
+* [Django](https://pypi.org/project/Django/) - Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design.
+* [django-allauth](https://pypi.org/project/django-allauth/) - Integrated set of Django applications addressing authentication, registration, account management as well as 3rd party (social) account authentication.
+* [django-countries](https://pypi.org/project/django-countries/) - A Django application that provides country choices for use with forms, flag icons static files, and a country field for models
+* [django-crispy-forms](https://pypi.org/project/django-crispy-forms/) - Used to integrate Django DRY forms in the project
+* [django-extensions](https://pypi.org/project/django-extensions/) - Django Extensions is a collection of custom extensions for the Django Framework
+* [django-storages](https://pypi.org/project/django-storages/) - django-storages is a project to provide a variety of storage backends in a single library
+* [django-summernote](https://pypi.org/project/django-summernote/) - Summernote is a simple WYSIWYG editor which allows you to embed Summernote into Django very handy. Support admin mixins and widgets
+* [djLint](https://pypi.org/project/djlint/) - djLint is a community build project to and add consistency to html templates
+* [EditorConfig](https://pypi.org/project/EditorConfig/) - EditorConfig makes it easy to maintain the correct coding style when switching between different text editors and between different projects. The EditorConfig project maintains a file format and plugins for various text editors which allow this file format to be read and used by those editors
+* [gunicorn](https://pypi.org/project/gunicorn/) - Gunicorn ‘Green Unicorn’ is a Python WSGI HTTP Server for UNIX. It’s a pre-fork worker model ported from Ruby’s Unicorn project. The Gunicorn server is broadly compatible with various web frameworks, simply implemented, light on server resource usage, and fairly speedy
+* [html-tag-names](https://pypi.org/project/html-tag-names/) - This is a list of HTML tag names. It includes ancient (for example, nextid and basefont) and modern (for example, shadow and template) names from the HTML living standard. The repo includes scripts to regenerate the data from the specs
+* [html-void-elements](https://pypi.org/project/html-void-elements/) - Similar to "html-tag-names"
+* [jmespath](https://pypi.org/project/jmespath/) - JMESPath (pronounced “james path”) allows you to declaratively specify how to extract elements from a JSON document
+* [jsbeautifier](https://pypi.org/project/jsbeautifier/) - Beautify, unpack or deobfuscate JavaScript. Handles popular online obfuscators
+* [oauthlib](https://pypi.org/project/oauthlib/) - OAuthLib is a framework which implements the logic of OAuth1 or OAuth2 without assuming a specific HTTP request object or web framework
+* [pathspec](https://pypi.org/project/pathspec/) - pathspec is a utility library for pattern matching of file paths. So far this only includes Git’s wildmatch pattern matching which itself is derived from Rsync’s wildmatch. Git uses wildmatch for its gitignore files
+* [pillow](https://pypi.org/project/pillow/) - The Python Imaging Library adds image processing capabilities to your Python interpreter. This library provides extensive file format support, an efficient internal representation, and fairly powerful image processing capabilities
+* [psycopg2](https://pypi.org/project/psycopg2/) - Psycopg is the most popular PostgreSQL database adapter for the Python programming language.
+* [PyJWT](https://pypi.org/project/PyJWT/) - A Python implementation of RFC 7519
+* [python3-openid](https://pypi.org/project/python3-openid/) - OpenID support for modern servers and consumers
+* [regex](https://pypi.org/project/regex/) - This regex implementation is backwards-compatible with the standard ‘re’ module, but offers additional functionality like enabling other Python threads to run concurrently
+* [requests-oauhlib](https://pypi.org/project/requests-oauthlib/) - Provides first-class OAuth library support for Requests
+* [s3transfer](https://pypi.org/project/s3transfer/) - S3transfer is a Python library for managing Amazon S3 transfers. This project is maintained and published by Amazon Web Services
+* [sqlparse](https://pypi.org/project/sqlparse/) - sqlparse is a non-validating SQL parser for Python. It provides support for parsing, splitting and formatting SQL statements
+* [stripe](https://pypi.org/project/stripe/) - A Python library for Stripe’s API
+* [tqdm](https://pypi.org/project/tqdm/) - Instantly make your loops show a smart progress meter when coding in the console
 
 
 
@@ -1529,9 +1599,216 @@ JS for the newsletter:
 
 </details><br/>
 
-## Additional Testing
+### Additional Testing
+
+## Testing User Stories
+
+* As a Site User | I can enter the page on the 'home' page so that I can see bestsellers and new books immediately
+    * This user story was implemented a bit differently - on the home page, a user can see a caroussell that redirects them to the corresponding category
+
+* As a Site User | I can see all products and sort them to my preferences so that I can browse all books to see what is interesting for me
+   * When clicking the "All Books" link in the main navigation, the user gets to teh product page displaying all products
+
+* As a Site User | I can view detailed information about a book so that I can make an informed purchase decision
+   * When clicking the picture on the "products" page, they will be redirected to the product detail page that shows all information about the book
+
+* As a Site User | I can browse books by categories so that I can find books I'm interested in
+    * In the main navigation, there is a "Categories" dropdown menu - when clicking a category, all corresponding books assosiated with the category will be displayed
+
+* As a Site User | I can sort by categories so that I can search for books which category interests me
+    * This user story has been modified and basically does the same as the one above. Refer to bug section on why
+
+* As a Site User | I can use a search function so that I can find specific books quickly
+    * The search function will go through each field from each product and presents anything relevant to the search
+
+* As a Site User | I can access an authors page so that I can serach for books from a specific author
+    * The Authors page is accessible from the main navigation menu and each author redirects to all their books
+
+* As a Site User | I can see pictures and infos about authors so that I can get background info on who wrote the book
+    * For each Author, there is a small biography and if it was available, a picture as well
+
+* As a Site User | I can create an account so that I can make purchases and access personalized features
+    * A user does not need to have an account to make a purchase, but if they have an account, they can save their delivery info to the profile and access their order history
+
+* As a Site User | I can log in to my account so that I can access my profile
+    * When a user is logged in, they can access their profile page via the "My Account" menu
+
+* As a Site User | I can view my order history so that I can track the status of my current and past orders
+    * When a user is logged in, they can access their order history on the profile page via the "My Account" menu; status of current order has not been implemented and would be via email notifications
+
+* As a Site User | I can add books to my shopping cart so that I can purchase multiple items at once
+    * A user can add as many books in a quantity of a maximum of 99 books each to their shopping bag
+
+* As a Site User | I can edit the contents in the shopping cart so that I do not buy items or quantities I do not want
+    * A user can modify their shopping bag by changing the amount and pressing "update" or deleting the item by clicking "remove"
+
+* As a Site User | I can proceed through an easy checkout process so that I can complete my purchase without problems
+    * The shopping bag and checkout page are easy to follow and customized for both mobile and desktop screens for easy accessibility
+
+* As a Site User | I can safely process payments so that my financial information is secure
+    * This website uses the third party application "Stripe" for processing the payments, also payment information will not be saved in the databank
+
+* As a Site User | I can enter and save my delivery information in my profile so that I can use it for future purchases
+    * When clicking the "Save information to profile" before checking out, the info will be saved to their profile. (Bug present, refer to bugs section)
+
+* As a Site User | I will get an email confirmation after a purchase so that I know the order has been placed and I get additional info about it
+    * If the user enters their correct email address, after each purchase they will recieve the order information immediately 
+
+* As a Site User | I can reset my password so that I am not excluded from the page if I forgot my old password
+    * If a user has forgotten their password, they can click "Forgot Password?" on the log in page and after providing their email address, a mail gets send to the email address. In this mail is a link on which the user can set a new password
+
+* As a Site User | I can access a contact form so that I can submit questions or feedback to the bookstore
+   * The contact form works and has validation. The message will be sent to the admin panel - in a future feature I would like to implement a reply function
+
+* As a Site User | I can access the FAQ page so that I get all answers to frequently asked questions
+   * The webpage has a FAQ page, accessable through the "About Us" menu or on big screens through the footer. The page is populated with questions that each have their answer as a dropdown function
+
+* As a Site User | I can view an 'About Us' page so that I can learn more about the bookstore and its expertise
+   * The user can get to the About page through the "About Us" menu where the information of the store are present
+
+* As a Site User | I can subscribe to a newsletter so that I can receive updates about new releases and promotions
+   * The newsletter can be accessed via the "About Us" menu or the footer on bigger screens. Given that the user provides a valid email address, they will get the confirmation that they have subscribed to the Newsletter
+
+* As a Site User | I cannot access an invalid url so that a custom error page will give me the information on what went wrong
+   * If a user enters an invalid url, thew will be redirected to a custom error 404 page with a button back to the home page
+
+* As a Site User | I can receive a discount and/or free shipping when my purchase exceeds a certain amount so that I am encouraged to place larger orders
+   * If the user spends more than 40€, the delivery fee falls away. When adding a book to the shopping bag, the notification will inform the user about how much they need to spend more to get the free delivery
+
+
+
+
+* As a Site Admin | I can add new books to the store and remove old ones so that I can keep the catalog up-to-date
+    * Adding, editing and deleting products has full frontend and admin panel functionality
+
+* As a Site Admin | I can create and manage book categories so that I can keep the store organized
+    * Adding categories is implemented in the frontend, editing or deleting them has to be done on in the admin panel
+
+* As a Site Admin | I can manage user accounts so that there are no unwatend customers
+    * In the admin panel, any user can be deleted
+
+* As a Site Admin | I can manage the content of the "About Us" page and other static pages so that I can keep the information current
+    * The admin has to go through the admin panel, but there the "About us" page can be fully modified
+
+* As a Site Admin | I can change questions and answers for the FAQ page so that I do not have to go through the admin panel
+    * FAQ functionalities are fully implemented in the frontend
+
+
+
+
+* As Developer | I can implement SEO best practices so that the website ranks higher in search engine results
+    * Doing the SEO challange helped with this user story; on the desktop version, Lighthouse always gave a score of 100 for SEO, on mobile versions it went down to 91 on some sites
+
+* As Developer | I can implement secure coding practices so that the application is protected against common vulnerabilities
+    * Every function which needs an authenticated user for is secured in the backend, also differentiating between normal and super users
+
 
 ### Manual Testing
+
+In addition to tests stated above I have performed a series of manual tests. Below the list of tests that has been conducted can be found. Many of these steps have been documented and can be found in this [folder](readme/assets/images/manual-testing)
+
+| Status | **Main Website - User Logged Out**
+|:-------:|:--------|
+| &check; | Typing in a incorrect URL on the page loads the 404 error page
+| &check; | Entering an url that needs authentication loads the log in page
+| &check; | Clicking the sites logo loads the home page
+| &check; | Clicking the Home button on the nav bar loads the home page and lists all posts
+| &check; | Clicking the Register link loads the Register page
+| &check; | Clicking the Log In link loads the Log In page 
+| &check; | For both log in and register, any missing field will notify the user and will not submit until form is valid
+| &check; | Clicking the author image on the authors page loads the product page with books from this author
+| &check; | Clicking the product image on the products page loads the product detail page
+| &check; | Clicking a category from the main navigation dropdown loads the product page with all books with the corresponding category
+| &check; | Using the search bar to get all books related to search
+| &check; | Clicking the quantity buttons changes the quantity a user can add to their bag
+| &check; | Clicking the add to bag button adds the book in wished quantity to the shopping bag
+| &check; | Clicking secure checkout redirects the user to the checkout page
+| &check; | On the checkout page the user can complete the order by providing delivery and payment information
+| &check; | On the checkout page, any nessesary field that has a wrong input will notify the user and will not submit until form is valid
+| &check; | Clicking complete order lets the user make a purchaise
+| &check; | When an order succeeds the minimum free delivery amount, no delivery costs will be applied
+| &check; | Clicking the "Contact us" button redirects the user to the form which he can submit a contact request
+| &check; | Clicking the "Subscribe to our Newsletter" button redirects the user towards the page and lets them subscribe to the newsletter
+| &check; | Clicking the "About Page" button redirects the user to the About page
+| &check; | Clicking the "FAQ" button redirects the user to the FAQ page
+| &check; | Clicking the Facebook link in the footer area opens Facebook in a new window 
+| &check; | Clicking the Instagram link in the footer area opens Instagram in a new window 
+| &check; | Clicking the LinkedInlink in the footer area opens LinkedIN in a new window 
+
+| Status | **Main Website - User Logged In**
+|:-------:|:--------|
+| &check; | Typing in a incorrect URL on the page loads the 404 error page
+| &check; | Entering an url that needs authentication loads an error informing that this is only allowed for superusers
+| &check; | Clicking the sites logo loads the home page
+| &check; | Clicking the Home button on the nav bar loads the home page and lists all posts
+| &check; | Clicking the Register link loads the Register page
+| &check; | Clicking the Log In link loads the Log In page 
+| &check; | Clicking the author image on the authors page loads the product page with books from this author
+| &check; | Clicking the product image on the products page loads the product detail page
+| &check; | Clicking a category from the main navigation dropdown loads the product page with all books with the corresponding category
+| &check; | Using the search bar to get all books related to search
+| &check; | Clicking the quantity buttons changes the quantity a user can add to their bag
+| &check; | Clicking the add to bag button adds the book in wished quantity to the shopping bag 
+| &check; | Clicking secure checkout redirects the user to the checkout page
+| &check; | On the checkout page the user can complete the order by providing delivery and payment information
+| &check; | If the user has made a previous order and clicked "Save info" or filled out the profile form, delivery details are pre populated
+| &check; | Clicking complete order lets the user make a purchaise
+| &check; | When an order succeeds the minimum free delivery amount, no delivery costs will be applied
+| &check; | Clicking the "Contact us" button redirects the user to the form which he can submit a contact request
+| &check; | Clicking the "Subscribe to our Newsletter" button redirects the user towards the page and lets them subscribe to the newsletter
+| &check; | Clicking the "About Page" button redirects the user to the About page
+| &check; | Clicking the "FAQ" button redirects the user to the FAQ page
+| &check; | Clicking the Facebook link in the footer area opens Facebook in a new window 
+| &check; | Clicking the Instagram link in the footer area opens Instagram in a new window 
+| &check; | Clicking the LinkedInlink in the footer area opens LinkedIN in a new window 
+
+| Status | **Main Website - Admin Logged In**
+|:-------:|:--------|
+| &check; | Clicking the Admin Panel button in the Product Management page loads the Admin Panel Page
+| &check; | The product management button is only visible for admins
+| &check; | Deleting a profile works on the Admin Panel
+| &check; | Deleting a product works on the Admin Panel
+| &check; | Deleting an author works on the Admin Panel
+| &check; | Deleting a category works on the Admin Panel
+| &check; | Deleting a FAQ works on the Admin Panel
+| &check; | Editing a product works on the Admin Panel
+| &check; | Editing an author works on the Admin Panel
+| &check; | Editing a category works on the Admin Panel
+| &check; | Editing a FAQ works on the Admin Panel
+| &check; | Adding a product works on the Admin Panel
+| &check; | Adding an author works on the Admin Panel
+| &check; | Adding a category works on the Admin Panel
+| &check; | Adding a FAQ works on the Admin Panel
+| &check; | Changing an email of any user works in the Admin Panel
+| &check; | Changing a password of any user works in the Admin Panel
+| &check; | Deleting a Profile will delete their profile but keeps the oders
+| &check; | Deleting a product works on the Fontend
+| &check; | Deleting an author works on the Fontend
+| &check; | Deleting a FAQ works on the Fontend
+| &check; | Editing a product works on the Fontend
+| &check; | Editing an author works on the Fontend
+| &check; | Editing a FAQ works on the Fontend
+| &check; | Adding a product works on the Fontend
+| &check; | Adding an author works on the Fontend
+| &check; | Adding a FAQ works on the Fontend
+| &check; | Adding a category works on the Fontend
+| &check; | Leaving out any nessesary fields (non nullable in the models) will notify the admin about what is missing
+
+Status | **Create A New User - User Logged Out**
+|:-------:|:--------|
+| &check; | Username field is required
+| &check; | Username field does not accept empty field
+| &check; | Email field does not accept an invalid email format
+| &check; | Email field is required
+| &check; | Password field does not accept empty field
+| &check; | Success message is displayed when the user creates a new user
+| &check; | Error with corresponding info when wrong input is submitted
+
+Status | **Create A Profile Page - User Logged In**
+|:-------:|:--------|
+| &check; | The default profile info is seen on the profile page (placeholders)
+| &check; | The profile success message is displayed when the user updates the profile form
+| &check; | As soon as a user has placed an order, the orer summary will show up on the profile page
 
 ### Responsiveness Test
 The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Multi Device Mockup Generator](https://techsini.com/multi-mockup/).
@@ -1557,9 +1834,9 @@ The responsive design tests were carried out manually with [Google Chrome DevToo
 [Back to top](<#table-of-content>)
 
 ### Browser Compatibility
-* Google Chrome Version (version 128.0.6613.119)
-* Mozilla Firefox (version 127.0 )
-* Microsoft Edge (version 128.0.2739.54)
+* Google Chrome Version (version 130.0.6723.117)
+* Mozilla Firefox (version 132.0.1) - website works fully, but the both the fonts and some formatting is wrong
+* Microsoft Edge (version 130.0.2849.80)
 
 [Back to top](<#table-of-content>)
 
@@ -1577,8 +1854,55 @@ Additional testing of the application was conducted by people outside of the sof
 
 [Back to top](<#table-of-content>)
 
+# Bugs
+
+## Fixed Bugs
+
+**10.10.24**
+Cloned my project to another private repo to try out models and products fixtures (to not create problems in real repo) -> Had issues with the database and migrations -> with tutor support I was able to delete the db and implement the new models and test fixtures
+
+**17.10.24**
+after the clone, I had a copy of my project in my project -> deleted it after research on if that would create problems in the project (it did not)
+
+**18.10.24**
+For search queries, since author and category are own models, the search didnt work -> included classes in the view with name and friendly name -> this gave duplicate resulats, therefore distinct() function was added to new "products" variable
+
+**19.10.24**
+Sorting after category -> shows more products than in the store (duplicate books) -> will tackle later -> Deleted sorting option
+
+**23.10.24**
+Stripe will not work as intended - in webhook_handler I renamed "shopping_bag" to "bag" while getting the metadata, but set the following variables as "shopping_bag" -> name error -> fixed the code
+
+**04.11.24**
+When trying to edit a product, the edit author page appears -> URL mistake. Fix: Edited the urls.py file
+
+**09.11.2024**
+I want to make author friendly_name mandatory for added models Fix: make friendls_name nullable, then run "python3 manage.py makemigrations products --empty" -> migrate by hand (help by AI and Tutor Support)
+
+### Bugs from Boutique ADO
+
+**30.10.24**
+Minus quantity button does not work. Fix: in JS code, change targeted IDs to target classes -> change "#" to "." to target classes
+
+**11.11.2024**
+Validation errors:
+
+* Mobile-top-header throws HTML errors: li item is child of menu item. Fix: Add an ul tag with corresponding classes (Tutor support helped)
+* Element p not allowed as child of element strong in this context. -> custom_clearable_file_input has that set up. Solution: removed "strong"
+* custom_clearable_file_input: "Error: Bad value auto !important for attribute width on element img: Expected a digit but saw a instead" -> added a div -> did not fix the error
+
+
 ## Known Bugs
 
+All known bugs are supposed to be fixed before "Future Features" are going to be implemented.
+
+* if the user changes the quantity of an item in the shopping bag to 0, 0 amount of items will be ordered, but it will still show up in the order summary and confirmation mail as "0x book"
+* If a user has saved their name and email once in the checkout form and saves it, it will save it to their profile, but not to the details, if they want to buy a new book -> identified the problem: checkout view is getting data from the django user model, not the profile data -> update view of checkout to get info from profile, then update profile model to change django user model when updated
+* In the add_product page, the borders are not round like in every other form
+* If a user clicks fast on "add to bag" button, the item will be added multiple times
+* After coming to the checkout success page, when the user clicks the "Now check out our newst..." (redirect to multiple categories) button, the same issue as with the "categories" bug happens. Every book that has e.g. "Bestsellers" and "Our Recommendations" will be shown double
+* If an admin would delete an author, the books would remain in the database, but cannot be ordered anymore -> Future feature because of time reasons -> If an author gets deleted, all the books written by them should also be deleted. The same issue applies to categories, but most books do have more than just one category
+* The styling of the notifications from the Newsletter page are aligned wrongly on big displays - pictures can be found [here](readme/assets/images/features/msg/newsletter_success_bg.PNG) and [here](readme/assets/images/features/msg/newsletter_error_bg.PNG) 
 
 
 
