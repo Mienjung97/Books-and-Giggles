@@ -7,7 +7,8 @@ Books and Giggles is a fictional online book store that sells a small amount of 
 ![Books and Giggles responsive design](readme/assets/images/responsiveness_bandg.PNG)
 <br>
 
-This fictional site was created for Portfolio Project #5 (Full-Stack Toolkit) - Diploma in Full Stack Software Development Diploma at the [Code Institute](https://www.codeinstitute.net).
+This fictional site was created for Portfolio Project #5 (Full-Stack Toolkit) - Diploma in Full Stack Software Development Diploma at the [Code Institute](https://www.codeinstitute.net). This webpage does not sell any real goods, nor does any payment information get stored.
+
 
 
 # Table of Content
@@ -30,36 +31,12 @@ This fictional site was created for Portfolio Project #5 (Full-Stack Toolkit) - 
 * [**Features**](<#features>)
 
 * [**Existing Features**](<#existing-features>)
-    * [Navigation](<#navigation>)
-    * [Footer](<#footer>)
-    * [Home](<#home>)
-    * [About](<#about>)
-    * [FAQ](<#faq>)
-    * [Contact Page](<#contact-page>)
-    * [Newsletter](<#newsletter>)
-    * [Products View](<#products-view>)
-    * [Product Detail View](<#product-detail-view>)
-    * [Shopping Bag](<#shopping-bag>)
-    * [Checkout](<#checkout>)
-    * [Checkout Success](<#checkout-success>)
-    * [Register](<#register>)
-    * [Log In](<#log-in>)
-    * [Logout](<#logout>)
-    * [Profile](<#profile>)
-    * [Confirmation Messages](<#confirmation-messages>)
-    * [Confirmation Emails](<#confirmation-emails>)
-    * [Admin](<#admin>)
-    * [Add Product](<#add-product>)
-    * [Edit Product](<#edit-product>)
-    * [Delete Product](<#delete-product>)
-    * [Add Author](<#add-product>)
-    * [Edit Author](<#edit-product>)
-    * [Delete Author](<#delete-product>)
-    * [Add FAQ](<#add-product>)
-    * [Edit FAQ](<#edit-product>)
-    * [Delete FAQ](<#delete-product>)
-    * [Add Category](<#add-product>)
-    * [Admin Panel](<#admin-panel>)
+    * [Navigational Features](<#navigation>)
+    * [General Features](<#footer>)
+    * [E-commerce Features](<#home>)
+    * [Confirmation Features](<#about>)
+    * [Admin Features](<#faq>)
+
 
 * [**Future Features**](<#future-features>)
 
@@ -72,7 +49,7 @@ This fictional site was created for Portfolio Project #5 (Full-Stack Toolkit) - 
     * [Testing User Stories](<#testing-user-stories>)
     * [Code Validation](<#code-validation>)
     * [Additional Testing](<#additional-testing>)
-    * [Known Bugs](<#known-bugs>)
+    * [Bugs](<#bugs>)
 * [Deployment](<#deployment>)
 * [Credits](<#credits>)
 * [Acknowledgements](<#acknowledgements>)
@@ -83,6 +60,8 @@ This fictional site was created for Portfolio Project #5 (Full-Stack Toolkit) - 
 <hr>
 
 # Project
+
+Everything on this webpage is for educational purposes only, documentation on where pictures and information are coming from is in the credit section
 
 ## Objective
 The idea of creating an online book store came to me from multiple angles - I am not an avid reader, nor do I own a lot of books (most of them are featured on this website) - but there is a deep connection on why I choose to make this my final project for the Code Institute Full Stack Software Developer course: My grandparents were both really into books, my grandmother loved the Angelique series, as well as many other historical fiction books, my grandfather has always enjoyed any kind of illustraded books, mostly of nature, mountains and animals. Unfortunatly, my grandfather passed in July and my grnadmother shortly after starting the project. My partner is also an avid reader, who suggested the idea to me - so I decided to create this project in memory of my grandparents and in dedication to my mother, partner and all the "book worms" in my family. Most of the books featured on this page are owend and were reccomended by them.
@@ -1497,7 +1476,7 @@ The libraries used in this project are located in the requirements.txt file and 
 * [stripe](https://pypi.org/project/stripe/) - A Python library for Stripe’s API
 * [tqdm](https://pypi.org/project/tqdm/) - Instantly make your loops show a smart progress meter when coding in the console
 
-
+[Back to top](<#table-of-content>)
 
 # Testing
 
@@ -1596,6 +1575,8 @@ Quantity input form:
 JS for the newsletter:
 
 ![JSHint Validation Newsletter](readme/assets/images/validation/static/js/newsletter_js_val.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -1701,6 +1682,8 @@ JS for the newsletter:
 
 * As Developer | I can implement secure coding practices so that the application is protected against common vulnerabilities
     * Every function which needs an authenticated user for is secured in the backend, also differentiating between normal and super users
+
+[Back to top](<#table-of-content>)
 
 
 ### Manual Testing
@@ -1810,6 +1793,8 @@ Status | **Create A Profile Page - User Logged In**
 | &check; | The profile success message is displayed when the user updates the profile form
 | &check; | As soon as a user has placed an order, the orer summary will show up on the profile page
 
+[Back to top](<#table-of-content>)
+
 ### Responsiveness Test
 The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Multi Device Mockup Generator](https://techsini.com/multi-mockup/).
 
@@ -1891,6 +1876,7 @@ Validation errors:
 * Element p not allowed as child of element strong in this context. -> custom_clearable_file_input has that set up. Solution: removed "strong"
 * custom_clearable_file_input: "Error: Bad value auto !important for attribute width on element img: Expected a digit but saw a instead" -> added a div -> did not fix the error
 
+[Back to top](<#table-of-content>)
 
 ## Known Bugs
 
@@ -1904,12 +1890,38 @@ All known bugs are supposed to be fixed before "Future Features" are going to be
 * If an admin would delete an author, the books would remain in the database, but cannot be ordered anymore -> Future feature because of time reasons -> If an author gets deleted, all the books written by them should also be deleted. The same issue applies to categories, but most books do have more than just one category
 * The styling of the notifications from the Newsletter page are aligned wrongly on big displays - pictures can be found [here](readme/assets/images/features/msg/newsletter_success_bg.PNG) and [here](readme/assets/images/features/msg/newsletter_error_bg.PNG) 
 
-
+[Back to top](<#table-of-content>)
 
 # Deployment
 
 
 # Credits
+
+## Content
+
+* This Readme file has been taken from my PP4 "PROject GOLFacademy". The readme for my previous project was taken from [Marcus Erikssons PP4](https://github.com/worldofmarcus/project-portfolio-4/blob/main/README.md#existing-features) and modified by me to fit my project.
+    * *Marcus Erikssons*: "Template for read.me provided by Code Institute (*with some additional changes that my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/))* suggested."
+
+* My project **Books and Giggles** has started almost as a copy of the example project *Boutique ADO* and has been edited in most areas ever since, but especially the **Category**, **Checkout** and **Shopping bag** models, as well as the JS code has been almost unaltered.
+
+* I used some help from various more YouTube tutorials and w3schools tutorials.
+
+* [MY PP4](https://github.com/Mienjung97/PROject-GOLFblog) helped me with implementing code for my **About** page and multiple other frontend functions.
+
+* For the deployment I used the newly supplied google documents from Osin (CI Tutor) for creating the AWS accound and setting up the S3 bucket
+
+* All pictrures on the webpage were gathered from multiple webpages. A list of all the references are found [here](readme/text-files)
+
+## Technical
+
+* Many different posts on [Stackoverflow](https://stackoverflow.com/) have helped me understand Django and its functionality better, as well as it helped me fix bugs while coding
+
+* The [Bootstrap](https://getbootstrap.com/) documentation helped me a lot with the styling of my page
+
+* The AI tool [perplexity](https://www.perplexity.ai/) was used a lot for debugging and helping to understand my mistakes. No code was written by AI, the tool was just used in case of bugs and missing understanding on how a feature works
+
+* The *Boutique ADO* code along project from Code Institute has been a valuable source for both starting the project as well as for setting up new apps, models, urls and views even if it created quite some issues along the way since it is pretty outdated and created validation problems
+
 
 ## Media
 
@@ -1927,29 +1939,15 @@ Picture for "default" image: Foto von <a href="https://unsplash.com/de/@blazphot
 
 # Acknowledgements
 
+* I have to thank my dear partner for being so patient since there is not a lot of free time and yet she fully supports me on a daily basis
+
+* I am also thankful for my co-student [Marceillo](https://github.com/Marceillo) and [Jan](https://github.com/yanidruffy), who I worked closely together, and who helped me with questions, gave their input and in times of question.
+
+* A big thank you goes out to the Tutors who have helped me along my fourth protfolio project
+
+* I would like to thank my mentor [Alshat Garg](https://in.linkedin.com/in/akshatnitd) for giving me the right pointers in the first meeting and my second mentor [Jubril Akolade](https://www.codementor.io/@jubrillionaire) for helping me finish the project and giving me very valuable advice.
 
 
+*Sebastian Kefer, 04.09.2024*
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-09.10.2024, Rest in peace Oma
-
-
+[Back to top](<#table-of-content>)
