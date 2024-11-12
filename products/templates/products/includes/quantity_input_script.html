@@ -3,7 +3,9 @@
     // Disable +/- buttons outside 1-99 range
     function handleEnableDisable(itemId) {
         var currentValue = parseInt($(`.id_qty_${itemId}`).val());
+        console.log('handleEnableDisable', currentValue)
         var minusDisabled = currentValue < 2;
+        console.log(minusDisabled)
         var plusDisabled = currentValue > 98;
         $(`.decrement-qty_${itemId}`).prop('disabled', minusDisabled);
         $(`.increment-qty_${itemId}`).prop('disabled', plusDisabled);
@@ -25,20 +27,30 @@
     // Increment quantity
     $('.increment-qty').click(function(e) {
        e.preventDefault();
-       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
-       var currentValue = parseInt($(closestInput).val());
-       $(closestInput).val(currentValue + 1);
+       console.log('second')
        var itemId = $(this).data('item_id');
+       var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+    //    var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
+       var currentValue = parseInt($(closestInput).val());
+       console.log("increment-qty", currentValue)
+       $(closestInput).val(currentValue + 1);
        handleEnableDisable(itemId);
+       
     });
 
     // Decrement quantity
     $('.decrement-qty').click(function(e) {
        e.preventDefault();
+       $('.update-link').click(function(e) {
+        var form = $(this).prev('update-form');
+        form.submit();
+       });
+       console.log('third')
+       var itemId = $(this).data('item_id');
        var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+    //    var allQuantityInputs = $(`.input-group-${itemId} input[name='quantity']`);
        var currentValue = parseInt($(closestInput).val());
        $(closestInput).val(currentValue - 1);
-       var itemId = $(this).data('item_id');
        handleEnableDisable(itemId);
     });
 </script>
