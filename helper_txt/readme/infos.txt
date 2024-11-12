@@ -10,4 +10,5 @@ All erors so far: E501 line too long; mostly in strings
 
 Future feature: Newsletter view
 
-Bad LH score: anything that has edit, add or delete is just for admins; most bad accessibility is becaise of missing labels on search, increment and decrement buttons - site for readers. Future features: make website more accessible, so that even blind people can buy books as e.g. gifts
+Bad LH score: anything that has edit, add or delete is just for admins; most bad accessibility is becaise of missing labels on search,
+ increment and decrement buttons - site for readers. Future features: make website more accessible, so that even blind people can buy books as e.g. gifts

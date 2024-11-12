@@ -647,7 +647,7 @@ The color scheme, as well as the styling ideas were developed while coding to mi
 <br>
 <br>
 
-![Color Palette image](readme/assets/images/colors.png)
+![Color Palette image](readme/assets/images/colors.PNG)
 
 [Back to top](<#table-of-content>)
 
@@ -686,39 +686,29 @@ The following is devided into mobile and desktop views, showing how each individ
 
 <details><summary><b>Navigation Large</b></summary>
 
-Main Navigation:
+* Main Navigation:
 
 ![Navigation](readme/assets/images/features/nav-bar-bg.PNG)
 
-<details><summary><b>Dropdown Books</b></summary>
+* Dropdown Books
 
 ![Dropdown Books](readme/assets/images/features/books_dd_bg.PNG)
 
-</details><br/>
-
-<details><summary><b>Dropdown Categories</b></summary>
+* Dropdown Categories
 
 ![Dropdown Categories](readme/assets/images/features/categories_dd_bg.PNG)
 
-</details><br/>
-
-<details><summary><b>Dropdown About Us</b></summary>
+* Dropdown About Us
 
 ![Dropdown About Us](readme/assets/images/features/about_dd_bg.PNG)
 
-</details><br/>
-
-<details><summary><b>Dropdown Profile</b></summary>
+* Dropdown Profile
 
 ![Dropdown Profile](readme/assets/images/features/account_dd_bg.PNG)
 
-</details><br/>
-
-<details><summary><b>Dropdown Profile Admin</b></summary>
+* Dropdown Profile Admin
 
 ![Dropdown Profile Admin](readme/assets/images/features/account_admin_dd_bg.PNG)
-
-</details><br/>
 
 [Back to top](<#table-of-content>)
 
@@ -727,43 +717,37 @@ Main Navigation:
 
 <details><summary><b>Navigation Small</b></summary>
 
-Small Navigation:
+* Small Navigation:
 
 ![Navigation Collapsed](readme/assets/images/features/nav_collapsed_sm.PNG)
 
-Small Navigation opened
+* Small Navigation opened
 
 ![Navigation Open](readme/assets/images/features/nav_open_sm.PNG)
 
-<details><summary><b>Dropdown Books</b></summary>
+* Dropdown Books 
 
 ![Dropdown Books](readme/assets/images/features/nav_books_sm.PNG)
 
-</details><br/>
-
-<details><summary><b>Dropdown Categories</b></summary>
+* Dropdown Categories 
 
 ![Dropdown Categories](readme/assets/images/features/nav_categories_sm.PNG)
 
-</details><br/>
-
-<details><summary><b>Dropdown About Us</b></summary>
+* Dropdown About Us 
 
 ![Dropdown About Us](readme/assets/images/features/nav_about_sm.PNG)
 
-</details><br/>
-
-<details><summary><b>Dropdown Profile</b></summary>
+* Dropdown Profile 
 
 ![Dropdown Profile](readme/assets/images/features/account_dd_sm.PNG)
 
-</details><br/>
+* Dropdown Search 
 
-<details><summary><b>Dropdown Profile Admin</b></summary>
+![Dropdown Search](readme/assets/images/features/search_sm.PNG)
+
+* Dropdown Profile Admin 
 
 ![Dropdown Profile Admin](readme/assets/images/features/account_admin_dd_sm.PNG)
-
-</details><br/>
 
 [Back to top](<#table-of-content>)
 
@@ -774,11 +758,11 @@ The desktop footer shows links to all social media platforms, as well as links f
 
 <details><summary><b>Footer</b></summary>
 
-Footer Dekstop
+* Footer Dekstop
 
 ![Footer Dekstop](readme/assets/images/features/footer_bg.PNG)
 
-Footer Mobile
+* Footer Mobile
 
 ![Footer Mobile](readme/assets/images/features/footer_sm.PNG)
 
@@ -794,18 +778,44 @@ Footer Mobile
 <details><summary><b>Open</b></summary>
 
 ### Home
-
 The home page is simplistic, easy to navigate and fully responsive: 
 
 <details><summary><b>Home</b></summary>
 
-Home Dekstop
+* Home Dekstop
 
 ![Home Dekstop](readme/assets/images/features/home_bg.PNG)
 
-Home Mobile
+* Home Mobile
 
 ![Home Mobile](readme/assets/images/features/home_sm.PNG)
+
+* Delivery banner that informs the user about minimum order amount before getting free shipping
+
+![Delivery Banner](readme/assets/images/features/delivery_banner_bg.PNG)
+
+* Carousell that displays categories like "Bestsellers", "Our Recommendations" and more
+
+![Home Carousell](readme/assets/images/features/carousell_bg.PNG)
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Authors
+The Authors page is simplistic, easy to navigate and fully responsive. It shows all authors that have a book the the store, including a small description and if it was available, a picture of the author (otherwise a placeholder image). When the user clicks the author, he will be redirected to a page that shows only books made by ckicked author. 
+
+<details><summary><b>Home</b></summary>
+
+* Authors Dekstop
+
+![Authors Dekstop](readme/assets/images/features/authors_bg.PNG)
+
+* Authors Mobile
+
+![Authors Mobile](readme/assets/images/features/authors_sm.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -815,12 +825,16 @@ The About page features a welcoming picture, as well as information about the st
 
 <details><summary><b>About</b></summary>
 
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 ### FAQ
 On the FAQ page, an admin can add questions with their corresponding answer, so that users of the webpage always have their questions answered. The admin is encouraged to add questions that have been asked via the contact page to the FAQ page.
 
 <details><summary><b>FAQ</b></summary>
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -829,13 +843,15 @@ The Contact Us page features a a form which includes *Name*, *email*, *subject* 
 
 <details><summary><b>Contact Page</b></summary>
 
-Contact Dekstop
+* Contact Dekstop
 
 ![Contact Dekstop](readme/assets/images/features/contact_bg.PNG)
 
-Contact Mobile
+* Contact Mobile
 
 ![Contact Mobile](readme/assets/images/features/contact_sm.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -844,45 +860,53 @@ The Newsletter used in this project was designed and set up with [Brevo](https:/
 
 <details><summary><b>Newsletter</b></summary>
 
-Newsletter Dekstop
+* Newsletter Dekstop
 
-![Newsletter Dekstop](readme/assets/images/features/contact_bg.PNG)
+![Newsletter Dekstop](readme/assets/images/features/newsletter_bg.PNG)
 
-Newsletter Mobile
+* Newsletter Mobile
 
-![Newsletter Mobile](readme/assets/images/features/contact_sm.PNG)
+![Newsletter Mobile](readme/assets/images/features/newsletter_sm.PNG)
 
-Newsletter Confirmation Mail
+* Newsletter Confirmation Mail
 
 ![Newsletter confirmation](readme/assets/images/newsletter_confirmation.PNG)
 
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
-### Products View
+### Products Page
 The Products page shows all available books in the store with a picture, name of the book, the author, what kind of cover it has, all categories it belongs to and the price of the item. The user has to click on the cover picture to get redirected to the detail view. The products page is devided into 4 collumns, which are getting reduced to just one collumn, depending on the screen size.
 
-<details><summary><b>Products View</b></summary>
+<details><summary><b>Products Page</b></summary>
 
-Products Dekstop
+* Products Dekstop
 
 ![Products Dekstop](readme/assets/images/features/products_bg.PNG)
 
-Products Tablet Big
+* Products Tablet Big
 
 ![Products Tablet Big](readme/assets/images/features/products_t_bg.PNG)
 
-Products Tablet Small
+* Products Tablet Small
 
 ![Products Tablet Small](readme/assets/images/features/products_t_sm.PNG)
 
-Products Mobile
+* Products Mobile
 
 ![Products Mobile](readme/assets/images/features/products_sm.PNG)
 
+* Product Search Dekstop
+
+![Product Search Dekstop](readme/assets/images/features/product_search.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
-### Product Detail View
-In the Product detail view, the user gets all the information of each individual item. Not every book has all fields filled out, but mostly, all of the fields are filled out. 
+### Product Detail Page
+In the Product detail Page, the user gets all the information of each individual item. Not every book has all fields filled out, but mostly, all of the fields are filled out. 
 
 The fields which are available:
 
@@ -902,13 +926,35 @@ The fields which are available:
 
 <details><summary><b>Product Detail View</b></summary>
 
-Product Detail View Dekstop
+* Product Detail View Dekstop
 
 ![Product Detail View Dekstop](readme/assets/images/features/product_detail_bg.PNG)
 
-Product Detail View Mobile
+* Product Detail View Mobile
 
 ![Product Detail View Mobile](readme/assets/images/features/product_detail_sm.PNG)
+
+<details><summary><b>Sorting</b></summary>
+The user has the option to sort by price, name and author, both in ascending and descending order.
+
+
+* Dekstop Sorting high to low price
+
+![Newsletter Dekstop](readme/assets/images/features/sorting_high_low.PNG)
+
+* Dekstop Sorting low to high price
+
+![Newsletter Mobile](readme/assets/images/features/sorting_low_high.PNG)
+
+* Dekstop Sorting
+
+![Dekstop Sorting](readme/assets/images/features/sort_bg.jpg)
+
+* Mobile Sorting
+
+![Mobile Sorting](readme/assets/images/features/sort_sm.jpg)
+
+</details><br/>
 
 </details><br/>
 
@@ -925,30 +971,31 @@ The shopping bag does exactly what a shopping bag should do: You can add and rem
 
 <details><summary><b>Shopping Bag</b></summary>
 
-Shopping Bag Dekstop: Empty
+* Shopping Bag Dekstop: Empty
 
 ![Shopping Bag Dekstop](readme/assets/images/features/shopping_bag_empty_bg.PNG)
 
-Shopping Bag Dekstop: No delivery cost
+* Shopping Bag Dekstop: No delivery cost
 
 ![Shopping Bag Dekstop](readme/assets/images/features/shopping_bag_no_delivery_bg.PNG)
 
-Shopping Bag Dekstop: Delivery cost
+* Shopping Bag Dekstop: Delivery cost
 
 ![Shopping Bag Dekstop](readme/assets/images/features/shopping_bag_delivery_bg.PNG)
 
-Shopping Bag Mobile: Empty
+* Shopping Bag Mobile: Empty
 
 ![Shopping Bag Mobile](readme/assets/images/features/shopping_bag_empty_sm.PNG)
 
-Shopping Bag Mobile: No delivery cost
+* Shopping Bag Mobile: No delivery cost
 
 ![Shopping Bag Mobile](readme/assets/images/features/shopping_bag_no_delivery_sm.PNG)
 
-Shopping Bag Mobile: Delivery cost
+* Shopping Bag Mobile: Delivery cost
 
 ![Shopping Bag Mobile](readme/assets/images/features/shopping_bag_delivery_sm.PNG)
 
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -957,13 +1004,15 @@ In the checkout view, the user has to provide their name, email, shipping detail
 
 <details><summary><b>Checkout</b></summary>
 
-Checkout Dekstop
+* Checkout Dekstop
 
 ![Checkout Dekstop](readme/assets/images/features/checkout_bg.PNG)
 
-Checkout Mobile
+* Checkout Mobile
 
 ![Checkout Mobile](readme/assets/images/features/checkout_sm.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -972,11 +1021,11 @@ The checkout success page provides the user with their order details, including 
 
 <details><summary><b>Checkout Success</b></summary>
 
-Checkout Success Dekstop
+* Checkout Success Dekstop
 
 ![Checkout Success Dekstop](readme/assets/images/features/checkout_success_bg.PNG)
 
-Checkout Success Mobile
+* Checkout Success Mobile
 
 ![Checkout Success Mobile](readme/assets/images/features/checkout_success_sm.PNG)
 
@@ -994,13 +1043,15 @@ The sign up page is a modified all auth template that fullfills the basic "sign 
 
 <details><summary><b>Register</b></summary>
 
-Sign up Desktop
+* Sign up Desktop
 
 ![Sign up Dekstop](readme/assets/images/features/signup_bg.PNG)
 
-Sign up Mobile
+* Sign up Mobile
 
 ![Sign up Mobile](readme/assets/images/features/signup_sm.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -1009,13 +1060,15 @@ The Log in page is a modified all auth template that fullfills the basic "sign i
 
 <details><summary><b>Sign In</b></summary>
 
-Sign In Desktop
+* Sign In Desktop
 
 ![Sign In Dekstop](readme/assets/images/features/signin_bg.PNG)
 
-Sign In Mobile
+* Sign In Mobile
 
 ![Sign In Mobile](readme/assets/images/features/signin_sm.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -1024,30 +1077,57 @@ The Logout page is a modified all auth template that fullfills the basic "logout
 
 <details><summary><b>Logout</b></summary>
 
-Logout Dekstop
+* Logout Dekstop
 
 ![Logout Dekstop](readme/assets/images/features/signout_bg.PNG)
 
-Logout Mobile
+* Logout Mobile
 
 ![Logout Mobile](readme/assets/images/features/signout_sm.PNG)
 
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
+
+### Reset Password
+The Reset Password page is a modified all auth template that fullfills the basic "Reset Password" features. A user must provide their email and will get an email with a link to reset their password
+
+<details><summary><b>Reset Password</b></summary>
+
+* Reset Password Dekstop
+
+![Logout Dekstop](readme/assets/images/features/reset_pw_bg.PNG)
+
+* Reset Password Mobile
+
+![Logout Mobile](readme/assets/images/features/reset_pw_sm.PNG)
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
 ### Profile
-The profile page consists of two parts: The users profile info, including name, email and shipping address and as the second part the order history.
+The profile page consists of two parts: The users profile info, including name, email and shipping address and as the second part the order history. If a user clicks on one of the order history items, they will be rediredted to the corresponding checkout success page.
 
 <details><summary><b>Profile</b></summary>
 
-Profile Dekstop
+* Profile Dekstop
 
 ![Profile Dekstop](readme/assets/images/features/profile_page_bg.PNG)
 
-Profile Mobile
+* Profile Mobile
 
 ![Profile Mobile](readme/assets/images/features/profile_page_sm.PNG)
 
+* Change Password 
+
+![Change Password](readme/assets/images/features/change_pw.PNG)
+
 </details><br/>
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -1057,19 +1137,72 @@ Profile Mobile
 
 <details><summary><b>Open</b></summary>
 
-### Confirmation Messages
+### Pop Up Messages
+There are a variety of different Pop Up messages - depending on what the user (or admin) wants to do, most functionalities are connected to a notification. In general, there are different types of messages:
 
+* Success messages: any action the user does which requires a positive feedback, like adding items to the cart, logging in or an admin updates the database successfully
+* Info messages: mostly admin related, which informs about editing the database, or when a user clicks a past oder summary
+* Warning message: for endusers, this only appears when the stripe public key is missing - the admin will be presented with this message if they want to delete a product or author
+* Error message: this message either informs the user about an error that occured, or if a normal user tries to use an admin path
+* Newsletter error message: if the user enters an invalid email format, an error message will appear
+* Newsletter success message: if the user subscribes to the newsletter, a success message will appear
 
-<details><summary><b>Confirmation Messages</b></summary>
+Site note: the admin success messages look different than for the users: users only get success confirmation for interacting with the store, so they will be shown a summary of their shopping bag, while the admin does not get the preview (reason: the admin gets success messages more frequently and usually does not shop in their own store).
+
+Below you can see some examples, more are in this [folder](readme/assets/images/features/msg/).
+
+<details><summary><b>Messages</b></summary>
+
+* Success Message without shopping bag
+
+![Success Message](readme/assets/images/features/msg/msg_success_signin.PNG)
+
+* Success Message: Shopping bag with delivery cost
+
+![Success Message](readme/assets/images/features/msg/msg_success_add_to_bag_delivery.PNG)
+
+* Success Message: Shopping bag without delivery cost
+
+![Success Message](readme/assets/images/features/msg/msg_success_add_to_bag_no_delivery.PNG)
+
+* Info Message: Order history
+
+![Info Message](readme/assets/images/features/msg/msg_alert_order_history.PNG)
+
+* Warning Message: Deleting a product
+
+![Warning Message](readme/assets/images/features/msg/msg_warning_product.PNG)
+
+* Error Message: Wrong path
+
+![Warning Message](readme/assets/images/features/msg/msg_error.PNG)
+
+* Newsletter Error / Success Message (There is a visual bug in the desktop version, more in the "Bugs" section)
+
+![Warning Message](readme/assets/images/features/msg/newsletter_error_sm.PNG)
+
+![Warning Message](readme/assets/images/features/msg/newsletter_success_sm.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Confirmation Emails
-
+When a user registers, they have to confirm their email address with a link they will be provided with in an email. Also if a user places an order, they will get an email confirmation with the details of the order.
 
 <details><summary><b>Confirmation Emails</b></summary>
 
+* Confirm email address
+
+![Confirm Email Address](readme/assets/images/features/email_confirm_account.PNG)
+
+* Order summary email
+
+![Order Summary Email](readme/assets/images/features/email_order_summary.PNG)
+
 </details><br/>
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -1078,89 +1211,194 @@ Profile Mobile
 
 <details><summary><b>Open</b></summary>
 
-### Admin
+### Product Management
+When a superuser is logged in, they will get another item in the account dropdown labled "Product Management". On this page, they have the option to navigate to the admin panel without having to modify the url and to add a product, category, author or a FAQ item.
 
+<details><summary><b>Product Management</b></summary>
 
-<details><summary><b>Admin</b></summary>
+* Desktop Product Management Panel
+
+![Desktop Product Management Panel](readme/assets/images/features/product_management_bg.PNG)
+
+* Mobile Product Management Panel
+
+![Mobile Product Management Panel](readme/assets/images/features/product_management_sm.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Add Product
-
+This is the front end page where an admin can add a product.
 
 <details><summary><b>Add Product</b></summary>
+
+* Add Product Full Form
+
+![Add Product Full Form](readme/assets/images/features/add_product_form.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Edit Product
-
+This is the front end page where an admin can edit a product. The button on the product detail page works visually the same as the "Delete FAQ" button
 
 <details><summary><b>Edit Product</b></summary>
+
+* Edit Product Form
+
+![Edit Product Form](readme/assets/images/features/edit_product.PNG)
+
+* Edit Product Button
+
+![Edit Product](readme/assets/images/features/edit_product_btn.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Delete Product
-
+This is the front end page where an admin can delete a product.
 
 <details><summary><b>Delete Product</b></summary>
+
+* Desktop Delete Product Confirmation Page
+
+![Desktop Delete Product Confirmation Page](readme/assets/images/features/delete_product_bg.PNG)
+
+* Mobile Delete Product Confirmation Page
+
+![Mobile Delete Product Confirmation Page](readme/assets/images/features/delete_product_sm.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Add Author
-
+This is the front end page where an admin can add an author. All "Add ..." forms are only shown as desktop version, the mobile versions look like the "Add Category" mobile view.
 
 <details><summary><b>Add Author</b></summary>
+
+* Add Author
+
+![Desktop Add Author](readme/assets/images/features/add_author.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Edit Author
-
+This is the front end page where an admin can edit an author.
 
 <details><summary><b>Edit Author</b></summary>
+
+* Desktop Edit Author
+
+![Desktop Edit Author](readme/assets/images/features/edit_author_bg.PNG)
+
+* Mobile Edit Author
+
+![Mobile Edit Author](readme/assets/images/features/edit_author_sm.PNG)
+
+* Edit / Delete Author Button
+
+![Edit Author Button](readme/assets/images/features/author_admin_btn.PNG)
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Delete Author
-
+This is the front end page where an admin can delete an author.
 
 <details><summary><b>Delete Author</b></summary>
 
-</details><br/>
+* Desktop Delete Author
 
-### Add FAQ
+![Desktop Delete Author](readme/assets/images/features/delete_author_bg.PNG)
 
+* Mobile Delete Author
 
-<details><summary><b>Add FAQ</b></summary>
+![Mobile Delete Author](readme/assets/images/features/delete_author_sm.PNG)
 
-</details><br/>
-
-### Edit FAQ
-
-
-<details><summary><b>Edit FAQ</b></summary>
-
-</details><br/>
-
-### Delete FAQ
-
-
-<details><summary><b>Delete FAQ</b></summary>
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
 ### Add Category
-
+This is the front end page where an admin can add a category. This form is shown in the mobile view as an example on how the other "Add ..." forms look like on a mobile view
 
 <details><summary><b>Add Category</b></summary>
 
+* Mobile Add Category
+
+![Mobile Add Category](readme/assets/images/features/add_category_sm.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
-### Admin Panel
+### Add FAQ
+This is the front end page where an admin can add a FAQ item.
 
+<details><summary><b>Add FAQ</b></summary>
+
+* Desktop Add FAQ Item
+
+![Desktop Add FAQ Item](readme/assets/images/features/add_faq.PNG)
+
+* Desktop Add FAQ Frontend Button
+
+![Desktop Add FAQ Frontend Button](readme/assets/images/features/add_faq_btn.PNG)
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Edit FAQ
+This is the front end page where an admin can add a FAQ item.
+
+<details><summary><b>Edit FAQ</b></summary>
+
+* Desktop Edit FAQ Item
+
+![Desktop Edit FAQ Item](readme/assets/images/features/edit_faq.PNG)
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Delete FAQ
+Deleting an FAQ item is the only front end delete option that does not have its own confirmation page, just a "Delete" button. The reason for this is that deleting an FAQ item vy accident, it only has a small impact on the website and can be re implemented quite easy. Deleting an author or a product would have bigger consequences, therefore they have the delete page.
+
+<details><summary><b>Delete FAQ</b></summary>
+
+* Desktop Delete FAQ Button
+
+![Desktop Delete FAQ Button](readme/assets/images/features/faq_delete.PNG)
+
+* Desktop Delete FAQ Button Hovered
+
+![Desktop Delete FAQ Button Hovered](readme/assets/images/features/faq_delete_hover.PNG)
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+
+### Admin Panel
+On the admin panel, an admin can access all profiles, email addresses, order, products and every other model. Everything has full CRUD functionality, so all features that do not have a corresponding front end page can be modified here.
 
 <details><summary><b>Admin Panel</b></summary>
 
+* Desktop Admin Panel
+
+![Desktop Admin Panel](readme/assets/images/features/admin_panel.PNG)
+
 </details><br/>
+
+[Back to top](<#table-of-content>)
 
 </details><br/>
 
@@ -1168,7 +1406,15 @@ Profile Mobile
 
 ## Future Features
 
+### Marketing
 
+* For a live website, future features include all the marketing ideas I came up with in in the marketing challange
+* An extension of the newsletter: Besides only getting a confirmation email, I would implement another email, timed possibly 24 hours after signing up, giving some sort of discount to make the user come back to the page. Also a bi-weekly or monthly newsletter should be implemented
+
+### Features
+
+* Admin capability: Responding to contact requests via the website
+* 
 
 
 # Technologies Used
