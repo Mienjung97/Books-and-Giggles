@@ -495,6 +495,8 @@ The database schema was created with [BugBytes](https://www.youtube.com/watch?v=
 ## Wireframes
 The wireframes for the site were created in the software [Balsamiq](https://balsamiq.com). The wireframes have been created for desktop, tablet and mobile devices. The text content wasn't finalized during the wireframe process. Also I have decided to only focus on the user side since the admin frontend capabilities are less important for styling. For the Facebook mock up i have used the provided template from [Code Institute](https://codeinstitute.net/)
 
+<details><summary><b>Open Wireframes</b></summary>
+
 <details><summary><b>Wireframes: Home</b></summary>
 
 ![Wireframes Home Desktop](readme/assets/images/wireframes/home_wf.PNG)
@@ -570,6 +572,10 @@ The wireframes for the site were created in the software [Balsamiq](https://bals
 <details><summary><b>Facebook Mockup</b></summary>
 
 ![Facebook Mockup](readme/assets/images/wireframes/FB_mockup.PNG)
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
 
 [Back to top](<#table-of-content>)
 
