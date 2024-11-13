@@ -2016,6 +2016,8 @@ To clone and set up this project you need to follow the next steps:
 
 * All pictrures on the webpage were gathered from multiple webpages. A list of all the references are found [here](readme/text-files)
 
+* The project still includes the [helper_txt](helper_txt) folder, which I decided to keep in the project since it shows how I did my code. In a real project, I would have added it to the gitignore file
+
 ## Technical
 
 * Many different posts on [Stackoverflow](https://stackoverflow.com/) have helped me understand Django and its functionality better, as well as it helped me fix bugs while coding
@@ -2035,9 +2037,9 @@ Main page picture: Foto von <a href="https://unsplash.com/de/@claybanks?utm_cont
 Picture for Favicon: Foto von <a href="https://unsplash.com/de/@chrislawton?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Chris Lawton</a> auf <a href="https://unsplash.com/de/fotos/stapel-von-sechs-braunen-gebundenen-buchern-9T346Ij4kGk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
   
 
-"Bookstore" JSON for product fixtures was taken from: https://www.kaggle.com/datasets/bishop36/bookstore, but heavily modified and just used as a base for my products.
-
 Picture for "default" image: Foto von <a href="https://unsplash.com/de/@blazphoto?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Blaz Photo</a> auf <a href="https://unsplash.com/de/fotos/person-mit-buch-die-auf-brauner-oberflache-sitzt-zMRLZh40kms?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash">Unsplash</a>
+
+More media files can be found in this [folder](readme/text-files)
   
 
 
