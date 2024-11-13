@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /shopping_bag/
+Sitemap: https://books-and-giggles-dcc63078a535.herokuapp.com/sitemap.xml

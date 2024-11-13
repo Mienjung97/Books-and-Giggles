@@ -407,13 +407,38 @@ Long-term:
 - Partnerships with authors for virtual events or Q&As
 - Participation in online book communities and forums
 
+</details><br/>
+
+</details><br/>
+
+## About Facebook:
+
+I own a private Facebook account (inactive), that I am refusing to reactivate because I do not want to agree to the current Meta terms and conditions. In the Code Institute LMS, we were provided with a Facebook mockup for balsamiq and got the information that if we do not wish to create a real facebook account, the mock ups are enough since ficticious business pages get closed very quickly anyway. Since I do not wish for Meta to have access to my personal data, nor do I see why a facebook page has anything to do with my coding capabilities, I decided to go with the mockup.
+
+<details><summary><b>Facebook Criteria</b></summary>
+
+* from the LMS "To be sure, to be sure" page:
+
+![Facebook Criteria 1](readme/assets/images/FB_criteria.PNG)
+
+* From the acceptance criteria:
+
+![Facebook Criteria 2](readme/assets/images/fb_criteria_.PNG)
+
+</details><br/>
+
+While going over the acceptance criteria one last time, I saw that it is a must criteria to create the Facebook page. Since using my personal inactive Facebook account is out of the question, I decided to create a new account - which is at this time impossible for this project, since they will need to verify the account, which will take up to a day. Needless to say I did not upload my personal picture, nor did I add my actual information - so the chances that the account will not be autheticated are there as well. Therfore for this project, there will only be a mock up for the Facebook Business page.
+
+<details><summary><b>Facebook Issue</b></summary>
+
+![Facebook Issue](readme/assets/images/fb_issue.PNG)
+
+</details><br/>
+
+
 <details><summary><b>Facebook Mockup</b></summary>
 
 ![Facebook Mockup](readme/assets/images/wireframes/FB_mockup.PNG)
-
-</details><br/>
-
-</details><br/>
 
 </details><br/>
 
@@ -1738,6 +1763,15 @@ To create a project, these are the steps:
 
 1. Create a workspace with the [Code Institute Full Template](https://github.com/Code-Institute-Org/ci-full-template)
 
+<details><summary><b>Heroku Deployment - Step 1</b></summary>
+
+![Heroku Deployment Step 1](readme/assets/images/deployment/template.png)
+
+![Heroku Deployment Step 1](readme/assets/images/deployment/use_template.png)
+
+![Heroku Deployment Step 1](readme/assets/images/deployment/create_workspace.PNG)
+</details><br />
+
 2. Install Django via console commands
 
 3. Add the packages to the "requirements.txt" file 
@@ -1754,7 +1788,11 @@ To create a project, these are the steps:
 
 9. Run the initial migrations
 
+<br>
+<br>
 Now, the project can be deployed to Heroku:
+<br>
+<br>
 
 1. Create a Database from [CI](https://dbs.ci-dbs.net/)
 
@@ -1817,12 +1855,56 @@ Now, the project can be deployed to Heroku:
 
 Now, the basics of your project have been deployed to Heroku. In my case, I continued with my project until I had stripe, AWS, all fixtures and all working models ready. 
 
-The next step to complete the deployment is to create an AWS account and an S3 bucket. To create an account, you have to visit the [AWS website](https://aws.amazon.com/de/free/?gclid=CjwKCAiAudG5BhAREiwAWMlSjMCbGTv1ldd3uQuVgb76W5cnlECZ_byfnH2YGXwSWeKzQEnCoj3jYxoC2ukQAvD_BwE&trk=3f93bdb7-cca2-4053-94a7-a03fb33c9dfa&sc_channel=ps&ef_id=CjwKCAiAudG5BhAREiwAWMlSjMCbGTv1ldd3uQuVgb76W5cnlECZ_byfnH2YGXwSWeKzQEnCoj3jYxoC2ukQAvD_BwE:G:s&s_kwcid=AL!4422!3!696248420329!e!!g!!aws!19579657820!148952141007&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all) and follow the instructions to create the free tier account.
+8. To set up Stripe, you will have to create a free account [here](https://dashboard.stripe.com/register). After you have created your account, retrieve your Publishable key and Secret key and add them to your env.py file, as well as to your heroku config vars. Additionally, you will have to set up all the stripe code for your project, but this was done with the [Stripe Documentation](https://docs.stripe.com/). It is important to include the following code in the checkout views.py file:
+
+<details><summary><b>Heroku Deployment - Step 8</b></summary>
+
+![Heroku Deployment Step 8](readme/assets/images/deployment/stripe_code_views.PNG)
+</details><br />
+
+9. Create a stripe webhook for your plattform by creating a new webhook in the stripe section under *Developers* - *Event Destination* - *Add Destination* and adding your *deployed url*/checkout/wh/ in the form. After creating the webhook, you will recieve a stripe_wh_secret key.
+
+10. The next step to complete the deployment is to create an AWS account and an S3 bucket. To create an account, you have to visit the [AWS website](https://signin.aws.amazon.com/signup?request_type=register) and follow the instructions to create the free tier account.
 
 The best summary on how to do create the bucket and user group was provided by the Code Institute tutor Oisin with the following tutorials:
 
 * [Create an AWS S3 Bucket](https://docs.google.com/document/d/1bqvCFiCW_JV9sllNZrN5uUJpIiusHICTk4TIk3oUWHY/edit?tab=t.0#heading=h.jypp4mbtvx4q)
 * [Create an AWS Group and User](https://docs.google.com/document/d/1z6L8KKiTi3QU5rMbHXhA3QR9jQIG7wLqnScUDpe238E/edit?tab=t.0#heading=h.1ixuny26uvc)
+
+* After finishing the steps from the documentation above, you will recieve an AWS acces key and an AWS secret key
+
+11. Add all keys into your env.py file and the Heroku config vars:
+
+<details><summary><b>Heroku Step 11</b></summary>
+
+![Heroku Step 11](readme/assets/images/deployment/env_full.PNG)
+
+![Heroku Step 11](readme/assets/images/deployment/config_vars_full.PNG)
+</details><br />
+
+12. Update your settings.py file like in the picture below:
+
+<details><summary><b>Heroku Step 12</b></summary>
+
+![Heroku Step 12](readme/assets/images/deployment/updated_settings.PNG)
+</details><br />
+
+13. Upload your media files to your S3 bucket by entering them in a folder called *media*
+
+14. Make sure all of your migrations are done, your requirements.txt file is up to date and do your final deploy. Now your webpage is deployed and works as intended!
+
+## How To Fork The Repository On GitHub
+
+It is possible to do a independent copy of a GitHub Repository by forking the GitHub account. The copy can then be viewed and it is also possible to do changes in the copy without affecting the original repository. To fork the repository, take these steps:
+
+1. After logging in to GitHub, locate the repository. On the top right side of the page there is a 'Fork' button. Click on the button to create a copy of the original repository.
+
+<details><summary><b>Github Fork</b></summary>
+
+![Fork](readme/assets/images/fork_a_project.PNG)
+</details><br />
+
+## Cloning And Setting Up This Project
 
 # Credits
 
