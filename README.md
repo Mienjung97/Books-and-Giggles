@@ -1077,14 +1077,41 @@ The checkout success page provides the user with their order details, including 
 
 ![Checkout Success Mobile](readme/assets/images/features/checkout_success_sm.PNG)
 
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
+### Stripe
+Stripe is working as intended. All payments are going through and no errors are reported.
+
+<details><summary><b>Logout</b></summary>
+
+* Stripe Dashboard
+
+![Stripe Dashboard](readme/assets/images/features/stripe_working.PNG)
+
 [Back to top](<#table-of-content>)
+
+</details><br/>
+
+### Brevo
+I used Brevo to set up my newsletter, where all the email addresses will be collected. Due to privacy reasons, I cannot show all collected email addresses.
+
+<details><summary><b>Brevo</b></summary>
+
+* Stripe Dashboard
+
+![Brevo Collecting Emails](readme/assets/images/features/brevo_collecting.PNG)
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+</details><br/>
 
 ## Profile Features
 
 <details><summary><b>Open</b></summary>
-
 
 ### Register
 The sign up page is a modified all auth template that fullfills the basic "sign up" features like email and password input and validation and a user name. Also it gives the user twice the option to change to the "sign in" page.
@@ -1549,8 +1576,6 @@ The libraries used in this project are located in the requirements.txt file and 
 
 # Testing
 
-## Testing User Stories
-
 ## Code Validation
 The code on the 'Books and Giggles' site has been tested through W3C Markup Validation Service, W3C CSS Validation Service, JSHint and the CodeInstutute pep8 validator. A few errors were found the W3C Markup Validation Service but could either be quite easily fixed (see bugs section) or have to do with third party code, especially Stripe, AWS and Brevo. 
 
@@ -1652,6 +1677,8 @@ JS for the newsletter:
 ### Manual Testing
 
 All the manual testing can be found in this [file](MANUAL_TESTING.md)
+
+<br>
 
 ### Responsiveness Test
 The responsive design tests were carried out manually with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and [Multi Device Mockup Generator](https://techsini.com/multi-mockup/).
@@ -1757,7 +1784,9 @@ All known bugs are supposed to be fixed before "Future Features" are going to be
 
 ## Deployment To Heroku
 
-The project was deployed to [Heroku](https://www.heroku.com). Given that this is the fifth project to deploy, I will not go over the steps on creating a project in detail, since the steps have been the same as for all django projects. For information on how to create a project, go to the readme of my [PP4](https://github.com/Mienjung97/PROject-GOLFblog). 
+The project was deployed to [Heroku](https://www.heroku.com). Given that this is the fifth project to deploy, I will not go over the steps on creating a project in detail, since the steps have been the same as for all django projects. 
+
+<details><summary><b>Deployment</b></summary>
 
 To create a project, these are the steps:
 
@@ -1774,19 +1803,39 @@ To create a project, these are the steps:
 
 2. Install Django via console commands
 
+* ```pip3 install Django~=4.2.8```
+
 3. Add the packages to the "requirements.txt" file 
+
+* ```pip3 freeze --local > requirements.txt```
 
 4. Create the project
 
+* ```django-admin startproject YOUR_PROJECT_NAME .```
+
 5. Create the first app
 
-6. Add the app to the "INSTALLED_APPS" in the settings.py file
+* ```python3 manage.py startapp APP_NAME```
+
+6. Add the app to the "INSTALLED_APPS" in the settings.py file 
+
+<details><summary><b>Heroku Deployment - Step 6</b></summary>
+
+![Heroku Deployment Step 6](readme/assets/images/deployment/apps_home.PNG)
+</details><br />
 
 7. Run the server and retireve your local url
 
-8. Add the local url to the "ALLOWED_HOSTS" area in the settings.py file
+8. Add the local url to the "ALLOWED_HOSTS" area in the settings.py file 
+
+<details><summary><b>Heroku Deployment - Step 8</b></summary>
+
+![Heroku Deployment Step 8](readme/assets/images/deployment/3_allowed_hosts.PNG)
+</details><br />
 
 9. Run the initial migrations
+
+* ```python3 manage.py migrate```
 
 <br>
 <br>
@@ -1795,6 +1844,11 @@ Now, the project can be deployed to Heroku:
 <br>
 
 1. Create a Database from [CI](https://dbs.ci-dbs.net/)
+
+<details><summary><b>Heroku Deployment - Step 1</b></summary>
+
+![Heroku Deployment Step 1](readme/assets/images/deployment/create_database.PNG)
+</details><br />
 
 2. Add your database information (see step 6, excluding the COLLECTSTATIC) to your env.py file and add the following code in the settings.py file:
 
@@ -1806,7 +1860,10 @@ Now, the project can be deployed to Heroku:
 3. Prepare your project for deployment
 
 * Install *gunicorn*
+* ```pip3 install gunicorn~=20.1```
 * Install *psycopg2*
+* Install *dj_database_url*
+* ```pip3 install dj_database_url==0.5.0 psycopg2```
 * Add the packages to the "requirements.txt" file 
 * Migrate all changes
 * *If* the project already has more apps, models and fixtures, also load the fixtures via *python3 manage.py loaddata "fixture name"*
@@ -1891,20 +1948,50 @@ The best summary on how to do create the bucket and user group was provided by t
 
 13. Upload your media files to your S3 bucket by entering them in a folder called *media*
 
-14. Make sure all of your migrations are done, your requirements.txt file is up to date and do your final deploy. Now your webpage is deployed and works as intended!
+14. Make sure all of your migrations are done, your requirements.txt file is up to date and do your final manual deploy. Now your webpage is deployed and works as intended!
 
 ## How To Fork The Repository On GitHub
 
 It is possible to do a independent copy of a GitHub Repository by forking the GitHub account. The copy can then be viewed and it is also possible to do changes in the copy without affecting the original repository. To fork the repository, take these steps:
 
-1. After logging in to GitHub, locate the repository. On the top right side of the page there is a 'Fork' button. Click on the button to create a copy of the original repository.
+1. After logging in to GitHub, locate the repository. On the top right side of the page there is a 'Fork' button. Click on the button to create a copy of the original repository
 
 <details><summary><b>Github Fork</b></summary>
 
-![Fork](readme/assets/images/fork_a_project.PNG)
+![Fork](readme/assets/images/deployment/fork_a_project.PNG)
+
+* The reason why it is greyed out in the picture:
+
+![Fork](readme/assets/images/deployment/fork_issue.PNG)
 </details><br />
 
 ## Cloning And Setting Up This Project
+
+To clone and set up this project you need to follow the next steps:
+
+1. When you are in the repository, find the code tab and click it
+2. To the left of the green GitPod button, press the 'code' menu. There you will find a link to the repository. Click on the clipboard icon to copy the URL
+
+<details><summary><b>Github Create Local Clone</b></summary>
+
+![Clone](readme/assets/images/deployment/clone.PNG)
+
+</details><br />
+
+3. Use an IDE and open Git Bash. Change directory to the location where you want the cloned directory to be made
+4. Type 'git clone', and then paste the URL that you copied from GitHub. Press enter and a local clone will be created
+5. To be able to get the project to work you need to install the requirements. This can be done by using the command below:
+
+* ```pip3 install -r requirements.txt``` - This command downloads and install all required dependencies that is stated in the requirements file
+
+6. Make sure that all sensitive information are placed in an env.py file which is excluded from commits via the gitignore file
+
+* ```python3 manage.py migrate``` - This will do the necessary migrations.
+* ```python3 manage.py runserver``` - If everything i setup correctly the project is now live locally.
+
+[Back to top](<#table-of-content>)
+
+</details><br />
 
 # Credits
 
