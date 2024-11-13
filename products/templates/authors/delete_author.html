@@ -43,6 +43,9 @@
                         </div>
                     {% endif %}
                     <br>
+                    <p class="text-center">
+                        Caution! If you delete an author, all books assosiated with this author will remain in the store but can no longer be purchased!
+                    </p>
                     <form action="{% url 'delete_author' author.id %}" method="post">
                         {% csrf_token %}
                         <div class="text-right">
