@@ -407,6 +407,12 @@ Long-term:
 - Partnerships with authors for virtual events or Q&As
 - Participation in online book communities and forums
 
+<details><summary><b>Facebook Mockup</b></summary>
+
+![Facebook Mockup](readme/assets/images/wireframes/FB_mockup.PNG)
+
+</details><br/>
+
 </details><br/>
 
 </details><br/>
@@ -462,69 +468,86 @@ The database schema was created with [BugBytes](https://www.youtube.com/watch?v=
 # User Experience (UX)
 
 ## Wireframes
-The wireframes for the site were created in the software [Balsamiq](https://balsamiq.com). The wireframes have been created for desktop, tablet and mobile devices. The text content wasn't finalized during the wireframe process. Also I have decided to only focus on the user side since the admin frontend capabilities are less important for styling.
+The wireframes for the site were created in the software [Balsamiq](https://balsamiq.com). The wireframes have been created for desktop, tablet and mobile devices. The text content wasn't finalized during the wireframe process. Also I have decided to only focus on the user side since the admin frontend capabilities are less important for styling. For the Facebook mock up i have used the provided template from [Code Institute](https://codeinstitute.net/)
 
 <details><summary><b>Wireframes: Home</b></summary>
 
-![Wireframes Home Desktop](readme/assets/images/wireframes/home_d.PNG)
-![Wireframes Home Tablet](readme/assets/images/wireframes/home_t.PNG)
-![Wireframes Home Mobile](readme/assets/images/wireframes/home_m.PNG)
+![Wireframes Home Desktop](readme/assets/images/wireframes/home_wf.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 <details><summary><b>Wireframes: Products</b></summary>
 
-![Wireframes Products Desktop](readme/assets/images/wireframes/)
-![Wireframes Products Tablet](readme/assets/images/wireframes/)
-![Wireframes Products Mobile](readme/assets/images/wireframes/)
+![Wireframes Products Desktop](readme/assets/images/wireframes/products_wf.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 <details><summary><b>Wireframes: Product Detail View</b></summary>
 
-![Wireframes Product Detail View Desktop](readme/assets/images/wireframes/Detail_d.PNG)
-![Wireframes Product Detail View Tablet](readme/assets/images/wireframes/detail_t.PNG)
-![Wireframes Product Detail View Mobile](readme/assets/images/wireframes/detail_m.PNG)
+![Wireframes Product Detail View Desktop](readme/assets/images/wireframes/product_detail_wf.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 <details><summary><b>Wireframes: Authors</b></summary>
 
-![Wireframes Authors Desktop](readme/assets/images/wireframes/)
-![Wireframes Authors Tablet](readme/assets/images/wireframes/)
-![Wireframes Authors Mobile](readme/assets/images/wireframes/)
+![Wireframes Authors Desktop](readme/assets/images/wireframes/authors_wf.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 <details><summary><b>Wireframes: Profile</b></summary>
 
-![Wireframes Profile](readme/assets/images/wireframes/profile_d.PNG)
-![Wireframes Profile](readme/assets/images/wireframes/profile_t.PNG)
-![Wireframes Profile](readme/assets/images/wireframes/profile_m.PNG)
+![Wireframes Profile](readme/assets/images/wireframes/profile_wf.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 <details><summary><b>Wireframes: About</b></summary>
 
-![Wireframes About Desktop](readme/assets/images/wireframes/about_d.PNG)
-![Wireframes About Tablet](readme/assets/images/wireframes/about_t.PNG)
-![Wireframes About Mobile](readme/assets/images/wireframes/about_m.PNG)
+![Wireframes About Desktop](readme/assets/images/wireframes/about_wf.PNG)
+
+[Back to top](<#table-of-content>)
+)
 </details><br/>
 
 <details><summary><b>Wireframes: FAQ</b></summary>
 
-![Wireframes FAQ Desktop](readme/assets/images/wireframes/)
-![Wireframes FAQ Tablet](readme/assets/images/wireframes/)
-![Wireframes FAQ Mobile](readme/assets/images/wireframes/)
+![Wireframes FAQ Desktop](readme/assets/images/wireframes/faq_wf.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 <details><summary><b>Wireframes: Contact Us</b></summary>
 
-![Wireframes Contact Us Desktop](readme/assets/images/wireframes/)
-![Wireframes Contact Us Tablet](readme/assets/images/wireframes/)
-![Wireframes Contact Us Mobile](readme/assets/images/wireframesG)
+![Wireframes Contact Us Desktop](readme/assets/images/wireframes/contact_wf.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 <details><summary><b>Wireframes: Newsletter</b></summary>
 
-![Wireframes Newsletter Desktop](readme/assets/images/wireframes/)
-![Wireframes Newsletter Tablet](readme/assets/images/wireframes/)
-![Wireframes Newsletter Mobile](readme/assets/images/wireframes/)
+![Wireframes Newsletter Desktop](readme/assets/images/wireframes/newsletter_wf.PNG)
+
+[Back to top](<#table-of-content>)
+
+</details><br/>
+
+<details><summary><b>Facebook Mockup</b></summary>
+
+![Facebook Mockup](readme/assets/images/wireframes/FB_mockup.PNG)
+
+[Back to top](<#table-of-content>)
+
 </details><br/>
 
 ## User Stories
@@ -549,7 +572,7 @@ The wireframes for the site were created in the software [Balsamiq](https://bals
 | As a Site User | I can edit the contents in the shopping cart so that I do not buy items or quantities I do not want | &check; |
 | As a Site User | I can proceed through an easy checkout process so that I can complete my purchase without problems | &check; |
 | As a Site User | I can safely process payments so that my financial information is secure | &check; |
-| As a Site User | I can enter and save my delivery information in my profile so that I can use it for future purchases |
+| As a Site User | I can enter and save my delivery information in my profile so that I can use it for future purchases | &check; |
 | As a Site User | I will get an email confirmation after a purchase so that I know the order has been placed and I get additional info about it | &check; |
 | As a Site User | I can reset my password so that I am not excluded from the page if I forgot my old password | &check; |
 | As a Site User | I can access a contact form so that I can submit questions or feedback to the bookstore | &check; |
@@ -1413,11 +1436,11 @@ On the admin panel, an admin can access all profiles, email addresses, order, pr
 
 ### Features
 
+* Adding the remaining user stories
 * Admin capability: Responding to contact requests via the website
-
 * Bugfixes (see "Bugs" section)
 * Adding a "Back to log in" button to the confirmation page which a user gets after resetting their password
-* Implementing some kind of discounts or loyalty rewards
+* Implementing some kind of discounts or loyalty rewards (user story)
 * Add a contact us modification so that the user gets the notification via email with their whole request
 * Change the Product model so that the cover is non nullable
 * Add e-books to the stores inventory
@@ -1677,7 +1700,10 @@ I want to make author friendly_name mandatory for added models Fix: make friendl
 ### Bugs from Boutique ADO
 
 **30.10.24**
-Minus quantity button does not work. Fix: in JS code, change targeted IDs to target classes -> change "#" to "." to target classes
+Minus quantity button does not work. Fix: in JS code, change targeted IDs to target classes -> change "#" to "." to target classes -> did not fix the issue:
+
+**13.11.2024**
+Finally fixed the quantity_input_form JS code with the help of Oisin from tutor support by rewriting all variables
 
 **11.11.2024**
 Validation errors:
@@ -1704,12 +1730,105 @@ All known bugs are supposed to be fixed before "Future Features" are going to be
 
 # Deployment
 
+## Deployment To Heroku
+
+The project was deployed to [Heroku](https://www.heroku.com). Given that this is the fifth project to deploy, I will not go over the steps on creating a project in detail, since the steps have been the same as for all django projects. For information on how to create a project, go to the readme of my [PP4](https://github.com/Mienjung97/PROject-GOLFblog). 
+
+To create a project, these are the steps:
+
+1. Create a workspace with the [Code Institute Full Template](https://github.com/Code-Institute-Org/ci-full-template)
+
+2. Install Django via console commands
+
+3. Add the packages to the "requirements.txt" file 
+
+4. Create the project
+
+5. Create the first app
+
+6. Add the app to the "INSTALLED_APPS" in the settings.py file
+
+7. Run the server and retireve your local url
+
+8. Add the local url to the "ALLOWED_HOSTS" area in the settings.py file
+
+9. Run the initial migrations
+
+Now, the project can be deployed to Heroku:
+
+1. Create a Database from [CI](https://dbs.ci-dbs.net/)
+
+2. Add your database information (see step 6, excluding the COLLECTSTATIC) to your env.py file and add the following code in the settings.py file:
+
+<details><summary><b>Heroku Deployment - Step 2</b></summary>
+
+![Heroku Deployment Step 2](readme/assets/images/deployment/database_settings_setup.PNG)
+</details><br />
+
+3. Prepare your project for deployment
+
+* Install *gunicorn*
+* Install *psycopg2*
+* Add the packages to the "requirements.txt" file 
+* Migrate all changes
+* *If* the project already has more apps, models and fixtures, also load the fixtures via *python3 manage.py loaddata "fixture name"*
+
+<details><summary><b>Heroku Deployment - Step 3</b></summary>
+
+![Heroku Deployment Step 3](readme/assets/images/deployment/my_install_2.PNG)
+
+![Heroku Deployment Step 3](readme/assets/images/deployment/my_install_1.PNG)
+</details><br />
+
+* Create a "Procfile" and add "web: gunicorn 'project name':application" in it
+* Change *Debug* in the settings.py file to *False*
+* Add "'.herokuapp.com'" to the "ALLOWED_HOSTS" area in the settings.py file
+* Commit the changes to Github
+
+4. Create a new heroku app
+
+<details><summary><b>Heroku Deployment - Step 4</b></summary>
+
+![Heroku Deployment Step 4](readme/assets/images/deployment/new_heroku.PNG)
+
+![Heroku Deployment Step 4](readme/assets/images/deployment/new_app_heroku.PNG)
+</details><br />
+
+5. Connect your Github repository to your new Heroku app
+
+<details><summary><b>Heroku Deployment - Step 5</b></summary>
+
+![Heroku Deployment Step 5](readme/assets/images/deployment/deploy_github_connect.PNG)
+</details><br />
+
+6. Add your secret key, *DISABLE_COLLECTSTATIC = 1* and your newly created DATABASE_URL to the Heroku Config Vars
+
+<details><summary><b>Heroku Deployment - Step 6</b></summary>
+
+![Heroku Deployment Step 6](readme/assets/images/deployment/add_database_config_vars.PNG)
+</details><br />
+
+7. Make your first manual deploy
+
+<details><summary><b>Heroku Deployment - Step 7</b></summary>
+
+![Heroku Deployment Step 7](readme/assets/images/deployment/manual_deploy.PNG)
+</details><br />
+
+Now, the basics of your project have been deployed to Heroku. In my case, I continued with my project until I had stripe, AWS, all fixtures and all working models ready. 
+
+The next step to complete the deployment is to create an AWS account and an S3 bucket. To create an account, you have to visit the [AWS website](https://aws.amazon.com/de/free/?gclid=CjwKCAiAudG5BhAREiwAWMlSjMCbGTv1ldd3uQuVgb76W5cnlECZ_byfnH2YGXwSWeKzQEnCoj3jYxoC2ukQAvD_BwE&trk=3f93bdb7-cca2-4053-94a7-a03fb33c9dfa&sc_channel=ps&ef_id=CjwKCAiAudG5BhAREiwAWMlSjMCbGTv1ldd3uQuVgb76W5cnlECZ_byfnH2YGXwSWeKzQEnCoj3jYxoC2ukQAvD_BwE:G:s&s_kwcid=AL!4422!3!696248420329!e!!g!!aws!19579657820!148952141007&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Types=*all&awsf.Free%20Tier%20Categories=*all) and follow the instructions to create the free tier account.
+
+The best summary on how to do create the bucket and user group was provided by the Code Institute tutor Oisin with the following tutorials:
+
+* [Create an AWS S3 Bucket](https://docs.google.com/document/d/1bqvCFiCW_JV9sllNZrN5uUJpIiusHICTk4TIk3oUWHY/edit?tab=t.0#heading=h.jypp4mbtvx4q)
+* [Create an AWS Group and User](https://docs.google.com/document/d/1z6L8KKiTi3QU5rMbHXhA3QR9jQIG7wLqnScUDpe238E/edit?tab=t.0#heading=h.1ixuny26uvc)
 
 # Credits
 
 ## Content
 
-* This Readme file has been taken from my PP4 "PROject GOLFacademy". The readme for my previous project was taken from [Marcus Erikssons PP4](https://github.com/worldofmarcus/project-portfolio-4/blob/main/README.md#existing-features) and modified by me to fit my project.
+* This Readme file has been taken from my PP4 "[ROject GOLFblog](https://github.com/Mienjung97/PROject-GOLFblog). The readme for my previous project was taken from [Marcus Erikssons PP4](https://github.com/worldofmarcus/project-portfolio-4/blob/main/README.md#existing-features) and modified by me to fit my project.
     * *Marcus Erikssons*: "Template for read.me provided by Code Institute (*with some additional changes that my mentor [Precious Ijege](https://www.linkedin.com/in/precious-ijege-908a00168/))* suggested."
 
 * My project **Books and Giggles** has started almost as a copy of the example project *Boutique ADO* and has been edited in most areas ever since, but especially the **Category**, **Checkout** and **Shopping bag** models, as well as the JS code has been almost unaltered.
